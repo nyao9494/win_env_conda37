@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "he025d50_0",
+  "build_number": 0,
+  "depends": [
+    "vc >=14.1,<15.0a0"
+  ],
+  "license": "LGPL-2.1",
+  "name": "geos",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1583953699322,
+  "version": "3.8.1"
+}

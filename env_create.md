@@ -33,3 +33,48 @@ jupyter serverextension enable --py jupyterlab_git
 jupyter labextension install jupyterlab-drawio
 
 ```
+
+下記は手動でインストール 100M越え
+- C:\Users\M151325\anaconda37\pkgs\mkl-2020.2-256.conda
+- C:\Users\M151325\anaconda37\pkgs\pandoc-2.11-h9490d1a_0\Scripts\pandoc.exe	
+
+## STEP_2
+
+```
+conda install "nbconvert=5.6.1"
+
+pip install cufflinks
+pip install docx2txt
+pip install PyAutoGUI
+conda install pyntcloud -c conda-forge
+conda install -c conda-forge pdfminer.six
+pip install PyPDF2
+pip install pysimplegui
+pip install PySimpleGUIWeb
+pip install python-docx
+pip install python-pptx
+pip install python-redmine
+pip install selenium
+conda install -c conda-forge shapely
+conda install -c conda-forge opencv
+conda install -c conda-forge vtk
+conda install -c conda-forge trimesh
+pip install splipy
+pip install pyvtk
+pip install easygui
+pip install PyMuPDF
+pip install camelot-py[cv]  
+conda install -c conda-forge meshpy
+
+set PYTHONUTF8=1
+pip install sectionproperties
+
+
+pip install blender-notebook
+pip install pytablewriter
+conda install -c conda-forge pythonocc-core=7.4.0
+
+```
+
+下記は手動でインストール 100M越え
+- C:\Users\M151325\Anaconda37\pkgs\qt-5.12.9-hb2cf2c5_0.tar.bz2

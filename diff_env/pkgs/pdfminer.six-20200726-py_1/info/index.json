@@ -1,0 +1,19 @@
+{
+  "arch": null,
+  "build": "py_1",
+  "build_number": 1,
+  "depends": [
+    "chardet",
+    "cryptography",
+    "python >=3.4",
+    "sortedcontainers"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "pdfminer.six",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1597370639069,
+  "version": "20200726"
+}

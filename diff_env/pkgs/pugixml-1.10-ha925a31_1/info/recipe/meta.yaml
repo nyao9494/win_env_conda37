@@ -1,0 +1,70 @@
+# This file created by conda-build 3.20.2
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Tue Sep 29 23:26:06 2020
+# ------------------------------------------------
+
+package:
+    name: pugixml
+    version: '1.10'
+source:
+    fn: pugixml-1.10.tar.gz
+    sha256: 10f1f0a32b559ca8435d95855928d990cfbb9796e339efb638080c897728174c
+    url: https://github.com/zeux/pugixml/archive/v1.10.tar.gz
+build:
+    number: '1'
+    run_exports:
+        - pugixml >=1.10,<1.11.0a0
+    string: ha925a31_1
+requirements:
+    build:
+        - cmake 3.18.2 h33f27b4_0
+        - m2w64-gcc-libgfortran 5.3.0 6
+        - m2w64-gcc-libs 5.3.0 7
+        - m2w64-gcc-libs-core 5.3.0 7
+        - m2w64-gmp 6.1.0 2
+        - m2w64-libwinpthread-git 5.0.0.4634.697f757 2
+        - make 4.3 h301d43c_0
+        - msys2-conda-epoch 20160418 1
+        - vs2015_runtime 14.16.27012 h30e32a0_2
+        - vs2017_win-64 19.16.27038 h2e3bad8_2
+        - vswhere 2.7.1 h21ff451_0
+    host:
+        - vc 14.1 h869be7e_1
+        - vs2015_runtime 14.16.27012 h30e32a0_2
+    run:
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012
+test:
+    commands:
+        - if not exist %LIBRARY_LIB%\\pugixml.lib exit 1
+        - if not exist %LIBRARY_INC%\\pugiconfig.hpp exit 1
+about:
+    description: 'pugixml is a C++ XML processing library, which consists of a DOM-like
+        interface
+
+        with rich traversal/modification capabilities, an extremely fast XML parser
+        which
+
+        constructs the DOM tree from an XML file/buffer, and an XPath 1.0 implementation
+
+        for complex data-driven tree queries. Full Unicode support is also available,
+        with
+
+        Unicode interface variants and conversions between different Unicode encodings
+
+        (which happen automatically during parsing/saving)
+
+        '
+    dev_url: https://github.com/zeux/pugixml
+    doc_url: http://pugixml.org/
+    home: http://pugixml.org/
+    license: MIT
+    license_family: MIT
+    license_file: README.md
+    summary: Light-weight, simple and fast XML parser for C++ with XPath support
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - SylvainCorlay
+        - scopatz

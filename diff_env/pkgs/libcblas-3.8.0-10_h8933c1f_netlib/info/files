@@ -1,0 +1,12 @@
+Library/bin/libcblas.dll
+Library/include/cblas.h
+Library/include/cblas_f77.h
+Library/include/cblas_mangling.h
+Library/include/cblas_test.h
+Library/lib/cblas.lib
+Library/lib/cmake/cblas-3.8.0/cblas-config-version.cmake
+Library/lib/cmake/cblas-3.8.0/cblas-config.cmake
+Library/lib/cmake/cblas-3.8.0/cblas-targets-release.cmake
+Library/lib/cmake/cblas-3.8.0/cblas-targets.cmake
+Library/lib/libcblas.dll.a
+Library/lib/pkgconfig/cblas.pc

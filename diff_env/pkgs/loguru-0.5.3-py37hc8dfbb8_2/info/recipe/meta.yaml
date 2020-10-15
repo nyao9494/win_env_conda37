@@ -1,0 +1,49 @@
+# This file created by conda-build 3.20.3
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Sat Oct 10 00:21:57 2020
+# ------------------------------------------------
+
+package:
+    name: loguru
+    version: 0.5.3
+source:
+    sha256: b28e72ac7a98be3d28ad28570299a393dfcd32e5e3f6a353dec94675767b6319
+    url: https://pypi.io/packages/source/l/loguru/loguru-0.5.3.tar.gz
+build:
+    number: '2'
+    script: 'D:\\bld\\loguru_1602289534481\\_h_env\\python.exe -m pip install . -vv '
+    string: py37hc8dfbb8_2
+requirements:
+    host:
+        - ca-certificates 2020.6.20 hecda079_0
+        - certifi 2020.6.20 py37hf50a25e_2
+        - openssl 1.1.1h he774522_0
+        - pip 20.2.3 py_0
+        - python 3.7.8 h60c2a47_1_cpython
+        - python_abi 3.7 1_cp37m
+        - setuptools 49.6.0 py37hf50a25e_2
+        - sqlite 3.33.0 he774522_1
+        - vc 14.1 h869be7e_1
+        - vs2015_runtime 14.16.27012 h30e32a0_2
+        - wheel 0.35.1 pyh9f0ad1d_0
+        - wincertstore 0.2 py37hc8dfbb8_1005
+    run:
+        - colorama >=0.3.4
+        - python >=3.7,<3.8.0a0
+        - python_abi 3.7.* *_cp37m
+        - win32_setctime >=1.0.0
+test:
+    imports:
+        - loguru
+about:
+    dev_url: https://github.com/Delgan/loguru
+    home: https://github.com/Delgan/loguru
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: Python logging made (stupidly) simple
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mariusvniekerk

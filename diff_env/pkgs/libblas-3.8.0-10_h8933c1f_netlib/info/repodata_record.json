@@ -1,0 +1,23 @@
+{
+  "arch": "x86_64",
+  "build": "10_h8933c1f_netlib",
+  "build_number": 10,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "m2w64-gcc-libs"
+  ],
+  "features": "",
+  "fn": "libblas-3.8.0-10_h8933c1f_netlib.tar.bz2",
+  "license": "BSD 3-Clause",
+  "md5": "e7bea2d5cad58eb64ccbd6398b3ca155",
+  "name": "libblas",
+  "platform": "win32",
+  "sha256": "6412d2169cf87cda863dc562a4b7c335ba7ecbe657387e061a85472bf6a4c175",
+  "size": 193614,
+  "subdir": "win-64",
+  "timestamp": 1602436092550,
+  "track_features": "blas_netlib",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/libblas-3.8.0-10_h8933c1f_netlib.tar.bz2",
+  "version": "3.8.0"
+}

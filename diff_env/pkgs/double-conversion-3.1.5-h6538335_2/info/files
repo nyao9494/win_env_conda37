@@ -1,0 +1,15 @@
+Library/bin/double-conversion.dll
+Library/include/double-conversion/bignum.h
+Library/include/double-conversion/cached-powers.h
+Library/include/double-conversion/diy-fp.h
+Library/include/double-conversion/double-conversion.h
+Library/include/double-conversion/fast-dtoa.h
+Library/include/double-conversion/fixed-dtoa.h
+Library/include/double-conversion/ieee.h
+Library/include/double-conversion/strtod.h
+Library/include/double-conversion/utils.h
+Library/lib/cmake/double-conversion/double-conversionConfig.cmake
+Library/lib/cmake/double-conversion/double-conversionConfigVersion.cmake
+Library/lib/cmake/double-conversion/double-conversionTargets-release.cmake
+Library/lib/cmake/double-conversion/double-conversionTargets.cmake
+Library/lib/double-conversion.lib

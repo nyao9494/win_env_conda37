@@ -1,0 +1,66 @@
+# This file created by conda-build 3.19.2
+# ------------------------------------------------
+
+package:
+    name: libclang
+    version: 10.0.1
+source:
+    -   folder: .
+        patches:
+            - patches/0001-Find-conda-gcc-installation.patch
+            - patches/0001-Set-VERSION-in-osx-as-well.patch
+            - patches/0002-Fix-sysroot-detection-for-linux.patch
+            - patches/0002-clang-add-conda-specific-env-var-CONDA_BUILD_SYSROOT.patch
+            - patches/0003-clang-Fix-normalizeProgramName-s-handling-of-dots-ou.patch
+            - patches/cross-compile.diff
+        sha256: f99afc382b88e622c689b6d96cadfa6241ef55dca90e87fc170352e12ddb2b24
+        url: https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.1/clang-10.0.1.src.tar.xz
+    -   folder: tools/extra
+        sha256: d093782bcfcd0c3f496b67a5c2c997ab4b85816b62a7dd5b27026634ccf5c11a
+        url: https://github.com/llvm/llvm-project/releases/download/llvmorg-10.0.1/clang-tools-extra-10.0.1.src.tar.xz
+build:
+    number: 1
+    string: default_hf44288c_1
+requirements:
+    build:
+        - cmake 3.18.0 h33f27b4_0
+        - libllvm10 10.0.1 hde8ddfe_1
+        - llvm-tools 10.0.1 hde8ddfe_1
+        - llvmdev 10.0.1 hde8ddfe_1
+        - ninja 1.10.0 h1ad3211_0
+        - vc 14.1 h869be7e_1
+        - vs2015_runtime 14.16.27012 h30e32a0_2
+        - vs2017_win-64 19.16.27038 h2e3bad8_2
+        - vswhere 2.7.1 h21ff451_0
+        - zlib 1.2.11 h2fa13f4_1006
+    host:
+        - clang 10.0.1 default_hf44288c_1
+        - libllvm10 10.0.1 hde8ddfe_1
+        - llvm 10.0.1 hde8ddfe_1
+        - llvm-tools 10.0.1 hde8ddfe_1
+        - llvmdev 10.0.1 hde8ddfe_1
+        - vc 14.1 h869be7e_1
+        - vs2015_runtime 14.16.27012 h30e32a0_2
+        - zlib 1.2.11 h2fa13f4_1006
+    run:
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012
+test:
+    commands:
+        - if not exist %LIBRARY_BIN%\\libclang.dll exit 1
+about:
+    home: http://llvm.org/
+    license: Apache-2.0 WITH LLVM-exception
+    license_family: Apache
+    license_file: LICENSE.TXT
+    summary: Development headers and libraries for Clang
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - SylvainCorlay
+        - chrisburr
+        - inducer
+        - isuruf
+        - jakirkham
+        - timsnyder

@@ -1,0 +1,6 @@
+Library/bin/ogg.dll
+Library/include/ogg/config_types.h
+Library/include/ogg/ogg.h
+Library/include/ogg/os_types.h
+Library/lib/ogg.lib
+Library/lib/pkgconfig/ogg.pc

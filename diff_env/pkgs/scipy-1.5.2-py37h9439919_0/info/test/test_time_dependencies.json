@@ -1,1 +1,0 @@
-["pytest-xdist", "pytest", "intel-openmp 2019.*", "mpmath"]

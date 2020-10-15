@@ -1,0 +1,31 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/libblas.dll",
+      "path_type": "hardlink",
+      "sha256": "66c9a0a54583432291846963693abaf31fbe7233446369821117a3083dedab74",
+      "size_in_bytes": 524369
+    },
+    {
+      "_path": "Library/lib/blas.lib",
+      "path_type": "hardlink",
+      "sha256": "061715fb38e27682556778b3bfba8306bb34b757f45ca6ec6d005abb03d1ccc3",
+      "size_in_bytes": 25130
+    },
+    {
+      "_path": "Library/lib/libblas.dll.a",
+      "path_type": "hardlink",
+      "sha256": "074bcf4e39463d11b5b1227a6f22d748ecea6eed46a7b26f61da15d6ae27628f",
+      "size_in_bytes": 86556
+    },
+    {
+      "_path": "Library/lib/pkgconfig/blas.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "D:/bld/blas-split_1602434907224/_h_env",
+      "sha256": "0708c389d7e448ff5c30e3828568c5849dba78a68862bfd1a5e933b0cdcf1322",
+      "size_in_bytes": 304
+    }
+  ],
+  "paths_version": 1
+}

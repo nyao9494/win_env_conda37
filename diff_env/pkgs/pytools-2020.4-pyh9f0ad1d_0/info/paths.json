@@ -1,0 +1,185 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/pytools-2020.4.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/pytools-2020.4.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "b7c8ebebf1571fa7e25762e8604fbda1b63ab0ecc8b928ae569d35289d6910db",
+      "size_in_bytes": 1146
+    },
+    {
+      "_path": "site-packages/pytools-2020.4.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "e007d88e3eef916f10acbfff2cea45a4578f8d35a7544dd09f8a4b8db91649ea",
+      "size_in_bytes": 2526
+    },
+    {
+      "_path": "site-packages/pytools-2020.4.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "82410b174d07fcc1d45e99a3c607ea15f862c4e26e02033ce14d39bdd633ee54",
+      "size_in_bytes": 3351
+    },
+    {
+      "_path": "site-packages/pytools-2020.4.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/pytools-2020.4.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "9064fbe0b5b245466b2f85602e1ebf835d8879597ff6ef5956169dae05d95046",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "site-packages/pytools-2020.4.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "9e54411c54c544a707a4312f30cc3798b0aaf57f5738de3aab235ff1d939200a",
+      "size_in_bytes": 103
+    },
+    {
+      "_path": "site-packages/pytools-2020.4.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "844a7f139188d535719dcb184a2d4c6c06d2ee8b0b54d8b3379c188cda3a8012",
+      "size_in_bytes": 8
+    },
+    {
+      "_path": "site-packages/pytools/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "efc91661f08cbdac0df571bd17882aedbe099cef0b40cb25267187694ec3c82e",
+      "size_in_bytes": 65436
+    },
+    {
+      "_path": "site-packages/pytools/batchjob.py",
+      "path_type": "hardlink",
+      "sha256": "b642f9eae72f834b6d9cb37aa2a8dea07189fd22ca3b3594a959b75465f284ed",
+      "size_in_bytes": 4268
+    },
+    {
+      "_path": "site-packages/pytools/codegen.py",
+      "path_type": "hardlink",
+      "sha256": "19040c469580a1af9728ca7f316709fc9818df89e3c70730eadddc6a15e0043c",
+      "size_in_bytes": 4390
+    },
+    {
+      "_path": "site-packages/pytools/convergence.py",
+      "path_type": "hardlink",
+      "sha256": "d25c66dbe432498f29fb042e9b70304828209b32c6ff9dc464fb00209c31026b",
+      "size_in_bytes": 3964
+    },
+    {
+      "_path": "site-packages/pytools/datatable.py",
+      "path_type": "hardlink",
+      "sha256": "d4fb531aa06801f47b1cfab9d7c73197b5a1de040ffe07e805c498499dca38a5",
+      "size_in_bytes": 8814
+    },
+    {
+      "_path": "site-packages/pytools/debug.py",
+      "path_type": "hardlink",
+      "sha256": "4daa5317f7b814aaec19f7035928076eb56b683daae7339e5829ec651cf06bef",
+      "size_in_bytes": 6341
+    },
+    {
+      "_path": "site-packages/pytools/decorator.py",
+      "path_type": "hardlink",
+      "sha256": "70cdbd313a3806b461c65be549ee83b5e2b92f430b40314d3c2b42eebdca69b4",
+      "size_in_bytes": 6117
+    },
+    {
+      "_path": "site-packages/pytools/graph.py",
+      "path_type": "hardlink",
+      "sha256": "41eb01612fcc8e894c491e862b3cdd827de7dd350eba26c3dcc915c3df5ec05e",
+      "size_in_bytes": 11215
+    },
+    {
+      "_path": "site-packages/pytools/importlib_backport.py",
+      "path_type": "hardlink",
+      "sha256": "94d3fce33ef38edcba37f6653d0430c7bfa13337cd5e0dc2ee23bb0da480955d",
+      "size_in_bytes": 3888
+    },
+    {
+      "_path": "site-packages/pytools/lex.py",
+      "path_type": "hardlink",
+      "sha256": "3a65b1e6eafb50f28036d3932bc69688bc4889928db416136ddc71489fef353f",
+      "size_in_bytes": 4819
+    },
+    {
+      "_path": "site-packages/pytools/log.py",
+      "path_type": "hardlink",
+      "sha256": "d5f5869cd5fc3775b1923c14bfe8d2a19365798f81af77e32095944b2e92c089",
+      "size_in_bytes": 37315
+    },
+    {
+      "_path": "site-packages/pytools/mpi.py",
+      "path_type": "hardlink",
+      "sha256": "ccd4f7579e65cb093d148afe28de419483b07371d28fc6605747c6a5cf58a1d2",
+      "size_in_bytes": 735
+    },
+    {
+      "_path": "site-packages/pytools/mpiwrap.py",
+      "path_type": "hardlink",
+      "sha256": "84218c0ede55895e05dc965f13eeadb7c156963a8b185b0fd7837c4d95a47311",
+      "size_in_bytes": 742
+    },
+    {
+      "_path": "site-packages/pytools/obj_array.py",
+      "path_type": "hardlink",
+      "sha256": "b2e24c4ac54d48637e0101c238d00f220801af190eb6ee42d87bd878c6328787",
+      "size_in_bytes": 12280
+    },
+    {
+      "_path": "site-packages/pytools/persistent_dict.py",
+      "path_type": "hardlink",
+      "sha256": "90c6d6b01534015a06d332a3c36048214c733e45d6b9a476a0133e614336a3db",
+      "size_in_bytes": 24912
+    },
+    {
+      "_path": "site-packages/pytools/prefork.py",
+      "path_type": "hardlink",
+      "sha256": "ea18ea556923a6b58ef5ef07c4f304fc986d9bac248c103776ba48f0965a42c6",
+      "size_in_bytes": 6178
+    },
+    {
+      "_path": "site-packages/pytools/py.typed",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/pytools/py_codegen.py",
+      "path_type": "hardlink",
+      "sha256": "9d332c2f4b36125d620152fe91fb91577dd04f9137d26e6c1fc4fc7d49dc5d2e",
+      "size_in_bytes": 5103
+    },
+    {
+      "_path": "site-packages/pytools/spatial_btree.py",
+      "path_type": "hardlink",
+      "sha256": "0bb51b9a524fe65cd59cbd078bf203e018ecb6294b68c50d44ec06e5ced5a659",
+      "size_in_bytes": 6546
+    },
+    {
+      "_path": "site-packages/pytools/stopwatch.py",
+      "path_type": "hardlink",
+      "sha256": "2126ca9367ab0f93e42ba50a8f10cc29e23d825d849c7b0d6a081e0157d81464",
+      "size_in_bytes": 1833
+    },
+    {
+      "_path": "site-packages/pytools/test.py",
+      "path_type": "hardlink",
+      "sha256": "8217e1bf8bb047e41c3a06708252607956fd1d8d1cc1df63d5eab2427bc3b4f1",
+      "size_in_bytes": 288
+    },
+    {
+      "_path": "site-packages/pytools/version.py",
+      "path_type": "hardlink",
+      "sha256": "9aac62647805351f60823b6c4e24c4649d036eed91e3159ca060fcacc6ce9eeb",
+      "size_in_bytes": 106
+    }
+  ],
+  "paths_version": 1
+}

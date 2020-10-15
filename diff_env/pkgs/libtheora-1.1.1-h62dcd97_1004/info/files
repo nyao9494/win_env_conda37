@@ -1,0 +1,10 @@
+Library/bin/theora.dll
+Library/bin/theoradec.dll
+Library/bin/theoraenc.dll
+Library/include/theora/codec.h
+Library/include/theora/theora.h
+Library/include/theora/theoradec.h
+Library/include/theora/theoraenc.h
+Library/lib/theora.lib
+Library/lib/theoradec.lib
+Library/lib/theoraenc.lib

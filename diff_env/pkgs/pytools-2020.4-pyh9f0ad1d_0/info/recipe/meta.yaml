@@ -1,0 +1,79 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Wed Aug 12 16:40:49 2020
+# ------------------------------------------------
+
+package:
+    name: pytools
+    version: '2020.4'
+source:
+    fn: pytools-2020.4.tar.gz
+    sha256: 37db39ff11a1b5fc8aec875ae4ddb3d6c21aa0e95bddc9c841aa98e1631ae460
+    url: https://pypi.io/packages/source/p/pytools/pytools-2020.4.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /home/conda/feedstock_root/build_artifacts/pytools_1597250511601/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_pla/bin/python
+        -m pip install . --no-deps -vv
+    string: pyh9f0ad1d_0
+requirements:
+    build:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - ca-certificates 2020.6.20 hecda079_0
+        - certifi 2020.6.20 py36h9f0ad1d_0
+        - ld_impl_linux-64 2.34 hc38a660_9
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.3.0 h24d8f2e_14
+        - libgomp 9.3.0 h24d8f2e_14
+        - libstdcxx-ng 9.3.0 hdf63c60_14
+        - ncurses 6.2 he1b5a44_1
+        - openssl 1.1.1g h516909a_1
+        - pip 20.2.2 py_0
+        - python 3.6.11 h4d41432_2_cpython
+        - python_abi 3.6 1_cp36m
+        - readline 8.0 he28a2e2_2
+        - setuptools 49.3.1 py36h9f0ad1d_0
+        - six 1.15.0 pyh9f0ad1d_0
+        - sqlite 3.32.3 hcee41ef_1
+        - tk 8.6.10 hed695b0_0
+        - wheel 0.34.2 py_1
+        - xz 5.2.5 h516909a_1
+        - zlib 1.2.11 h516909a_1007
+    run:
+        - appdirs >=1.4.0
+        - decorator >=3.2.0
+        - numpy
+        - python
+        - six
+test:
+    commands:
+        - cd test && python -m pytest
+    imports:
+        - pytools
+    requires:
+        - pytest
+    source_files:
+        - test
+about:
+    description: 'Pytools is a big bag of things that are "missing" from the Python
+        standard
+
+        library. This is mainly a dependency of my other software packages, and is
+
+        probably of little interest to you unless you use those. If you''re curious
+
+        nonetheless, here''s what''s on offer.
+
+        '
+    dev_url: http://github.com/inducer/pytools
+    home: http://pypi.python.org/pypi/pytools
+    license: MIT
+    license_file: LICENSE
+    summary: A collection of tools for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - inducer
+        - ocefpaf

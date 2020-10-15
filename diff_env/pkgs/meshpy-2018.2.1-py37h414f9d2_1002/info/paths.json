@@ -1,0 +1,179 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/MeshPy-2018.2.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "Lib/site-packages/MeshPy-2018.2.1.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "20942df7b9a526e4c668d8344b2aaf3629857e9fd12ba28fa4c6fc069208b093",
+      "size_in_bytes": 6512
+    },
+    {
+      "_path": "Lib/site-packages/MeshPy-2018.2.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "6b9d44a45a2806d919902f868034d583985ab77d753cef12c4936639f492b4bf",
+      "size_in_bytes": 3063
+    },
+    {
+      "_path": "Lib/site-packages/MeshPy-2018.2.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "0dcd4bcddb55dd5fc764ae02d6b26c3319ef25ab009b4e6122ceb181e4e93049",
+      "size_in_bytes": 1951
+    },
+    {
+      "_path": "Lib/site-packages/MeshPy-2018.2.1.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "Lib/site-packages/MeshPy-2018.2.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "cddcde94d00dece3256c600f8b3c561230d8c37e88d577cebacf8e4f22d6940c",
+      "size_in_bytes": 106
+    },
+    {
+      "_path": "Lib/site-packages/MeshPy-2018.2.1.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "cb38d4c962c4c0ae443f0f55dc7290a060418cf20f1992ad3781fb2f2533cecc",
+      "size_in_bytes": 67
+    },
+    {
+      "_path": "Lib/site-packages/MeshPy-2018.2.1.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "a2bf9b9de4019cfa2d4611e33d3a03353b5daeca0823a5f1157ef081ca98440f",
+      "size_in_bytes": 7
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "9cfbf7b620b06589b20b7f39805c86960a5a0a535f8bedd7df8dc9cdb19c83f9",
+      "size_in_bytes": 21
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "167659989169c6e197003b1bae752a6dc28941a0e63268e2557ee3c14871cdb0",
+      "size_in_bytes": 143
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/__pycache__/common.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "b8c5db40204dc5ee0e6411ae8e75a1cdd962ea190a27091e74465cd4499b7346",
+      "size_in_bytes": 8227
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/__pycache__/geometry.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "96d5e612a937177dd52b5ba438d1d5c42a00bcca781473ed055c4ce9a79a6311",
+      "size_in_bytes": 16595
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/__pycache__/gmsh.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "3e5877116978c80b1ad7c5776402ba7f0fe1ccd0eb372754ab5d58ab7909f2cc",
+      "size_in_bytes": 285
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/__pycache__/gmsh_reader.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "faae8a1f308db6dd91690b0a8242a0acfb7aa937c668e480242ed5d8ed1ee065",
+      "size_in_bytes": 299
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/__pycache__/naca.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "d4421821331ebf80949fff86f896ea852a34132456813659118d5a356f095714",
+      "size_in_bytes": 8706
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/__pycache__/ply.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "2196b1bbfa048f3d1fe0aa5d2e40b056643d7c094cebcf89e6469206dff39d9f",
+      "size_in_bytes": 2978
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/__pycache__/tet.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "4c7dabdb56a3f2f971c66bcda93afe98b5a38689721d5ad99e855b436e3c1482",
+      "size_in_bytes": 6067
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/__pycache__/tools.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "b1b0c23dd7570a781c3f6c039307571f8ac8c71c722ec9edb43541918ec1e418",
+      "size_in_bytes": 3478
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/__pycache__/triangle.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "3b8d66d0bb11b05417b2affb989c8f08f8c07d8c51c96ecd83b87880f4de2e59",
+      "size_in_bytes": 6372
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/_internals.cp37-win_amd64.pyd",
+      "path_type": "hardlink",
+      "sha256": "982a27ed961a592b68e7725d0329e33bdc529ac0da83e7607fdc803994a7b03d",
+      "size_in_bytes": 799744
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/common.py",
+      "path_type": "hardlink",
+      "sha256": "95acded4cf693f70d9c198e0ef29252b40828adc7fe9f883723284997c201a63",
+      "size_in_bytes": 9159
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/geometry.py",
+      "path_type": "hardlink",
+      "sha256": "f23ef6faa52b52780e5b1fbf25c1d07ad40070c14bf2f1b9355df068b7b92a24",
+      "size_in_bytes": 17387
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/gmsh.py",
+      "path_type": "hardlink",
+      "sha256": "3aa6c81bcd3ca59b9b8a4b71b488d720792200d7682b66831d4df2f16858d715",
+      "size_in_bytes": 149
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/gmsh_reader.py",
+      "path_type": "hardlink",
+      "sha256": "ed5db45acc3bc6032e2116b721dadec98f455ae4fb2d71c7c94d30526963a1f8",
+      "size_in_bytes": 156
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/naca.py",
+      "path_type": "hardlink",
+      "sha256": "625d15086349c3de7808f71e3298a69ce2d67e9a5080fc541c927454e9d76fb1",
+      "size_in_bytes": 8520
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/ply.py",
+      "path_type": "hardlink",
+      "sha256": "4da5b7f581c0a14001134e1c7352eedb2d1191b53802cc159d019ec94db0a459",
+      "size_in_bytes": 2255
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/tet.py",
+      "path_type": "hardlink",
+      "sha256": "585fa31ab18bdefdaf52083febb55534e0eae11f7774ba10b3d74745b66b1122",
+      "size_in_bytes": 6644
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/tools.py",
+      "path_type": "hardlink",
+      "sha256": "fa88feb4babd553dfed692be8e6f2e88bf1165a14a7591f8d6ddffcab8259503",
+      "size_in_bytes": 3826
+    },
+    {
+      "_path": "Lib/site-packages/meshpy/triangle.py",
+      "path_type": "hardlink",
+      "sha256": "91fc7989940e1c147cddded3a9d22914730d9fa1beedc97d6aa16cd8f18c4695",
+      "size_in_bytes": 7630
+    }
+  ],
+  "paths_version": 1
+}

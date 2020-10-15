@@ -1,0 +1,79 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/liblapacke.dll",
+      "path_type": "hardlink",
+      "sha256": "620ccc4bee867a72930c6dc17ffdbd5e3ce1d6849f6b2ce085c92abb2b08e742",
+      "size_in_bytes": 3339254
+    },
+    {
+      "_path": "Library/include/lapacke.h",
+      "path_type": "hardlink",
+      "sha256": "0b6a5d4f79ffd79feb78e2a6ff1e55fe504f349f71247c348d29d6bd70039b11",
+      "size_in_bytes": 1271727
+    },
+    {
+      "_path": "Library/include/lapacke_config.h",
+      "path_type": "hardlink",
+      "sha256": "2ff1975925f93c62dfce5a9ae6aa76d40dbc3b5beb3567fbf8d7f357bfb7fa2e",
+      "size_in_bytes": 4236
+    },
+    {
+      "_path": "Library/include/lapacke_mangling.h",
+      "path_type": "hardlink",
+      "sha256": "891189fa708660bab9dc4c7bb8388d153aee4155b164c3ed452fa7c132c7951a",
+      "size_in_bytes": 576
+    },
+    {
+      "_path": "Library/include/lapacke_utils.h",
+      "path_type": "hardlink",
+      "sha256": "c78943d31c047cc66ffe2e317e46f9aeeca6343723c4b7045c1bc7b49b7205b9",
+      "size_in_bytes": 33161
+    },
+    {
+      "_path": "Library/lib/cmake/lapacke-3.8.0/lapacke-config-version.cmake",
+      "path_type": "hardlink",
+      "sha256": "d8e4b37a9853755e0ee34244a0889fbf802f426d24236597134b0c7924f188a0",
+      "size_in_bytes": 255
+    },
+    {
+      "_path": "Library/lib/cmake/lapacke-3.8.0/lapacke-config.cmake",
+      "path_type": "hardlink",
+      "sha256": "408172d98cd62df4a0e84ff8b72249c5d2ea159e12fb06df113c13100284c031",
+      "size_in_bytes": 860
+    },
+    {
+      "_path": "Library/lib/cmake/lapacke-3.8.0/lapacke-targets-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "a9d05877d11f6cd8e721e89ea97483256bea3f71e39a35b4772bcd65abb33069",
+      "size_in_bytes": 933
+    },
+    {
+      "_path": "Library/lib/cmake/lapacke-3.8.0/lapacke-targets.cmake",
+      "path_type": "hardlink",
+      "sha256": "6dd007760e80001e783f7280ccc81256fb21a96524474c8974a9e4a4ef42799b",
+      "size_in_bytes": 3326
+    },
+    {
+      "_path": "Library/lib/lapacke.lib",
+      "path_type": "hardlink",
+      "sha256": "e56f1c2007313df5268927c879ad0bf9a57b3a5ac01830038cfd6720bb3e268a",
+      "size_in_bytes": 538120
+    },
+    {
+      "_path": "Library/lib/liblapacke.dll.a",
+      "path_type": "hardlink",
+      "sha256": "a043dc40f097944462e4fcb013404df9a1d5c8d64c0b3b159953611c54ad37ee",
+      "size_in_bytes": 1586788
+    },
+    {
+      "_path": "Library/lib/pkgconfig/lapacke.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "D:/bld/blas-split_1602434907224/_h_env",
+      "sha256": "874f77d3e6a91652d913dd94ce51997d024f82b7645828eeb325574c39a811ef",
+      "size_in_bytes": 380
+    }
+  ],
+  "paths_version": 1
+}

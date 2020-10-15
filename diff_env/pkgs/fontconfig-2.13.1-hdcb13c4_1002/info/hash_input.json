@@ -1,0 +1,8 @@
+{
+  "libiconv": "1.15",
+  "libxml2": "2.9",
+  "libpng": "1.6",
+  "VERBOSE_AT": "V=1",
+  "freetype": "2.9.1",
+  "icu": "67"
+}

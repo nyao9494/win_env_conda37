@@ -1,0 +1,8 @@
+Library/bin/liblapack.dll
+Library/lib/cmake/lapack-3.8.0/lapack-config-version.cmake
+Library/lib/cmake/lapack-3.8.0/lapack-config.cmake
+Library/lib/cmake/lapack-3.8.0/lapack-targets-release.cmake
+Library/lib/cmake/lapack-3.8.0/lapack-targets.cmake
+Library/lib/lapack.lib
+Library/lib/liblapack.dll.a
+Library/lib/pkgconfig/lapack.pc

@@ -1,0 +1,9 @@
+{
+    "disabledExtensions": [
+        "@jupyterlab/git",
+        "@jupyterlab/toc",
+        "jupyterlab-drawio",
+        "nbdime-jupyterlab",
+        "@lckr/jupyterlab_variableinspector"
+    ]
+}

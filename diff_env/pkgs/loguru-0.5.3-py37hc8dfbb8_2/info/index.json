@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "py37hc8dfbb8_2",
+  "build_number": 2,
+  "depends": [
+    "colorama >=0.3.4",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "win32_setctime >=1.0.0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "loguru",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1602289678523,
+  "version": "0.5.3"
+}

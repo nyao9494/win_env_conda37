@@ -1,0 +1,52 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Fri Nov  8 21:21:08 2019
+# ------------------------------------------------
+
+package:
+    name: eigen
+    version: 3.3.7
+source:
+    fn: eigen-3.3.7.tar.gz
+    sha256: 7e84ef87a07702b54ab3306e77cea474f56a40afa1c0ab245bb11725d006d0da
+    url: http://bitbucket.org/eigen/eigen/get/3.3.7.tar.gz
+build:
+    number: '1001'
+    string: he980bc4_1001
+requirements:
+    build:
+        - cmake 3.15.5 he025d50_0
+        - m2w64-gcc-libgfortran 5.3.0 6
+        - m2w64-gcc-libs 5.3.0 7
+        - m2w64-gcc-libs-core 5.3.0 7
+        - m2w64-gmp 6.1.0 2
+        - m2w64-libwinpthread-git 5.0.0.4634.697f757 2
+        - make 4.2.1 h301d43c_2004
+        - msys2-conda-epoch 20160418 1
+        - vs2015_runtime 14.16.27012 hf0eaf9b_0
+        - vs2015_win-64 14.0.25420 h55c1224_11
+    host:
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_0
+    run:
+        - vc >=14,<15.0a0
+test:
+    commands:
+        - if not exist %PREFIX%\\Library\\include\\eigen3 exit 1
+        - if not exist %PREFIX%\\Library\\share\\pkgconfig\\eigen3.pc exit 1
+    files:
+        - test.cc
+    requires:
+        - vs2015_win-64
+about:
+    home: http://eigen.tuxfamily.org/
+    license: MPL2
+    summary: C++ template library for linear algebra
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - jschueller
+        - patricksnape
+        - seanyen

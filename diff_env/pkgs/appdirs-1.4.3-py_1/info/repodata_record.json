@@ -1,0 +1,24 @@
+{
+  "build": "py_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "appdirs-1.4.3-py_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "79ea201c0ff86b098d3e3e3fa45505cd",
+  "name": "appdirs",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "59eaa287b4938b14df40add0d30fe8dd3a07e10db469fe995ad84fcc26412959",
+  "size": 10997,
+  "subdir": "noarch",
+  "timestamp": 1529504365010,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/appdirs-1.4.3-py_1.tar.bz2",
+  "version": "1.4.3"
+}

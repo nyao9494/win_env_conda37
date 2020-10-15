@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "ha925a31_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "features": "",
+  "fn": "pugixml-1.10-ha925a31_1.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "1abd67f72577ea9d765ccabcc2390c8b",
+  "name": "pugixml",
+  "platform": "win32",
+  "sha256": "ab45fd2956317e666b36e3c9594d32e5b774e3433402b851be0cbece2e5940a2",
+  "size": 212221,
+  "subdir": "win-64",
+  "timestamp": 1601422458007,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pugixml-1.10-ha925a31_1.tar.bz2",
+  "version": "1.10"
+}

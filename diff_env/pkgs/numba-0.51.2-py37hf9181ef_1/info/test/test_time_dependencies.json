@@ -1,1 +1,0 @@
-["ipython", "scipy", "setuptools", "cffi", "jinja2", "numpy >=1.15,<1.19"]

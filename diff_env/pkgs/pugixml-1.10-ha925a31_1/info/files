@@ -1,0 +1,6 @@
+Library/include/pugiconfig.hpp
+Library/include/pugixml.hpp
+Library/lib/cmake/pugixml/pugixml-config-release.cmake
+Library/lib/cmake/pugixml/pugixml-config.cmake
+Library/lib/pkgconfig/pugixml.pc
+Library/lib/pugixml.lib

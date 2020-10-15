@@ -1,0 +1,43 @@
+{
+  "paths": [
+    {
+      "_path": "Library/include/pugiconfig.hpp",
+      "path_type": "hardlink",
+      "sha256": "ba69e9b2940e6164c098b44382aa759fd751108c647b530291df8f78c402ef04",
+      "size_in_bytes": 2791
+    },
+    {
+      "_path": "Library/include/pugixml.hpp",
+      "path_type": "hardlink",
+      "sha256": "92dbe52350ad93d3ca2296ea29bb7d88c8057e506d358518e85366e94ebc18d5",
+      "size_in_bytes": 52866
+    },
+    {
+      "_path": "Library/lib/cmake/pugixml/pugixml-config-release.cmake",
+      "path_type": "hardlink",
+      "sha256": "f4697baca614c042930f2479ce0a3a392e2917b663e14f3ea42318240ef9eac5",
+      "size_in_bytes": 815
+    },
+    {
+      "_path": "Library/lib/cmake/pugixml/pugixml-config.cmake",
+      "path_type": "hardlink",
+      "sha256": "587d4325eba477edb1a30874556976a57be34faa5355f1ddba0297d8795d2088",
+      "size_in_bytes": 3376
+    },
+    {
+      "_path": "Library/lib/pkgconfig/pugixml.pc",
+      "file_mode": "text",
+      "path_type": "hardlink",
+      "prefix_placeholder": "D:/bld/pugixml_1601422243720/_h_env",
+      "sha256": "be48a5309ea1aa3f96ac7af2158a863e9064b4abece2607278ce4b185a49165b",
+      "size_in_bytes": 391
+    },
+    {
+      "_path": "Library/lib/pugixml.lib",
+      "path_type": "hardlink",
+      "sha256": "6dcf8a1c3ff8511ac86d75f867d9490b993d22a00547b7c36b2063da3ff6809f",
+      "size_in_bytes": 896356
+    }
+  ],
+  "paths_version": 1
+}

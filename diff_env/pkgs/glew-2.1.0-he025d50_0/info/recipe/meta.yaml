@@ -1,0 +1,58 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Mon Nov  4 12:20:37 2019
+# ------------------------------------------------
+
+package:
+    name: glew
+    version: 2.1.0
+source:
+    fn: glew-2.1.0.tgz
+    sha256: 04de91e7e6763039bc11940095cd9c7f880baba82196a7765f727ac05a993c95
+    url: https://github.com/nigels-com/glew/releases/download/glew-2.1.0/glew-2.1.0.tgz
+build:
+    number: '0'
+    run_exports:
+        - glew >=2.1.0,<2.2.0a0
+    string: he025d50_0
+requirements:
+    build:
+        - cmake 3.15.5 he025d50_0
+        - vs2015_runtime 14.16.27012 hf0eaf9b_0
+        - vs2015_win-64 14.0.25420 h55c1224_11
+    host:
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_0
+    run:
+        - vc >=14.1,<15.0a0
+test:
+    commands:
+        - if not exist %LIBRARY_INC%\GL\glew.h exit 1
+    requires:
+        - cmake
+        - vs2015_win-64
+about:
+    description: 'The OpenGL Extension Wrangler Library (GLEW) is a cross-platform
+        open-source C/C++
+
+        extension loading library. GLEW provides efficient run-time mechanisms for
+        determining
+
+        which OpenGL extensions are supported on the target platform. OpenGL core
+        and extension
+
+        functionality is exposed in a single header file.
+
+        '
+    dev_url: https://github.com/nigels-com/glew
+    doc_url: http://glew.sourceforge.net/basic.html
+    home: http://glew.sourceforge.net/
+    license: BSD 3-Clause
+    license_file: LICENSE.txt
+    summary: The OpenGL Extension Wrangler Library
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - dschreij
+        - edisongustavo

@@ -1,5 +1,0 @@
-{
-  "blas_impl": "mkl",
-  "c_compiler": "vs2017",
-  "mkl": "2019"
-}

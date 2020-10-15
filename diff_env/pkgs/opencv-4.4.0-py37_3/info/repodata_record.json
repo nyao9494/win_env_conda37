@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "py37_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "libopencv 4.4.0 py37_3",
+    "py-opencv 4.4.0 py37hc6149b9_3"
+  ],
+  "features": "",
+  "fn": "opencv-4.4.0-py37_3.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "6ca9857b09516b6de0d17dedae0c8b7f",
+  "name": "opencv",
+  "platform": "win32",
+  "sha256": "c59dd7de7c9e7e011830450feb4ab139e69d99ab848f312b036cfbfa7679399a",
+  "size": 20071,
+  "subdir": "win-64",
+  "timestamp": 1602543725056,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/opencv-4.4.0-py37_3.tar.bz2",
+  "version": "4.4.0"
+}

@@ -1,0 +1,9 @@
+libdir=D:/bld/blas-split_1602434907224/_h_env/Library/lib
+includedir=D:/bld/blas-split_1602434907224/_h_env/Library/include
+
+Name: LAPACK
+Description: FORTRAN reference implementation of LAPACK Linear Algebra PACKage
+Version: 3.8.0
+URL: http://www.netlib.org/lapack/
+Libs: -L${libdir} -llapack
+Requires.private: blas

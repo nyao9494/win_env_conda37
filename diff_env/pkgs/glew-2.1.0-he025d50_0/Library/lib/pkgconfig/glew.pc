@@ -1,0 +1,11 @@
+prefix=D:/bld/glew_1572870225973/_h_env/Library
+exec_prefix=${prefix}
+libdir=D:/bld/glew_1572870225973/_h_env/Library/lib
+includedir=${prefix}/include
+
+Name: glew
+Description: The OpenGL Extension Wrangler library
+Version: 2.1.0
+Cflags: -I${includedir} 
+Libs: -L${libdir} -lglew32
+Requires: glu

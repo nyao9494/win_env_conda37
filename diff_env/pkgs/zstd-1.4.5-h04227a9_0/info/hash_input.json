@@ -1,8 +1,0 @@
-{
-  "vc": "14",
-  "cxx_compiler": "vs2017",
-  "zlib": "1.2",
-  "CONDA_BUILD_SYSROOT": "/opt/MacOSX10.10.sdk",
-  "xz": "5",
-  "c_compiler": "vs2017"
-}

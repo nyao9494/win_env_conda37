@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "py37ha02cdc8_0",
+  "build_number": 0,
+  "depends": [
+    "occt >=7.4.0,<7.5.0a0",
+    "python >=3.7,<3.8.0a0",
+    "six",
+    "tbb >=2019.9",
+    "vc >=14,<15.0a0"
+  ],
+  "license": "LGPL-3.0",
+  "license_family": "LGPL",
+  "name": "pythonocc-core",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1582625724700,
+  "version": "7.4.0"
+}

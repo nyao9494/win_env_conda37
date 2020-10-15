@@ -1,0 +1,11 @@
+{
+  "zlib": "1.2",
+  "jpeg": "9",
+  "cxx_compiler": "vs2017",
+  "libpng": "1.6",
+  "c_compiler": "vs2017",
+  "openssl": "1.1.1",
+  "curl": "7",
+  "sqlite": "3",
+  "icu": "67"
+}
