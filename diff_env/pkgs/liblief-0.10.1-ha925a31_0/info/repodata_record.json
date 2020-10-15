@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "ha925a31_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "liblief-0.10.1-ha925a31_0.conda",
+  "legacy_bz2_md5": "e0d6df645938104de12df326a8af30c3",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "f00102a864c1d4891ff87d34962b25e7",
+  "name": "liblief",
+  "platform": "win32",
+  "sha256": "d69718265e7a8c604d1ae839d6c958566f2902ef6d7a84d8bd98d53055c5f95d",
+  "size": 1721454,
+  "subdir": "win-64",
+  "timestamp": 1588591237057,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/liblief-0.10.1-ha925a31_0.conda",
+  "version": "0.10.1"
+}

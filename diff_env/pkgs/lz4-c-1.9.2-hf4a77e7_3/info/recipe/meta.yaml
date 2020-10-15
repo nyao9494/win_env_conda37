@@ -1,0 +1,61 @@
+# This file created by conda-build 3.20.3
+# meta.yaml template originally from:
+# C:\ci\containers\00003dthujb\tmp\build\80754af9\combined_recipe, last modified Thu Oct  1 08:28:08 2020
+# ------------------------------------------------
+
+package:
+    name: lz4-c
+    version: 1.9.2
+source:
+    fn: lz4-1.9.2.tar.gz
+    patches:
+        - patches/0001-Add-WindowsTargetPlatformVersion-of-10.0-and-lz4-exe.1.patch
+        - patches/0001-Add-WindowsTargetPlatformVersion-of-10.0-and-lz4-exe.2.patch
+    sha256: 658ba6191fa44c92280d4aa2c271b0f4fbc0e34d249578dd05e50e76d0e5efcc
+    url: https://github.com/lz4/lz4/archive/v1.9.2.tar.gz
+build:
+    number: '3'
+    run_exports:
+        - lz4-c >=1.9.2,<1.10.0a0
+    string: hf4a77e7_3
+requirements:
+    build:
+        - m2-gcc-libs 5.3.0 4
+        - m2-msys2-runtime 2.5.0.17080.65c939c 3
+        - m2-patch 2.7.5 2
+        - msys2-conda-epoch 20160418 1
+        - vs2017_win-64 19.16.27032.1 hb4161e2_3
+        - vswhere 2.7.1 h21ff451_0
+    host:
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_3
+    run:
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012,<15.0a0
+about:
+    description: 'LZ4 is lossless compression algorithm, providing compression speed
+        at 400
+
+        MB/s per core (0.16 Bytes/cycle). It features an extremely fast decoder,
+
+        with speed in multiple GB/s per core (0.71 Bytes/cycle). A high compression
+
+        derivative, called LZ4_HC, is available, trading customizable CPU time for
+
+        compression ratio. LZ4 library is provided as open source software using a
+
+        BSD license.
+
+        '
+    home: https://www.lz4.org
+    license: BSD-2-Clause
+    license_file: lib/LICENSE
+    summary: Extremely Fast Compression algorithm
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - mingwandroid
+        - rmax
+        - wesm
+        - xhochy

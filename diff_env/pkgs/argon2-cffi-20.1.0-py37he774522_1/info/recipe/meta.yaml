@@ -1,0 +1,67 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00001avmh5l\tmp\build\80754af9\rsync-recipes\argon2-cffi-20.1.0-python_3.7-on-winbuilder, last modified Fri Aug  7 14:22:37 2020
+# ------------------------------------------------
+
+package:
+    name: argon2-cffi
+    version: 20.1.0
+source:
+    fn: argon2-cffi-20.1.0.tar.gz
+    sha256: d8029b2d3e4b4cea770e9e5a0104dd8fa185c1724a0f01528ae4826a6d25f97d
+    url: https://pypi.io/packages/source/a/argon2-cffi/argon2-cffi-20.1.0.tar.gz
+build:
+    number: '1'
+    script:
+        - C:\\ci\\argon2-cffi_1596828549974\\_h_env\\python.exe -m pip install . -vv
+    string: py37he774522_1
+requirements:
+    build:
+        - vs2017_win-64 19.16.27032.1 hb4161e2_3
+        - vswhere 2.7.1 h21ff451_0
+    host:
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py37_0
+        - cffi 1.14.0 py37h7a1dbc1_0
+        - openssl 1.1.1g he774522_0
+        - pip 20.1.1 py37_1
+        - pycparser 2.20 py_2
+        - python 3.7.7 h81c818b_4
+        - setuptools 49.2.0 py37_0
+        - six 1.15.0 py_0
+        - sqlite 3.32.3 h2a8f88b_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_3
+        - wheel 0.34.2 py37_0
+        - wincertstore 0.2 py37_0
+        - zlib 1.2.11 h62dcd97_4
+    run:
+        - cffi >=1.0.0
+        - python >=3.7,<3.8.0a0
+        - six
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012,<15.0a0
+    run_constrained:
+        - argon2_cffi ==999
+test:
+    imports:
+        - argon2
+about:
+    description: 'Argon2 won the Password Hashing Competition and argon2_cffi is the
+        simplest
+
+        way to use it in Python and PyPy
+
+        '
+    dev_url: https://github.com/hynek/argon2_cffi/
+    doc_url: https://argon2-cffi.readthedocs.io/en/stable/
+    home: https://argon2-cffi.readthedocs.org/
+    license: MIT
+    license_family: MIT
+    license_file: LICENSE
+    summary: The secure Argon2 password hashing algorithm.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - stuertz

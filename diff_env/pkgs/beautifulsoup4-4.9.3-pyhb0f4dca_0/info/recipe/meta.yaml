@@ -1,0 +1,60 @@
+# This file created by conda-build 3.20.3
+# meta.yaml template originally from:
+# /tmp/build/80754af9/combined_recipe, last modified Mon Oct  5 18:54:37 2020
+# ------------------------------------------------
+
+package:
+    name: beautifulsoup4
+    version: 4.9.3
+source:
+    sha256: 84729e322ad1d5b4d25f805bfa05b902dd96450f43842c4e99067d5e1369eb25
+    url: https://pypi.io/packages/source/b/beautifulsoup4/beautifulsoup4-4.9.3.tar.gz
+build:
+    noarch: python
+    number: '0'
+    string: pyhb0f4dca_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.7.22 0
+        - certifi 2020.6.20 py38_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20191231 h14c3975_1
+        - libffi 3.3 he6710b0_2
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1h h7b6447c_0
+        - pip 20.2.3 py38_0
+        - python 3.8.5 h7579374_1
+        - readline 8.0 h7b6447c_0
+        - setuptools 49.6.0 py38_1
+        - sqlite 3.33.0 h62c20be_0
+        - tk 8.6.10 hbc83047_0
+        - wheel 0.35.1 py_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python >=3.6
+        - soupsieve >=1.2
+about:
+    description: 'Beautiful Soup is a library for pulling data out of HTML and XML
+        files.
+
+        It provides ways of navigating, searching, and modifying parse trees.
+
+        '
+    dev_url: https://code.launchpad.net/beautifulsoup
+    doc_source_url: https://github.com/newvem/beautifulsoup4/blob/master/doc/source/index.rst
+    doc_url: http://beautiful-soup-4.readthedocs.io/en/latest/
+    home: http://www.crummy.com/software/BeautifulSoup/
+    license: MIT
+    license_family: MIT
+    license_file: COPYING.txt
+    summary: Python library designed for screen-scraping
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jschueller
+        - nehaljwani

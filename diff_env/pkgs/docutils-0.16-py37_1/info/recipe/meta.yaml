@@ -1,0 +1,75 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# C:\ci\containers\000023tpcv7\tmp\build\80754af9\rsync-recipes\docutils-0.16-python_3.7-on-winbuilder, last modified Wed Jun 10 12:34:37 2020
+# ------------------------------------------------
+
+package:
+    name: docutils
+    version: '0.16'
+source:
+    sha256: c2de3a60e9e7d07be26b7f2b00ca0309c207e06c100f9cc2a94931fc75a478fc
+    url: https://pypi.io/packages/source/d/docutils/docutils-0.16.tar.gz
+build:
+    number: '1'
+    script: C:\ci\docutils_1591789203754\_h_env\python.exe -m pip install . --no-deps
+        -vv
+    string: py37_1
+requirements:
+    host:
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.1 py37_0
+        - openssl 1.1.1g he774522_0
+        - pip 20.0.2 py37_3
+        - python 3.7.7 h81c818b_4
+        - setuptools 47.1.1 py37_0
+        - sqlite 3.31.1 h2a8f88b_1
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_2
+        - wheel 0.34.2 py37_0
+        - wincertstore 0.2 py37_0
+        - zlib 1.2.11 h62dcd97_4
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - docutils
+        - docutils.languages
+        - docutils.parsers
+        - docutils.parsers.rst
+        - docutils.parsers.rst.directives
+        - docutils.parsers.rst.languages
+        - docutils.readers
+        - docutils.transforms
+        - docutils.utils
+        - docutils.utils.math
+        - docutils.writers
+        - docutils.writers.html4css1
+        - docutils.writers.html5_polyglot
+        - docutils.writers.latex2e
+        - docutils.writers.odf_odt
+        - docutils.writers.pep_html
+        - docutils.writers.s5_html
+        - docutils.writers.xetex
+about:
+    description: 'Docutils is an open-source text processing system for processing
+        plaintext
+
+        documentation into useful formats, such as HTML, LaTeX, man-pages, open-
+
+        document, or XML.
+
+        '
+    dev_url: http://svn.code.sf.net/p/docutils/code
+    doc_source_url: https://sourceforge.net/p/docutils/code/HEAD/tree/trunk/docutils/docs/index.txt
+    doc_url: http://docutils.sourceforge.net/docs/index.html
+    home: http://docutils.sourceforge.net/
+    license: Public Domain Dedictation and BSD 2-Clause and PSF 2.1.1 and GPL 3.0
+    license_file: COPYING.txt
+    summary: Docutils -- Python Documentation Utilities
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - nehaljwani
+        - ocefpaf
+        - pmlandwehr

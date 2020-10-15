@@ -1,0 +1,41 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/liblz4.dll",
+      "path_type": "hardlink",
+      "sha256": "65c82858dd3a27bd0401822983bc91e5c64f5289e537d6c792e4ced9e8d6a8a9",
+      "size_in_bytes": 101888
+    },
+    {
+      "_path": "Library/bin/lz4.exe",
+      "path_type": "hardlink",
+      "sha256": "7fa6c18a4aa0172c590fa0e43d201a295a541ea3cc641cab4f4e7e6c703c216c",
+      "size_in_bytes": 143360
+    },
+    {
+      "_path": "Library/include/lz4.h",
+      "path_type": "hardlink",
+      "sha256": "13dee89947a6e2adc051072861a0da1a938ee26d0fdf177777f8aba2a46fd435",
+      "size_in_bytes": 39943
+    },
+    {
+      "_path": "Library/include/lz4frame.h",
+      "path_type": "hardlink",
+      "sha256": "85ec247097470f227ef27d6291a49fe475d0d779d67679b72dfd8d38a102a395",
+      "size_in_bytes": 28657
+    },
+    {
+      "_path": "Library/include/lz4hc.h",
+      "path_type": "hardlink",
+      "sha256": "12d5d9424059d5b6d7570e7a3cb54ed6e8b4b5ed5bb51977bb150c68c056f228",
+      "size_in_bytes": 21357
+    },
+    {
+      "_path": "Library/lib/liblz4.lib",
+      "path_type": "hardlink",
+      "sha256": "a81f6c58148d1b46d4965679fceb2d0af24bc6d543ee14a7ebcc5a1ede35cf19",
+      "size_in_bytes": 22278
+    }
+  ],
+  "paths_version": 1
+}

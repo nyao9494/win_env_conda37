@@ -1,0 +1,24 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python"
+  ],
+  "features": "",
+  "fn": "iniconfig-1.0.1-py_0.conda",
+  "legacy_bz2_md5": "1bf18113af1045f3a685d6ba1647646f",
+  "license": "MIT",
+  "md5": "c18f98716e939e28d311b5a6c1aed388",
+  "name": "iniconfig",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "d815f280c33970879bb946ea924015d8a6b3bada2d121218fe5ada36f859c76e",
+  "size": 8673,
+  "subdir": "noarch",
+  "timestamp": 1596827356895,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/iniconfig-1.0.1-py_0.conda",
+  "version": "1.0.1"
+}

@@ -1,0 +1,101 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# C:\ci\containers\00001hd07e5\tmp\build\80754af9\rsync-recipes\pycrypto-2.6.1-python_3.7-on-winbuilder, last modified Tue Jun 16 04:40:25 2020
+# ------------------------------------------------
+
+package:
+    name: pycrypto
+    version: 2.6.1
+source:
+    fn: pycrypto-2.6.1.tar.gz
+    md5: 55a61a054aa66812daf5161a0d5d7eda
+    patches:
+        - 0001-dont-drop-g.patch
+        - 0002-fix-unresolved-reference-size.patch
+        - 0003-fix-epydoc-ignore.patch
+        - 0004-fix-cipher-iv-documentation.patch
+        - 0005-reenable-redefined-tests.patch
+        - 0006-fix-py3-errors.patch
+        - 0007-fix-except-shadows-builtin.patch
+        - 0008-multiprocessing-test.patch
+        - 0009-unittest-stream.patch
+        - 0010-deprecated-test-methods.patch
+        - 0011-asn1-decoding.patch
+        - 0012-CVE-2013-7459.patch
+        - 0013-Backport-of-fix-for-CVE-2018-6594-from-pycryptodome.patch
+        - pycrypto_PR_199.diff
+        - pycrypto_PR_200.diff
+        - pycrypto_PR_22.diff
+        - pycrypto_PR_46.diff
+    url: https://pypi.io/packages/source/p/pycrypto/pycrypto-2.6.1.tar.gz
+build:
+    number: '10'
+    script:
+        - set CL=/FI"%VCToolsInstallDir%INCLUDE\stdint.h" %CL%
+        - C:\ci\pycrypto_1592300558657\_h_env\python.exe -m pip install . --no-deps
+            -vv
+    string: py37he774522_10
+requirements:
+    build:
+        - m2-msys2-runtime 2.5.0.17080.65c939c 3
+        - m2-patch 2.7.5 2
+        - msys2-conda-epoch 20160418 1
+        - vs2017_win-64 19.16.27032.1 hb4161e2_2
+        - vswhere 2.7.1 h21ff451_0
+    host:
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.1 py37_0
+        - openssl 1.1.1g he774522_0
+        - pip 20.0.2 py37_3
+        - python 3.7.7 h81c818b_4
+        - setuptools 47.1.1 py37_0
+        - sqlite 3.31.1 h2a8f88b_1
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_2
+        - wheel 0.34.2 py37_0
+        - wincertstore 0.2 py37_0
+        - zlib 1.2.11 h62dcd97_4
+    run:
+        - python >=3.7,<3.8.0a0
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+    imports:
+        - Crypto
+        - Crypto.Cipher
+        - Crypto.Hash
+        - Crypto.Protocol
+        - Crypto.PublicKey
+        - Crypto.Random
+        - Crypto.Random.Fortuna
+        - Crypto.Random.OSRNG
+        - Crypto.SelfTest
+        - Crypto.SelfTest.Cipher
+        - Crypto.SelfTest.Hash
+        - Crypto.SelfTest.Protocol
+        - Crypto.SelfTest.PublicKey
+        - Crypto.SelfTest.Random
+        - Crypto.SelfTest.Random.Fortuna
+        - Crypto.SelfTest.Random.OSRNG
+        - Crypto.SelfTest.Signature
+        - Crypto.SelfTest.Util
+        - Crypto.Signature
+        - Crypto.Util
+about:
+    description: 'pycrpto, the Python Cryptography Toolkit, is a collection of cryptographic
+
+        modules implementing various algorithms and protocols.
+
+        '
+    dev_url: https://github.com/dlitz/pycrypto
+    doc_source_url: https://github.com/dlitz/pycrypto/tree/master/Doc
+    doc_url: https://www.dlitz.net/software/pycrypto/api/current/
+    home: http://www.pycrypto.org/
+    license: Public Domain
+    license_file: COPYRIGHT
+    summary: Cryptographic modules for Python.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham

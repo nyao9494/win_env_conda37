@@ -1,0 +1,83 @@
+# This file created by conda-build 3.17.8
+# ------------------------------------------------
+
+package:
+    name: liblief
+    version: 0.10.1
+source:
+    -   fn: lief-0.10.1.tar.gz
+        patches:
+            - 0001-python-Only-pass-NODEFAULTLIB-MSVCRT-when-not-BUILD_.patch
+            - 0002-Fix-typo-BuildeVersion-BuildVersion-which-may-lead-t.patch
+            - 0003-Export-BuildToolVersion.patch
+            - 0004-Do-not-annotate-static-ELF-Parser-s-parse-function-a.patch
+            - 0005-Update-LIEF_VERSION_PATCH-to-1-for-v0.10.1.patch
+            - 0006-Call-the-C-DLL-libLIEF.dll-so-it-does-not-clash-with.patch
+            - 0007-Add-LIEFOptions-for-BUILD_STATIC_LIBS-and-BUILD_SHAR.patch
+            - 0008-Add-_DEBUG-when-CMAKE_BUILD_TYPE-matches-Debug.patch
+            - 0009-Avoid-deprecated-get_config_var-SO-use-EXT_SUFFIX-lo.patch
+        sha256: 6f30c98a559f137e08b25bcbb376c0259914b33c307b8b901e01ca952241d00a
+        url: https://github.com/lief-project/LIEF/archive/0.10.1.tar.gz
+build:
+    number: 0
+    run_exports:
+        - liblief >=0.10.1,<0.11.0a0
+    string: ha925a31_0
+requirements:
+    build:
+        - ca-certificates 2020.1.1 0
+        - ccache 3.7.9 h1c70317_0
+        - cmake 3.14.0 h33f27b4_0
+        - m2w64-gcc-libgfortran 5.3.0 6
+        - m2w64-gcc-libs 5.3.0 7
+        - m2w64-gcc-libs-core 5.3.0 7
+        - m2w64-gmp 6.1.0 2
+        - m2w64-libwinpthread-git 5.0.0.4634.697f757 2
+        - msys2-conda-epoch 20160418 1
+        - ninja 1.9.0 py38h74a9793_0
+        - openssl 1.1.1g he774522_0
+        - python 3.8.2 h5fd99cc_11
+        - sqlite 3.31.1 h2a8f88b_1
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_1
+        - vs2017_win-64 19.16.27032.1 hb8d98e7_1
+        - vswhere 2.7.1 h21ff451_0
+        - zlib 1.2.11 h62dcd97_4
+    host:
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_1
+    run:
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+    files:
+        - tests
+    requires:
+        - cmake
+        - ninja
+        - vs2017_win-64
+    script: run_test_liblief.sh
+about:
+    description: 'It turns out that many projects need to parse executable formats
+        and they usually re-implement
+
+        their own parser. Moreover these parsers are usually bound to one language.
+
+        LIEF attempts to fill this void.
+
+        '
+    doc_source_url: https://github.com/lief-project/LIEF/tree/master/doc
+    doc_url: https://lief.quarkslab.com/doc/stable/index.html
+    home: https://lief.quarkslab.com/
+    license: Apache-2.0
+    license_family: Apache
+    license_file: LICENSE
+    summary: A cross platform library to parse, modify and abstract ELF, PE and MachO
+        formats.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - isuruf
+        - mingwandroid
+        - msarahan

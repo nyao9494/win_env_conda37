@@ -1,0 +1,79 @@
+# This file created by conda-build 3.20.2
+# meta.yaml template originally from:
+# C:\ci\containers\000037bbehb\tmp\build\80754af9\combined_recipe, last modified Fri Sep 18 13:21:42 2020
+# ------------------------------------------------
+
+package:
+    name: pyzmq
+    version: 19.0.2
+source:
+    sha256: 296540a065c8c21b26d63e3cea2d1d57902373b16e4256afe46422691903a438
+    url: https://pypi.io/packages/source/p/pyzmq/pyzmq-19.0.2.tar.gz
+build:
+    ignore_run_exports:
+        - libsodium
+    number: '1'
+    string: py37ha925a31_1
+requirements:
+    build:
+        - vs2017_win-64 19.16.27032.1 hb4161e2_3
+        - vswhere 2.7.1 h21ff451_0
+    host:
+        - ca-certificates 2020.7.22 0
+        - certifi 2020.6.20 py37_0
+        - libsodium 1.0.18 h62dcd97_0
+        - openssl 1.1.1g he774522_1
+        - pip 20.2.2 py37_0
+        - python 3.7.9 h60c2a47_0
+        - setuptools 49.6.0 py37_0
+        - sqlite 3.33.0 h2a8f88b_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_3
+        - wheel 0.35.1 py_0
+        - wincertstore 0.2 py37_0
+        - zeromq 4.3.2 ha925a31_3
+        - zlib 1.2.11 h62dcd97_4
+    run:
+        - python >=3.7,<3.8.0a0
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012,<15.0a0
+        - zeromq >=4.3.2,<4.3.3.0a0
+        - zeromq >=4.3.2,<4.3.3.0a0
+test:
+    commands:
+        - py.test --pyargs zmq.tests.test_socket
+    imports:
+        - zmq
+        - zmq.backend.cython.socket
+        - zmq.backend.cython.utils
+        - zmq.devices.monitoredqueue
+    requires:
+        - pytest
+about:
+    description: 'PyZMQ contains Python bindings for 0MQ. 0MQ is a lightweight and
+        fast
+
+        messaging implementation.
+
+        '
+    dev_url: https://github.com/zeromq/pyzmq
+    doc_source_url: https://github.com/zeromq/pyzmq/blob/master/docs/source/index.rst
+    doc_url: https://pyzmq.readthedocs.org/
+    home: https://github.com/zeromq/pyzmq
+    license: BSD 3-clause
+    license_family: BSD
+    license_file: COPYING.BSD
+    summary: Python bindings for zeromq
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - JohanMabille
+        - SylvainCorlay
+        - chenghlee
+        - jakirkham
+        - mingwandroid
+        - minrk
+        - msarahan
+        - ocefpaf
+        - pelson

@@ -1,0 +1,65 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/tblib-1.7.0-on-linux_64, last modified Thu Aug 20 12:51:06 2020
+# ------------------------------------------------
+
+package:
+    name: tblib
+    version: 1.7.0
+source:
+    sha256: 059bd77306ea7b419d4f76016aef6d7027cc8a0785579b5aad198803435f882c
+    url: https://pypi.org/packages/source/t/tblib/tblib-1.7.0.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: python -m pip install --no-deps --ignore-installed .
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py36_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20191231 h14c3975_1
+        - libffi 3.3 he6710b0_2
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1g h7b6447c_0
+        - pip 20.2.2 py36_0
+        - python 3.6.10 h7579374_2
+        - readline 8.0 h7b6447c_0
+        - setuptools 49.6.0 py36_0
+        - sqlite 3.32.3 h62c20be_0
+        - tk 8.6.10 hbc83047_0
+        - wheel 0.34.2 py36_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+test:
+    imports:
+        - tblib
+about:
+    description: 'tblib allows you to Pickle tracebacks and raise exceptions with
+        pickled
+
+        tracebacks in different processes.This allows better error handling when
+
+        running code over multiple processes.
+
+        '
+    dev_url: https://github.com/ionelmc/python-tblib
+    doc_source_url: https://github.com/ionelmc/python-tblib/blob/master/docs/index.rst
+    doc_url: https://python-tblib.readthedocs.io/en/latest/
+    home: https://github.com/ionelmc/python-tblib
+    license: BSD 2-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: Traceback serialization library.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jjhelmus
+        - pmlandwehr

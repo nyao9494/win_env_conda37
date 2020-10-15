@@ -1,0 +1,110 @@
+{
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "six"
+  ],
+  "extracted_package_dir": "C:\\Users\\M151325\\Anaconda37\\pkgs\\pathlib2-2.3.5-py37_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/pathlib2-2.3.5.dist-info/INSTALLER",
+    "Lib/site-packages/pathlib2-2.3.5.dist-info/LICENSE.rst",
+    "Lib/site-packages/pathlib2-2.3.5.dist-info/METADATA",
+    "Lib/site-packages/pathlib2-2.3.5.dist-info/RECORD",
+    "Lib/site-packages/pathlib2-2.3.5.dist-info/WHEEL",
+    "Lib/site-packages/pathlib2-2.3.5.dist-info/direct_url.json",
+    "Lib/site-packages/pathlib2-2.3.5.dist-info/top_level.txt",
+    "Lib/site-packages/pathlib2/__init__.py",
+    "Lib/site-packages/pathlib2/__pycache__/__init__.cpython-37.pyc",
+    ".nonadmin"
+  ],
+  "fn": "pathlib2-2.3.5-py37_1.conda",
+  "legacy_bz2_md5": "6531eda36487b6673d75e87f7b23e41c",
+  "license": "MIT",
+  "link": {
+    "source": "C:\\Users\\M151325\\Anaconda37\\pkgs\\pathlib2-2.3.5-py37_1",
+    "type": 1
+  },
+  "md5": "c3114d16825c740f02f7121392660676",
+  "name": "pathlib2",
+  "package_tarball_full_path": "C:\\Users\\M151325\\Anaconda37\\pkgs\\pathlib2-2.3.5-py37_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/LICENSE.rst",
+        "path_type": "hardlink",
+        "sha256": "f8e02f1a07e4c6fc59a4bee831ddde26b97064105c423b9e24340f35aaa80262",
+        "sha256_in_prefix": "f8e02f1a07e4c6fc59a4bee831ddde26b97064105c423b9e24340f35aaa80262",
+        "size_in_bytes": 1152
+      },
+      {
+        "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "471ed8d237e02893cc8b4746a1336ade6f7dae1bab5bb4daf78038ae8e928ac9",
+        "sha256_in_prefix": "471ed8d237e02893cc8b4746a1336ade6f7dae1bab5bb4daf78038ae8e928ac9",
+        "size_in_bytes": 3301
+      },
+      {
+        "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "006d9c2743791a7959b833014ab8054a54f2678577cc405f01650221fd2c09de",
+        "sha256_in_prefix": "006d9c2743791a7959b833014ab8054a54f2678577cc405f01650221fd2c09de",
+        "size_in_bytes": 712
+      },
+      {
+        "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "e93dd36191386058b61d34b505e647357022f0de763994f83be749ebea267bfe",
+        "sha256_in_prefix": "e93dd36191386058b61d34b505e647357022f0de763994f83be749ebea267bfe",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7077c7ab77dc58923bdfb99e8b7a1e35f8f478d7fa3d71a2a0e53dae43d97e45",
+        "sha256_in_prefix": "7077c7ab77dc58923bdfb99e8b7a1e35f8f478d7fa3d71a2a0e53dae43d97e45",
+        "size_in_bytes": 68
+      },
+      {
+        "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b4d3e48ac16218116c3d49c220783adaf485964c7fd4d3bce8877c95b2667c54",
+        "sha256_in_prefix": "b4d3e48ac16218116c3d49c220783adaf485964c7fd4d3bce8877c95b2667c54",
+        "size_in_bytes": 9
+      },
+      {
+        "_path": "Lib/site-packages/pathlib2/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "3417eee7069ca6cd72d58b655d548f27c15b1385ad217b9cae9e6e39834e3be5",
+        "sha256_in_prefix": "3417eee7069ca6cd72d58b655d548f27c15b1385ad217b9cae9e6e39834e3be5",
+        "size_in_bytes": 59133
+      },
+      {
+        "_path": "Lib/site-packages/pathlib2/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "a09bbd039c10a027e6bb09e859c5dc0b94c3081031915e080be51a831e046130",
+        "sha256_in_prefix": "a09bbd039c10a027e6bb09e859c5dc0b94c3081031915e080be51a831e046130",
+        "size_in_bytes": 49390
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0fe2f6f58a690561a20e4a5ec89c0aeef28e5ec668f52715af2b2b94f39ce79a",
+  "size": 36422,
+  "subdir": "win-64",
+  "timestamp": 1594381154527,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pathlib2-2.3.5-py37_1.conda",
+  "version": "2.3.5"
+}

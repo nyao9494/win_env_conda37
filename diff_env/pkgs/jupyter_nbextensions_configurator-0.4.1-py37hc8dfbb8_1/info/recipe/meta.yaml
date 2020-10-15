@@ -1,0 +1,61 @@
+# This file created by conda-build 3.19.2
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Tue Jul  7 13:04:10 2020
+# ------------------------------------------------
+
+package:
+    name: jupyter_nbextensions_configurator
+    version: 0.4.1
+source:
+    sha256: e5e86b5d9d898e1ffb30ebb08e4ad8696999f798fef3ff3262d7b999076e4e83
+    url: https://pypi.io/packages/source/j/jupyter_nbextensions_configurator/jupyter_nbextensions_configurator-0.4.1.tar.gz
+build:
+    entry_points:
+        - jupyter-nbextensions_configurator = jupyter_nbextensions_configurator.application:main
+    number: '1'
+    script: D:\bld\jupyter_nbextensions_configurator_1594127290135\_h_env\python.exe
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py37hc8dfbb8_1
+requirements:
+    host:
+        - ca-certificates 2020.6.20 hecda079_0
+        - certifi 2020.6.20 py37hc8dfbb8_0
+        - openssl 1.1.1g he774522_0
+        - pip 20.1.1 py_1
+        - python 3.7.6 h60c2a47_5_cpython
+        - python_abi 3.7 1_cp37m
+        - setuptools 49.1.0 py37hc8dfbb8_0
+        - sqlite 3.32.3 he774522_0
+        - vc 14.1 h869be7e_1
+        - vs2015_runtime 14.16.27012 h30e32a0_2
+        - wheel 0.34.2 py_1
+        - wincertstore 0.2 py37_1003
+    run:
+        - jupyter_contrib_core >=0.3.2
+        - jupyter_core
+        - nbconvert
+        - notebook >=4.0
+        - python >=3.7,<3.8.0a0
+        - python_abi 3.7.* *_cp37m
+        - pyyaml
+        - tornado
+        - traitlets
+test:
+    commands:
+        - jupyter nbextensions_configurator --help
+        - jupyter nbextensions_configurator enable --help
+        - jupyter nbextensions_configurator disable --help
+    imports:
+        - jupyter_nbextensions_configurator
+        - jupyter_nbextensions_configurator.application
+about:
+    home: https://github.com/jupyter-contrib/jupyter_nbextensions_configurator
+    license: BSD-3-Clause
+    license_file: LICENSE.txt
+    summary: A server extension for jupyter notebook providing configuration interfaces
+        for notebook extensions (nbextensions).
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jcb91

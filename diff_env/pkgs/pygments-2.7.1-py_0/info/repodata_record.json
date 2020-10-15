@@ -1,0 +1,25 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5",
+    "setuptools"
+  ],
+  "features": "",
+  "fn": "pygments-2.7.1-py_0.conda",
+  "legacy_bz2_md5": "ea94959021a5212185cc50fe21b3ff0e",
+  "license": "BSD-2-clause",
+  "md5": "ac0a7af6b5530e5272976669cb4f1df5",
+  "name": "pygments",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "098cfbe4a6d72321b16ff59225cb64d452eaa86e4aab3e9dca64d5760199290f",
+  "size": 687369,
+  "subdir": "noarch",
+  "timestamp": 1600458487363,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pygments-2.7.1-py_0.conda",
+  "version": "2.7.1"
+}

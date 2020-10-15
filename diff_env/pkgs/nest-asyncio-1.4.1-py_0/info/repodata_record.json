@@ -1,0 +1,25 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5"
+  ],
+  "features": "",
+  "fn": "nest-asyncio-1.4.1-py_0.conda",
+  "legacy_bz2_md5": "ee56168cf4ac6c14a2367a18e6d099c5",
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "md5": "d2c156866ea561742ca7d0ce941bcf27",
+  "name": "nest-asyncio",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "e804ddd381895b5c012628f8dbf6e365c24e55adb45af0fb954e6a413a0631a0",
+  "size": 10682,
+  "subdir": "noarch",
+  "timestamp": 1601499576770,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/nest-asyncio-1.4.1-py_0.conda",
+  "version": "1.4.1"
+}

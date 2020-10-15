@@ -1,0 +1,30 @@
+{
+  "arch": "x86_64",
+  "build": "py37h47e9c7a_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "joblib >=0.11",
+    "numpy >=1.14.6,<2.0a0",
+    "python >=3.7,<3.8.0a0",
+    "scipy",
+    "threadpoolctl",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "scikit-learn-0.23.2-py37h47e9c7a_0.conda",
+  "legacy_bz2_md5": "a2cc4b22cc9eef0778f8512331013426",
+  "license": "BSD-3-Clause",
+  "md5": "6b6a9bafc44f924e8e2492c5063e1a7a",
+  "name": "scikit-learn",
+  "platform": "win32",
+  "sha256": "cfffd39f263eb67b31d445b918c3234574fdf5d12ba89d6edc0aafdf8a2dced4",
+  "size": 4816517,
+  "subdir": "win-64",
+  "timestamp": 1598377163131,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/scikit-learn-0.23.2-py37h47e9c7a_0.conda",
+  "version": "0.23.2"
+}

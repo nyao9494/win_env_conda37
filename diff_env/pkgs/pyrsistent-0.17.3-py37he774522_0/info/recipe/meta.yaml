@@ -1,0 +1,55 @@
+# This file created by conda-build 3.20.2
+# meta.yaml template originally from:
+# C:\ci\containers\000015220kj\tmp\build\80754af9\combined_recipe, last modified Mon Sep 14 20:47:50 2020
+# ------------------------------------------------
+
+package:
+    name: pyrsistent
+    version: 0.17.3
+source:
+    sha256: 2e636185d9eb976a18a8a8e96efce62f2905fea90041958d8cc2a189756ebf3e
+    url: https://pypi.io/packages/source/p/pyrsistent/pyrsistent-0.17.3.tar.gz
+build:
+    number: '0'
+    script: C:\\ci\\pyrsistent_1600123688363\\_h_env\\python.exe -m pip install .
+        -vv
+    string: py37he774522_0
+requirements:
+    build:
+        - vs2017_win-64 19.16.27032.1 hb4161e2_3
+        - vswhere 2.7.1 h21ff451_0
+    host:
+        - ca-certificates 2020.7.22 0
+        - certifi 2020.6.20 py37_0
+        - openssl 1.1.1g he774522_1
+        - pip 20.2.2 py37_0
+        - python 3.7.9 h60c2a47_0
+        - setuptools 49.6.0 py37_0
+        - sqlite 3.33.0 h2a8f88b_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_3
+        - wheel 0.35.1 py_0
+        - wincertstore 0.2 py37_0
+        - zlib 1.2.11 h62dcd97_4
+    run:
+        - python >=3.7,<3.8.0a0
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+    commands:
+        - pip check
+    imports:
+        - pyrsistent
+    requires:
+        - pip
+about:
+    home: http://github.com/tobgu/pyrsistent/
+    license: MIT
+    license_family: MIT
+    license_file: LICENCE.mit
+    summary: Persistent/Functional/Immutable data structures
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf

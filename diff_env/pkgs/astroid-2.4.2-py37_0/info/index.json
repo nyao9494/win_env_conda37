@@ -1,0 +1,20 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "lazy-object-proxy 1.4.*",
+    "python >=3.7,<3.8.0a0",
+    "setuptools",
+    "six >=1.12,<2",
+    "typed-ast >=1.4.0,<1.5",
+    "wrapt 1.11.*"
+  ],
+  "license": "LGPL-2.1-only",
+  "license_family": "LGPL",
+  "name": "astroid",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1592482016413,
+  "version": "2.4.2"
+}

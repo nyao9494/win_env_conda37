@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "importlib_metadata",
+    "python >=3.7,<3.8.0a0",
+    "pywin32-ctypes"
+  ],
+  "features": "",
+  "fn": "keyring-21.4.0-py37_1.conda",
+  "legacy_bz2_md5": "12dec39b6f1fe368bae5208e1441cd44",
+  "license": "Python Software Foundation or MIT",
+  "license_family": "MIT",
+  "md5": "b735845978c8131872c002eb65e21eb0",
+  "name": "keyring",
+  "platform": "win32",
+  "sha256": "e1703c6035f59f659da0ba73f6bb756145845a99dee9cb34cd78d6d6b3761874",
+  "size": 70516,
+  "subdir": "win-64",
+  "timestamp": 1601489016765,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/keyring-21.4.0-py37_1.conda",
+  "version": "21.4.0"
+}

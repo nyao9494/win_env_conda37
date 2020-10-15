@@ -1,0 +1,71 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/more_itertools-8.5.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/more_itertools-8.5.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "09f1c8c9e941af3e584d59641ea9b87d83c0cb0fd007eb5ef391a7e2643c1a46",
+      "size_in_bytes": 1053
+    },
+    {
+      "_path": "site-packages/more_itertools-8.5.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "c9a0c20d45aa978d24c8089a0713f0d392516a0f46bf845dd83ead10cc086a74",
+      "size_in_bytes": 36268
+    },
+    {
+      "_path": "site-packages/more_itertools-8.5.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "c00c2a71dbe44a53f82c95d602710f17fa505022893b16d381e7467c79d5c573",
+      "size_in_bytes": 1124
+    },
+    {
+      "_path": "site-packages/more_itertools-8.5.0.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/more_itertools-8.5.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "site-packages/more_itertools-8.5.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "d4ac6664ba9a8000f683d5d20c5e19f1883244764f76de383ad9ef0578cfb439",
+      "size_in_bytes": 87
+    },
+    {
+      "_path": "site-packages/more_itertools-8.5.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "7c0baa457bbd2cf871741f6e8c9a307053aed6b67cc334a9396f7f8e52a2b3a3",
+      "size_in_bytes": 15
+    },
+    {
+      "_path": "site-packages/more_itertools/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "9b54b0777a8d9848ba15919e956998509f8ff944ae9778cb3444c40f4ea1fd2e",
+      "size_in_bytes": 82
+    },
+    {
+      "_path": "site-packages/more_itertools/more.py",
+      "path_type": "hardlink",
+      "sha256": "13f9de4526fcfcda4df0555f38f934e0f8c7a2efa2f5f7a021cb09dfe0fe33fb",
+      "size_in_bytes": 106781
+    },
+    {
+      "_path": "site-packages/more_itertools/recipes.py",
+      "path_type": "hardlink",
+      "sha256": "c126889201556c5b54f3db117ebfb1ef4aed9e1bbfa84d845346a6154dda4d02",
+      "size_in_bytes": 15042
+    }
+  ],
+  "paths_version": 1
+}

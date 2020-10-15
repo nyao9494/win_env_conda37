@@ -1,0 +1,5 @@
+{
+  "c_compiler": "vs2017",
+  "zlib": "1.2",
+  "libpng": "1.6"
+}

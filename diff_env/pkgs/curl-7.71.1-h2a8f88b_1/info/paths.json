@@ -1,0 +1,11 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/curl.exe",
+      "path_type": "hardlink",
+      "sha256": "c5941fbbc30ea5aabbd2b81eb4fbcdd89a1b5a25c688684821d97ba27e819d4b",
+      "size_in_bytes": 345600
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,49 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# C:\projects\jupyter-latex-envs-feedstock\recipe, last modified Sat Oct 13 04:06:20 2018
+# ------------------------------------------------
+
+package:
+    name: jupyter_latex_envs
+    version: 1.4.4
+source:
+    sha256: b0a83e0cda2d33e61c4b2da94365d2de4dfcdc1ed67abdba3cbe390872cf5231
+    url: https://pypi.io/packages/source/j/jupyter_latex_envs/jupyter_latex_envs-1.4.4.tar.gz
+build:
+    number: '1000'
+    script: C:\bld\jupyter_latex_envs_1539403702488\_h_env\python.exe -m pip install
+        . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py37_1000
+requirements:
+    host:
+        - certifi 2018.8.24 py37_1001
+        - pip 18.1 py37_1000
+        - python 3.7.0 hc182675_1005
+        - setuptools 40.4.3 py37_0
+        - vc 14 0
+        - vs2015_runtime 14.0.25420 0
+        - wheel 0.32.1 py37_0
+        - wincertstore 0.2 py37_1002
+    run:
+        - ipython
+        - jupyter_contrib_core >=0.3
+        - nbconvert
+        - notebook >=4.0
+        - python >=3.7,<3.8.0a0
+        - setuptools
+        - traitlets >=4.1
+test:
+    imports:
+        - latex_envs
+        - latex_envs.latex_envs
+about:
+    home: https://github.com/jfbercher/jupyter_latex_envs
+    license: BSD-3-Clause
+    license_file: LICENSE.txt
+    summary: Jupyter nbextension providing some LaTeX environments for markdown cells.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jcb91
+        - jfbercher

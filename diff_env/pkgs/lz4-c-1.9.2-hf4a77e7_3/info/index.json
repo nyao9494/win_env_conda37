@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "hf4a77e7_3",
+  "build_number": 3,
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "license": "BSD-2-Clause",
+  "name": "lz4-c",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1601561753724,
+  "version": "1.9.2"
+}

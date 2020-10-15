@@ -1,0 +1,179 @@
+commit b01180d8d7ed737b82f251ffff26eaeefe4e2871
+Merge: d7a6aac 7ac282c
+Author: David Brochart <david.brochart@gmail.com>
+Date:   Thu Aug 27 22:02:50 2020 +0200
+
+    Merge pull request #9 from regro-cf-autotick-bot/0.5.0_h727cb6
+    
+    nbclient v0.5.0
+
+commit 7ac282c384055c1f8230f2cf5666fdc83840911d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Aug 27 19:57:37 2020 +0000
+
+    updated v0.5.0
+
+commit d7a6aacc308bc70b0590630d051da7919b1a4557
+Merge: 6a10f98 25f903e
+Author: David Brochart <david.brochart@gmail.com>
+Date:   Tue Aug 25 21:00:41 2020 +0200
+
+    Merge pull request #7 from regro-cf-autotick-bot/0.4.2_hed4f82
+    
+    nbclient v0.4.2
+
+commit 25f903e1be8db8bbc72cf9143f57266af090f2f5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Aug 25 18:53:26 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.10, and conda-forge-pinning 2020.08.25.14.55.21
+
+commit 07743843b1550114bf19663a5f4b401f388e02c5
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue Aug 25 18:53:19 2020 +0000
+
+    updated v0.4.2
+
+commit 6a10f982bb0a88df85cf1f254d2f89bfbe782a4b
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat Aug 8 09:12:31 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit 6f5875e9c9aa8a0c10f912c61fab187c2cd72219
+Merge: fd09d2b 188ec08
+Author: David Brochart <david.brochart@gmail.com>
+Date:   Thu Jul 16 12:07:04 2020 +0200
+
+    Merge pull request #6 from davidbrochart/pin_jupyter_client
+    
+    Pin jupyter_client >=6.1.5
+
+commit 188ec08ba93cf803d0ba8ba6ae8aa99600fa080d
+Author: David Brochart <david.brochart@gmail.com>
+Date:   Thu Jul 16 12:01:10 2020 +0200
+
+    Pin jupyter_client >=6.1.5
+
+commit fd09d2b1de33ce39696a47b1535e2aa00d3e918c
+Merge: 1238405 3b8e329
+Author: David Brochart <david.brochart@gmail.com>
+Date:   Wed Jul 15 10:14:06 2020 +0200
+
+    Merge pull request #5 from regro-cf-autotick-bot/0.4.1_ha86f45
+    
+    nbclient v0.4.1
+
+commit 3b8e3298126fd499c1f5d6927445f75936496667
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 10 22:40:40 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.4, and conda-forge-pinning 2020.07.07.19.27.52
+
+commit c5205da2f443dd14520bf907fa1613a2ea289cd7
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Fri Jul 10 22:40:33 2020 +0000
+
+    updated v0.4.1
+
+commit 1238405e5b144a87c1546c038933e0b3296f606d
+Merge: 3e7cc73 14d6867
+Author: David Brochart <david.brochart@gmail.com>
+Date:   Wed Jun 10 20:38:28 2020 +0200
+
+    Merge pull request #4 from regro-cf-autotick-bot/0.4.0_hba0ee1
+    
+    nbclient v0.4.0
+
+commit 14d6867a0b4ee2b9a6d05de1e6236057a1389f11
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jun 10 18:31:30 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.3, and conda-forge-pinning 2020.06.07.16.42.19
+
+commit 71a2870dea8ea6de119972f6883feddf4acd4730
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Jun 10 18:30:52 2020 +0000
+
+    updated v0.4.0
+
+commit 3e7cc737656b46e35d07edad8fc12c2f16859eba
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Thu May 21 18:21:50 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit 8bdcccba8f8066c9a48fc07b9b37928fe954e8ad
+Merge: b7a820a 640de37
+Author: David Brochart <david.brochart@gmail.com>
+Date:   Tue May 19 22:15:45 2020 +0200
+
+    Merge pull request #3 from regro-cf-autotick-bot/0.3.1_h5d64b9
+    
+    nbclient v0.3.1
+
+commit 640de37b38de87aabbe2d6f10f30a4807c93dcf2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Tue May 19 20:03:55 2020 +0000
+
+    updated v0.3.1
+
+commit b7a820a134fb6d3d93a796ca7c5408f8b46e9e72
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 07:59:18 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 76629d3a34365c17799a1e44c751731d1ef6a1f5
+Merge: 69b7e69 1469749
+Author: David Brochart <david.brochart@gmail.com>
+Date:   Thu May 14 23:30:32 2020 +0200
+
+    Merge pull request #2 from regro-cf-autotick-bot/0.3.0_hb12752
+    
+    nbclient v0.3.0
+
+commit 1469749cc5b31e1b8305f15640f2ecff1b5de8e0
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu May 14 21:01:25 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.1, and conda-forge-pinning 2020.05.14.17.14.20
+
+commit f74f6aac5acb46051bfd7cc9b207983a21175d14
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu May 14 21:01:02 2020 +0000
+
+    updated v0.3.0
+
+commit 69b7e69085e0dc7efc7d7e3ffd1166f231b17ee3
+Merge: ff8a402 f7866fc
+Author: David Brochart <david.brochart@gmail.com>
+Date:   Wed Apr 1 14:51:02 2020 +0200
+
+    Merge pull request #1 from davidbrochart/v0.2.0
+    
+    Bump version to 0.2.0
+
+commit f7866fc4558620f9056354a6fafc236e462b30da
+Author: David Brochart <david.brochart@gmail.com>
+Date:   Wed Apr 1 14:35:57 2020 +0200
+
+    Bump version to 0.2.0
+
+commit ff8a402e53727ec9aef7436749cef1dbf8895cb0
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 22:20:21 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit d8b6a1674bf9d44dbd687d72d4899029f8a24f06
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Feb 16 17:33:26 2020 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit 87068338143848d545dc08bb637b79545d9be06c
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sun Feb 16 17:26:21 2020 +0000
+
+    Initial feedstock commit with conda-smithy 3.6.8.

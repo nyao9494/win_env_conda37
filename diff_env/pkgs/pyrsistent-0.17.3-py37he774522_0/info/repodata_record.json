@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py37he774522_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "pyrsistent-0.17.3-py37he774522_0.conda",
+  "legacy_bz2_md5": "4f5c339d7e3f2ac0019c5c9ece5172bf",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "74d70a74d92d9475dbee6f4cf62e0857",
+  "name": "pyrsistent",
+  "platform": "win32",
+  "sha256": "de1e17e54eeadd1458b264d8c169c34c67d26de9ca8bb176cfc21fdab4a460e0",
+  "size": 93129,
+  "subdir": "win-64",
+  "timestamp": 1600123743687,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pyrsistent-0.17.3-py37he774522_0.conda",
+  "version": "0.17.3"
+}

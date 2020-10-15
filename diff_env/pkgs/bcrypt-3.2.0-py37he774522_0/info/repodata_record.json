@@ -1,0 +1,30 @@
+{
+  "arch": "x86_64",
+  "build": "py37he774522_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "cffi >=1.1",
+    "pip",
+    "python >=3.7,<3.8.0a0",
+    "six >=1.4.1",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "bcrypt-3.2.0-py37he774522_0.conda",
+  "legacy_bz2_md5": "ee5e4d7199f7f6a1a2fbb367329ecd3e",
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "md5": "f1af2d283251dba4e04a72d6cb55edc9",
+  "name": "bcrypt",
+  "platform": "win32",
+  "sha256": "c047eb3d7a74574f2b29c21f39e97999a3a46d2950ee22055d0e2665c9f6b3bf",
+  "size": 44952,
+  "subdir": "win-64",
+  "timestamp": 1597918179936,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/bcrypt-3.2.0-py37he774522_0.conda",
+  "version": "3.2.0"
+}

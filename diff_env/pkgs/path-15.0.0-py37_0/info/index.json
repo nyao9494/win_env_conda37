@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "depends": [
+    "importlib_metadata >=0.5",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "path",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1596940872388,
+  "version": "15.0.0"
+}

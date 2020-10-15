@@ -1,0 +1,17 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/zope/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "6f5e58238857c93b55a075e2eb3927371ff45a1d1c29a2291f7b1b8a28f2672e",
+      "size_in_bytes": 239
+    },
+    {
+      "_path": "Lib/site-packages/zope/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "778a8a83dbddc998a64d2f66e0dce39b998c6eb751f227d80bc9fd7bc84f8379",
+      "size_in_bytes": 121
+    }
+  ],
+  "paths_version": 1
+}

@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "h62dcd97_1",
+  "build_number": 1,
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "license": "LGPL-3.0-only",
+  "name": "mpfr",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1593116228644,
+  "version": "4.0.2"
+}

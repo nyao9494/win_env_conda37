@@ -1,0 +1,14 @@
+{
+  "arch": "x86_64",
+  "build": "0",
+  "build_number": 0,
+  "depends": [
+    "vs2015_runtime"
+  ],
+  "license": "MIT",
+  "name": "nodejs",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1602231244461,
+  "version": "14.13.1"
+}

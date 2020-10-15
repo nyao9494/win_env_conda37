@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py37ha925a31_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "setuptools",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "cython-0.29.21-py37ha925a31_0.conda",
+  "legacy_bz2_md5": "dbb070cf0e29c1cb989bf16274bd4b92",
+  "license": "Apache-2.0",
+  "md5": "c9f6c21a8f8d9fbc17952b405cb6133d",
+  "name": "cython",
+  "platform": "win32",
+  "sha256": "496a175e80562edf0721bc675c64489648b3f20773b862eef85ca0c182e484b2",
+  "size": 1804968,
+  "subdir": "win-64",
+  "timestamp": 1594834130385,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/cython-0.29.21-py37ha925a31_0.conda",
+  "version": "0.29.21"
+}

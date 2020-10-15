@@ -1,0 +1,8 @@
+{
+  "zlib": "1.2",
+  "jpeg": "9",
+  "libtiff": "4.1",
+  "c_compiler": "vs2017",
+  "tk": "8.6",
+  "freetype": "2.9"
+}

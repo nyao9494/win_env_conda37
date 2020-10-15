@@ -1,0 +1,6 @@
+{
+  "cxx_compiler": "vs2017",
+  "macos_machine": "x86_64-apple-darwin13.4.0",
+  "c_compiler": "vs2017",
+  "zlib": "1.2"
+}

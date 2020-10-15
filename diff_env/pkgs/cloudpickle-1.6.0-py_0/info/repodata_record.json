@@ -1,0 +1,24 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5"
+  ],
+  "features": "",
+  "fn": "cloudpickle-1.6.0-py_0.conda",
+  "legacy_bz2_md5": "22d2030d77d1e5e066b559e358d643d0",
+  "license": "BSD-3-Clause",
+  "md5": "4af8dd70369256b84ed5cdb100871d85",
+  "name": "cloudpickle",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "73077c3e3aa879e1568d905bcc8228cecd161179e1aa2d366917334aa218e1b8",
+  "size": 30352,
+  "subdir": "noarch",
+  "timestamp": 1598884212982,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/cloudpickle-1.6.0-py_0.conda",
+  "version": "1.6.0"
+}

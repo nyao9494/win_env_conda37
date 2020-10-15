@@ -1,0 +1,66 @@
+{% set version = "0.9.1" %}
+
+package:
+  name: terminado
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/t/terminado/terminado-{{ version }}.tar.gz
+  sha256: 3da72a155b807b01c9e8a5babd214e052a0a45a975751da3521a1c3381ce6d76
+
+build:
+  number: 0
+  script: "{{ PYTHON }} setup.py install"
+
+requirements:
+  host:
+    - python
+    - setuptools
+    - ptyprocess  # [not win]
+    - pywinpty  # [win]
+    - tornado >=4
+  run:
+    - python
+    - ptyprocess  # [not win]
+    - pywinpty  # [win]
+    - tornado >=4
+
+test:
+  imports:
+    - terminado
+
+  requires:
+    - nose
+    - posix  # [win]
+
+  commands:
+    - nosetests terminado  # [not (osx or win)]
+    # Failing test on osx: https://github.com/conda-forge/staged-recipes/pull/313#issuecomment-208426267
+    # Failing test on Linux (due to ps1 of conda? having conda activate in bashrc? One of those two!
+    # File "/home/ray/m/conda-bld/terminado_1503494513344/_test_env_placehold_.../lib/python2.7/site-packages/terminado/tests/basic_test.py", line 84, in get_pid
+    # ..
+    # self.write_stdin("echo $$\r")
+    # (stdout, extra) = yield self.read_stdout()
+    # pid = int(stdout.split('\n')[1])
+    # ..
+    #  ValueError: invalid literal for int() with base 10: '\x1b]777;notify;Command completed;echo $$\x07\x1b]0;ray@localhost:~/m/conda-bld/terminado_1503494513344/test_tmp\x07\x1b]7;file://localhost.localdomain/home/ray/m/conda-bld/terminado_1503494513344/test_tmp\x07(root) ec'
+    #- nosetests terminado  # [not osx and not linux]
+
+about:
+  home: https://github.com/jupyter/terminado
+  license: BSD-2-Clause
+  license_file: LICENSE
+  summary: Terminals served by tornado websockets
+  description: |
+    Terminado is a Tornado websocket backend for the term.js Javascript
+    terminal emulator library.
+  doc_url: http://terminado.readthedocs.org/en/latest/
+  doc_source_url: https://github.com/takluyver/terminado/blob/master/doc/index.rst
+  dev_url: https://github.com/takluyver/terminado
+
+extra:
+  recipe-maintainers:
+    - blink1073
+    - pelson
+    - takluyver
+    - ocefpaf

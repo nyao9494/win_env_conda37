@@ -1,0 +1,48 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\0000201rrg9\tmp\build\80754af9\rsync-recipes\rtree-0.9.4-python_3.7-on-winbuilder, last modified Mon May  4 00:30:29 2020
+# ------------------------------------------------
+
+package:
+    name: rtree
+    version: 0.9.4
+source:
+    patches:
+        - 0001-load-library-from-library-bin-on-Windows.patch
+    sha256: cae327e2c03b3da4ea40d0fdf68f3e55fe9f302c56b9f31e1bfeb36dbea73f44
+    url: https://pypi.io/packages/source/R/Rtree/Rtree-0.9.4.tar.gz
+build:
+    number: '1'
+    string: py37h21ff451_1
+requirements:
+    host:
+        - ca-certificates 2020.1.1 0
+        - certifi 2020.4.5.1 py37_0
+        - libspatialindex 1.9.3 h33f27b4_0
+        - openssl 1.1.1g he774522_0
+        - pip 20.0.2 py37_1
+        - python 3.7.7 h60c2a47_2
+        - setuptools 46.1.3 py37_0
+        - sqlite 3.31.1 h2a8f88b_1
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_1
+        - wheel 0.34.2 py37_0
+        - wincertstore 0.2 py37_0
+        - zlib 1.2.11 h62dcd97_4
+    run:
+        - libspatialindex >=1.9.3,<1.9.4.0a0
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - rtree
+about:
+    home: http://toblerity.github.com/rtree/
+    license: MIT
+    license_file: LICENSE.txt
+    summary: R-Tree spatial index for Python GIS
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - hobu
+        - ocefpaf

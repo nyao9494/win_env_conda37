@@ -1,0 +1,83 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/jupyter_highlight_selected_word-0.2.0-py3.7.egg-info/PKG-INFO",
+      "path_type": "hardlink",
+      "sha256": "4f9302b77941311022fa54c9d676cd00f6b1b98f837f32db0893ced0c5b8a968",
+      "size_in_bytes": 780
+    },
+    {
+      "_path": "Lib/site-packages/jupyter_highlight_selected_word-0.2.0-py3.7.egg-info/SOURCES.txt",
+      "path_type": "hardlink",
+      "sha256": "7eed70dda15eaa8b894acbeb279638a5f430edd105e2d29b84a0ee6cb3525381",
+      "size_in_bytes": 656
+    },
+    {
+      "_path": "Lib/site-packages/jupyter_highlight_selected_word-0.2.0-py3.7.egg-info/dependency_links.txt",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "Lib/site-packages/jupyter_highlight_selected_word-0.2.0-py3.7.egg-info/installed-files.txt",
+      "path_type": "hardlink",
+      "sha256": "f8d41030998de48df8c5015105ce97378fa49a4329aeb118aaa65b12fe483cdc",
+      "size_in_bytes": 431
+    },
+    {
+      "_path": "Lib/site-packages/jupyter_highlight_selected_word-0.2.0-py3.7.egg-info/not-zip-safe",
+      "path_type": "hardlink",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "size_in_bytes": 1
+    },
+    {
+      "_path": "Lib/site-packages/jupyter_highlight_selected_word-0.2.0-py3.7.egg-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "89f445bd669a5d52e7880a35f454b4cc02a64cfb36ae00b504520f48c0bd619b",
+      "size_in_bytes": 32
+    },
+    {
+      "_path": "Lib/site-packages/jupyter_highlight_selected_word/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "bb78e5d16e0f4d24d5896da01e2e79ac739674f20476497d5e04de272baed5e4",
+      "size_in_bytes": 760
+    },
+    {
+      "_path": "Lib/site-packages/jupyter_highlight_selected_word/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "663f17c5f6821f46d6df63fc3d272b1a9c95bad4705688c41009439d1f21cdc3",
+      "size_in_bytes": 554
+    },
+    {
+      "_path": "Lib/site-packages/jupyter_highlight_selected_word/static/highlight_selected_word/README.md",
+      "path_type": "hardlink",
+      "sha256": "c1e4c247ab62efac424e1bdc8eafd2fd4be696c8367e26a57cd65174cc6db6a3",
+      "size_in_bytes": 4924
+    },
+    {
+      "_path": "Lib/site-packages/jupyter_highlight_selected_word/static/highlight_selected_word/configurator.yaml",
+      "path_type": "hardlink",
+      "sha256": "524d491c1d6af9683fecc13a90a40860163f08cc39c520da869e59381dffd371",
+      "size_in_bytes": 4135
+    },
+    {
+      "_path": "Lib/site-packages/jupyter_highlight_selected_word/static/highlight_selected_word/main.js",
+      "path_type": "hardlink",
+      "sha256": "a217d4444b879998147bb1873fa2f81b3f4d2cd1de8d9f70c94bc253900f07a3",
+      "size_in_bytes": 13598
+    },
+    {
+      "_path": "Scripts/.jupyter_highlight_selected_word-post-link.bat",
+      "path_type": "hardlink",
+      "sha256": "c68fdaa5681107605cc27bfc4c98ed95985800dc9e08a9e37a39f0f4dd84f4f4",
+      "size_in_bytes": 426
+    },
+    {
+      "_path": "Scripts/.jupyter_highlight_selected_word-pre-unlink.bat",
+      "path_type": "hardlink",
+      "sha256": "9bd8e4ad80747b4b3a89b4fac387a4c80ac65c58db19def190d30a81cda6b11c",
+      "size_in_bytes": 430
+    }
+  ],
+  "paths_version": 1
+}

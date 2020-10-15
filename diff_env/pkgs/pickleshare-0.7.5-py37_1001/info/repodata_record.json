@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "py37_1001",
+  "build_number": 1001,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "pickleshare-0.7.5-py37_1001.conda",
+  "legacy_bz2_md5": "35b073b28d0715a1067ab111b2291790",
+  "license": "MIT",
+  "md5": "a22cc9328610cbf94571e9b95e0ab52d",
+  "name": "pickleshare",
+  "platform": "win32",
+  "sha256": "334d033b394cc52c8d085ee0f6307fea935e3b7a2a81726878b90ca5e429747d",
+  "size": 14038,
+  "subdir": "win-64",
+  "timestamp": 1594374105581,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pickleshare-0.7.5-py37_1001.conda",
+  "version": "0.7.5"
+}

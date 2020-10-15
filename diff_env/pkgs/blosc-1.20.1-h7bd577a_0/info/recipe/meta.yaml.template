@@ -1,0 +1,57 @@
+{% set version = "1.20.1" %}
+
+package:
+  name: blosc
+  version: {{ version }}
+
+source:
+  url: https://github.com/Blosc/c-blosc/archive/v{{ version }}.tar.gz
+  sha256: 42c4d3fcce52af9f8e2078f8f57681bfc711706a3330cb72b9b39e05ae18a413
+
+build:
+  number: 0
+  run_exports:
+    # nothing on abi-lab.  Going with default behavior.
+    - {{ pin_subpackage('blosc') }}
+  ignore_run_exports:
+    - snappy
+    - lz4-c  # [win]
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+    - cmake
+    - make                                           # [unix]
+  host:
+    - msinttypes                                     # [win and vc<14]
+    - zlib
+    - lz4-c
+    - zstd
+    - snappy
+
+test:
+  commands:
+    - test -e $PREFIX/include/blosc.h                    # [unix]
+    - test -e $PREFIX/include/blosc-export.h             # [unix]
+    - test -e $PREFIX/lib/libblosc.a                     # [unix]
+    - test -e $PREFIX/lib/libblosc${SHLIB_EXT}           # [unix]
+    - if not exist %LIBRARY_INC%\\blosc.h exit 1         # [win]
+    - if not exist %LIBRARY_INC%\\blosc-export.h exit 1  # [win]
+    - if not exist %LIBRARY_BIN%\\blosc.dll exit 1       # [win]
+    - if not exist %LIBRARY_LIB%\\blosc.lib exit 1       # [win]
+    - if not exist %LIBRARY_LIB%\\libblosc.lib exit 1    # [win]
+
+about:
+  home: https://github.com/Blosc/c-blosc
+  license: BSD-3-Clause
+  license_file: LICENSES/BLOSC.txt
+  summary: A blocking, shuffling and loss-less compression library that can be faster than `memcpy()`
+
+extra:
+  recipe-maintainers:
+    - danielfrg
+    - FrancescElies
+    - jakirkham
+    - beckermr
+    - msarahan

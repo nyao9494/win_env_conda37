@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "py37he774522_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0",
+    "yaml >=0.2.5,<0.3.0a0"
+  ],
+  "features": "",
+  "fn": "pyyaml-5.3.1-py37he774522_1.conda",
+  "legacy_bz2_md5": "0c59b4d480b232574fa60adda3cf9bc9",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "8bf07573484e6b68983f508c517c470d",
+  "name": "pyyaml",
+  "platform": "win32",
+  "sha256": "36a230cc9684a561431ea47a46fa3a5de00422f722dfd0d7a0c50ed98d22aa92",
+  "size": 158195,
+  "subdir": "win-64",
+  "timestamp": 1593124771982,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pyyaml-5.3.1-py37he774522_1.conda",
+  "version": "5.3.1"
+}

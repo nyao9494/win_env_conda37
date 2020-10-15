@@ -1,0 +1,57 @@
+{
+  "build": "py37h0964b28_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "mpc",
+    "mpfr >=4.0.1,<5.0a0",
+    "mpir",
+    "python >=3.7,<3.8.0a0",
+    "vc 14.*"
+  ],
+  "extracted_package_dir": "C:\\Users\\M151325\\Anaconda37\\pkgs\\gmpy2-2.0.8-py37h0964b28_3",
+  "features": "",
+  "files": [
+    "Lib/site-packages/gmpy2-2.0.8-py3.7.egg-info",
+    "Lib/site-packages/gmpy2.cp37-win_amd64.pyd",
+    ".nonadmin"
+  ],
+  "fn": "gmpy2-2.0.8-py37h0964b28_3.conda",
+  "legacy_bz2_md5": "a842faed338c8b088400527d88d7cf44",
+  "license": "LGPL 3",
+  "link": {
+    "source": "C:\\Users\\M151325\\Anaconda37\\pkgs\\gmpy2-2.0.8-py37h0964b28_3",
+    "type": 1
+  },
+  "md5": "4379d8c868691d82eb7842abe599bac5",
+  "name": "gmpy2",
+  "package_tarball_full_path": "C:\\Users\\M151325\\Anaconda37\\pkgs\\gmpy2-2.0.8-py37h0964b28_3.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/gmpy2-2.0.8-py3.7.egg-info",
+        "path_type": "hardlink",
+        "sha256": "2f77dc401d09649620f35f3481347fc1a1c1ada668c02e2b1a907097654dc8b8",
+        "sha256_in_prefix": "2f77dc401d09649620f35f3481347fc1a1c1ada668c02e2b1a907097654dc8b8",
+        "size_in_bytes": 1041
+      },
+      {
+        "_path": "Lib/site-packages/gmpy2.cp37-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "edfe9594e2b40a5801b9b563ea7172916babda4c79382e51f89dd8c26649898d",
+        "sha256_in_prefix": "edfe9594e2b40a5801b9b563ea7172916babda4c79382e51f89dd8c26649898d",
+        "size_in_bytes": 502272
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "96ce7ecd864d39508595bb3bcafcc8e145ed15a25dd64e11752205271a63dbba",
+  "size": 142175,
+  "subdir": "win-64",
+  "timestamp": 1533247358341,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/gmpy2-2.0.8-py37h0964b28_3.conda",
+  "version": "2.0.8"
+}

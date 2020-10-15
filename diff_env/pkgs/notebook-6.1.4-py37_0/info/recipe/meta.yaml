@@ -1,0 +1,91 @@
+# This file created by conda-build 3.20.3
+# meta.yaml template originally from:
+# C:\ci\containers\00002cudb29\tmp\build\80754af9\combined_recipe, last modified Wed Sep 30 14:31:52 2020
+# ------------------------------------------------
+
+package:
+    name: notebook
+    version: 6.1.4
+source:
+    sha256: 687d01f963ea20360c0b904ee7a37c3d8cda553858c8d6e33fd0afd13e89de32
+    url: https://pypi.io/packages/source/n/notebook/notebook-6.1.4.tar.gz
+build:
+    entry_points:
+        - jupyter-bundlerextension = notebook.bundler.bundlerextensions:main
+        - jupyter-nbextension = notebook.nbextensions:main
+        - jupyter-notebook = notebook.notebookapp:main
+        - jupyter-serverextension = notebook.serverextensions:main
+    number: '0'
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2020.7.22 0
+        - certifi 2020.6.20 py37_0
+        - openssl 1.1.1h he774522_0
+        - pip 20.2.2 py37_0
+        - python 3.7.9 h60c2a47_0
+        - setuptools 49.6.0 py37_1
+        - sqlite 3.33.0 h2a8f88b_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_3
+        - wheel 0.35.1 py_0
+        - wincertstore 0.2 py37_0
+        - zlib 1.2.11 h62dcd97_4
+    run:
+        - argon2-cffi
+        - ipykernel
+        - ipython_genutils
+        - jinja2
+        - jupyter_client >=5.3.4
+        - jupyter_core >=4.6.1
+        - nbconvert
+        - nbformat
+        - prometheus_client
+        - python >=3.7,<3.8.0a0
+        - pyzmq >=17
+        - send2trash
+        - terminado >=0.8.1
+        - tornado >=5.0
+        - traitlets >=4.2.1
+test:
+    commands:
+        - python -m pip check
+        - jupyter notebook -h
+        - jupyter nbextension -h
+        - jupyter serverextension -h
+        - jupyter bundlerextension -h
+    imports:
+        - notebook
+    requires:
+        - pip
+app:
+    cli_opts:
+        -   args: --port %s
+            default: '8080'
+            name: port
+            summary: Server port ...
+    entry: jupyter-notebook
+    icon: jupyter.png
+    summary: Jupyter Notebook
+    type: web
+about:
+    dev_url: https://github.com/jupyter/notebook
+    doc_source_url: https://github.com/jupyter/notebook/tree/master/docs
+    doc_url: https://jupyter-notebook.readthedocs.io
+    home: https://jupyter.org
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: A web-based notebook environment for interactive computing
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - SylvainCorlay
+        - bollwyvl
+        - gnestor
+        - jakirkham
+        - lresende
+        - minrk
+        - pelson
+        - takluyver

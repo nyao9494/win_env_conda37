@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py37h1a82afc_4",
+  "build_number": 4,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "llvmlite-0.34.0-py37h1a82afc_4.conda",
+  "legacy_bz2_md5": "0d55611508f386ff12882c1fc31d33f4",
+  "license": "BSD-2-Clause",
+  "md5": "641ca05291eeb9601c9ffb34e94aa2a3",
+  "name": "llvmlite",
+  "platform": "win32",
+  "sha256": "1160b23f967ec69b392408186ce6828cf4029cf39b7f4d13e5cdf9b7b6d5f1af",
+  "size": 12964077,
+  "subdir": "win-64",
+  "timestamp": 1599323687430,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/llvmlite-0.34.0-py37h1a82afc_4.conda",
+  "version": "0.34.0"
+}

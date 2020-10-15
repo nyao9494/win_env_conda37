@@ -1,0 +1,312 @@
+commit 64655829233f9d6127a821ba0159365b0a3c4501
+Author: Nehal J Wani <nehaljw.kkd1@gmail.com>
+Date:   Sun Aug 13 13:31:13 2017 +0000
+
+    Update about section
+
+commit 748db52af1e47709f469c72ec7b4951fa7f13e4e
+Merge: 50bfff1 ff8622a
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sun Aug 23 16:25:05 2020 -0300
+
+    Merge pull request #19 from conda-forge-linter/conda_forge_admin_18
+
+commit 50bfff1dbccb7090d1c28ae262fef5bd5542048a
+Merge: cc60035 4b7c109
+Author: github-actions[bot] <41898282+github-actions[bot]@users.noreply.github.com>
+Date:   Sun Aug 23 19:24:50 2020 +0000
+
+    networkx v2.5
+    
+    automerged PR by conda-forge/automerge-action
+
+commit ff8622a50feb7ff9f01be16a12c6160fb045c345
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Sun Aug 23 19:21:42 2020 +0000
+
+    [ci skip] ***NO_CI*** added bot automerge
+
+commit 4b7c109b7d1fe86d0d4eb4e9fed4b9465aafe2d6
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Sun Aug 23 16:20:01 2020 -0300
+
+    update with grayskull
+
+commit 3d14f81dd751f7711fb8e864bd5305e1450bd198
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Aug 22 21:45:57 2020 +0000
+
+    MNT: Re-rendered with conda-build 3.19.2, conda-smithy 3.7.10, and conda-forge-pinning 2020.08.21.04.46.41
+
+commit 37dbb1fd30f467ce14b40f59f98df478c4cf3649
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Aug 22 21:45:50 2020 +0000
+
+    updated v2.5
+
+commit cc60035b19cb01612cfc655b2e7e3ae8d61a1a32
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sat Aug 8 09:25:54 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokenCleanup
+
+commit 303f00fa1bfdf58734c5ba8b78db9cec72cfa112
+Author: Matthew R Becker <becker.mr@gmail.com>
+Date:   Mon May 18 08:00:45 2020 -0500
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CondaForgeAutomerge
+
+commit 938e363337ddedf83b194eceafe869d4425d6059
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Sun May 17 00:52:56 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration CFEP13TokensAndConfig
+
+commit c49cae2bf1e9d74d48d4b9c309b901bac8a6abd6
+Merge: 3d09125 9dfe2bf
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Tue Mar 10 07:14:23 2020 -0400
+
+    Merge pull request #16 from SylvainCorlay/rerender
+    
+    Rerender to fix Python 3.8 build issue.
+
+commit 9dfe2bfa8e81c22a08ca082c6a6b099b13eb6f36
+Author: Sylvain Corlay <sylvain.corlay@gmail.com>
+Date:   Tue Mar 10 11:48:46 2020 +0100
+
+    Rerender
+
+commit 3d09125c7d423bcb0e98176ea501788f23f7f6a1
+Author: conda-forge-admin <conda-forge-admin@email.com>
+Date:   Mon Mar 2 22:24:56 2020 +0000
+
+    [ci skip] [skip ci] [cf admin skip] ***NO_CI*** admin migration AutomergeAndRerender
+
+commit 2309fe8b657915ba6cebf3b1cd72118400d041a3
+Merge: 8f12a44 7e2ca78
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Wed Oct 16 22:53:50 2019 -0400
+
+    Merge pull request #14 from regro-cf-autotick-bot/2.4
+    
+    networkx v2.4
+
+commit 7e2ca7893b7dde3a6fcaf6993cd441f58f6fb167
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 17 02:15:13 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.18.10, conda-smithy 3.6.0, and conda-forge-pinning 2019.10.11
+
+commit 365be8ab7367e6d1fd645aa4ee3a4339d27f130d
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Oct 17 02:14:47 2019 +0000
+
+    updated v2.4
+
+commit 8f12a44c4e1d52b628e9d44f2c3d7e3b9b436d2d
+Merge: 66dc463 12063ef
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Fri Apr 12 09:19:07 2019 -0300
+
+    Merge pull request #13 from regro-cf-autotick-bot/2.3
+    
+    networkx v2.3
+
+commit 12063effc5fd1afbea5708487fa8bf0ae3687581
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Apr 12 08:51:02 2019 -0300
+
+    don't import test the tests
+
+commit 5234b61ff7ba82110ddf777ffafb77b64ed114bf
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Apr 12 08:45:23 2019 -0300
+
+    minor fixes
+
+commit de69be4de8c8bd39ec6a60b81359d253631cb2f4
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Fri Apr 12 08:45:17 2019 -0300
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.2, and conda-forge-pinning 2019.04.12
+
+commit 5650ace9ff73b975aeac86bbb78a8c53f536cfd6
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Thu Apr 11 21:30:32 2019 +0000
+
+    updated v2.3
+
+commit 66dc463d7536a76616f22e6b292d48357861610d
+Merge: 1d083e6 20deb05
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Apr 10 12:41:16 2019 -0300
+
+    Merge pull request #12 from conda-forge-linter/conda_forge_admin_11
+    
+    MNT: rerender
+
+commit 20deb05528d60e9f350e49c1f5e65419a4dbfb1d
+Author: conda-forge-admin <pelson.pub+conda-forge@gmail.com>
+Date:   Wed Apr 10 12:35:22 2019 +0000
+
+    MNT: Re-rendered with conda-build 3.17.8, conda-smithy 3.3.2, and conda-forge-pinning 2019.03.17
+
+commit 1d083e68cc6eef445575679c5028a067bc91bb57
+Merge: d17bfe8 d530d3a
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Sep 19 17:22:54 2018 -0300
+
+    Merge pull request #10 from synapticarbors/patch-v2.2
+    
+    Update req and other small updated
+
+commit d530d3a0dd923c986e291e11185a12d7c94b762b
+Author: Joshua L. Adelman <joshua.adelman@gmail.com>
+Date:   Wed Sep 19 15:50:33 2018 -0400
+
+    Update req and other small updated
+
+commit d17bfe89c4bf7c5e42abb4fca7198b745c2d9f6e
+Merge: 3be5af2 4ad7be3
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Wed Sep 19 16:33:42 2018 -0300
+
+    Merge pull request #9 from regro-cf-autotick-bot/2.2
+    
+    networkx v2.2
+
+commit 4ad7be38593fde7d273af407fa6219b14e59ef0f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 19 19:23:48 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.12 and pinning 2018.09.17
+
+commit d5e5c87d95d73b6198aceb399a94f573d4ffa44f
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Wed Sep 19 19:23:42 2018 +0000
+
+    updated v2.2
+
+commit 3be5af2f20320573ff0f433c305d4ef08e117c19
+Author: Travis CI User <travis@example.org>
+Date:   Sat Aug 4 18:18:54 2018 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit dd99b2d8c63c9b8f09aa9333b6a28fad587b8f2d
+Merge: da35bc4 d565707
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Sat Jul 7 10:02:41 2018 -0300
+
+    Merge pull request #8 from regro-cf-autotick-bot/noarch_migration
+    
+    Suggestion: add noarch
+
+commit d5657079206906c361e0dbe92de9802a95051fd2
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 7 11:14:25 2018 +0000
+
+    MNT: Re-rendered with conda-smithy 3.1.6 and pinning 2018.07.01
+
+commit 788869dac6da0716a1605e5830f728c9a4b115b3
+Author: regro-cf-autotick-bot <circleci@cf-graph.regro.github.com>
+Date:   Sat Jul 7 11:14:20 2018 +0000
+
+    add noarch
+
+commit da35bc4a02decab900d7369ee434a5470fd50697
+Merge: 3d3cca1 731825c
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Mon Feb 12 14:15:46 2018 -0800
+
+    Merge pull request #7 from ocefpaf/update_to_2.1
+    
+    Update to 2.1
+
+commit 731825c0100083cb62c43d7350b304e709ab926a
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Feb 12 11:00:29 2018 -0800
+
+    update to 2.1
+
+commit 0ab89e7fd34c1873cc5a941fdfdcf7eb91fd46a0
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Mon Feb 12 11:00:18 2018 -0800
+
+    rerender
+
+commit 3d3cca164cacd9846363b88521dc344d5870cd94
+Merge: 2434da1 0a6fb12
+Author: Joshua Adelman <synapticarbors@users.noreply.github.com>
+Date:   Wed Nov 29 06:38:37 2017 -0500
+
+    Merge pull request #5 from synapticarbors/patch-setuptools
+    
+    Patch setuptools
+
+commit 0a6fb129c50108f4c0f335415211c743c1876f0b
+Author: Joshua L. Adelman <joshua.adelman@gmail.com>
+Date:   Wed Nov 29 01:01:48 2017 -0500
+
+    Add setuptools as a run req
+
+commit 997e8f0961c5ebcbdc4ca5b331409ec239eec2d4
+Author: Joshua L. Adelman <joshua.adelman@gmail.com>
+Date:   Wed Nov 29 01:01:12 2017 -0500
+
+    MNT: Re-rendered with conda-smithy 2.4.3
+
+commit 2434da1d5abda8041c773aac1baf41080aaf194d
+Merge: bde40af 276edfd
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Thu Sep 21 09:13:21 2017 -0300
+
+    Merge pull request #3 from ocefpaf/update_to_2.0
+    
+    Update to 2.0
+
+commit 276edfd181523e93348f16c20e66005bf9d34151
+Author: Filipe Fernandes <ocefpaf@gmail.com>
+Date:   Wed Sep 20 17:01:35 2017 -0300
+
+    Update to 2.0
+
+commit bde40af6028dd7c56ab43625f42d4a253135dc10
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Sat Aug 26 21:33:14 2017 +0000
+
+    [ci skip] [skip ci] Update anaconda token
+
+commit be2a3a2d0e77e6039978f3cdb8be1d671d1292f7
+Merge: 45bc70b acdae82
+Author: Filipe <ocefpaf@gmail.com>
+Date:   Tue Jan 3 21:17:25 2017 -0300
+
+    Merge pull request #2 from ocefpaf/py36
+    
+    py36
+
+commit acdae82675e34e8f7bca759b30d459d73d0b4ef2
+Author: ocefpaf <ocefpaf@gmail.com>
+Date:   Tue Jan 3 07:09:40 2017 -0300
+
+    py36
+
+commit 45bc70b38caa4148ab6ff3bbfc3e4b108cc32f18
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Oct 26 02:19:41 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit db17555a767ed225c3b302156e35d11cb512c95f
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Oct 26 02:18:15 2016 +0000
+
+    Re-render the feedstock after CI registration.
+
+commit abc12404c5baf15004a6b812f9286e185a8d8ecf
+Author: Travis-CI on github.com/conda-forge/staged-recipes <conda-forge@googlegroups.com>
+Date:   Wed Oct 26 02:16:15 2016 +0000
+
+    Initial commit of the networkx feedstock.

@@ -1,0 +1,13 @@
+site-packages/tblib-1.7.0.dist-info/AUTHORS.rst
+site-packages/tblib-1.7.0.dist-info/INSTALLER
+site-packages/tblib-1.7.0.dist-info/LICENSE
+site-packages/tblib-1.7.0.dist-info/METADATA
+site-packages/tblib-1.7.0.dist-info/RECORD
+site-packages/tblib-1.7.0.dist-info/REQUESTED
+site-packages/tblib-1.7.0.dist-info/WHEEL
+site-packages/tblib-1.7.0.dist-info/direct_url.json
+site-packages/tblib-1.7.0.dist-info/top_level.txt
+site-packages/tblib/__init__.py
+site-packages/tblib/cpython.py
+site-packages/tblib/decorators.py
+site-packages/tblib/pickling_support.py

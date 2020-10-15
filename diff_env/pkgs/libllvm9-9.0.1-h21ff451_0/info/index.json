@@ -1,0 +1,16 @@
+{
+  "arch": "x86_64",
+  "build": "h21ff451_0",
+  "build_number": 0,
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "license": "LLVM-Exception",
+  "license_family": "Apache",
+  "name": "libllvm9",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1585171818052,
+  "version": "9.0.1"
+}

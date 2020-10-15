@@ -1,0 +1,77 @@
+{% set version = "2.5" %}
+
+package:
+  name: networkx
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/n/networkx/networkx-{{ version }}.tar.gz
+  sha256: 7978955423fbc9639c10498878be59caf99b44dc304c2286162fd24b458c1602
+
+build:
+  number: 0
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
+
+requirements:
+  host:
+    - python >=3.6
+    - pip
+
+  run:
+    - python >=3.6
+    - setuptools
+    - decorator >=4.3.0
+
+test:
+  imports:
+    - networkx
+    - networkx.algorithms
+    - networkx.algorithms.approximation
+    - networkx.algorithms.assortativity
+    - networkx.algorithms.bipartite
+    - networkx.algorithms.centrality
+    - networkx.algorithms.chordal
+    - networkx.algorithms.coloring
+    - networkx.algorithms.community
+    - networkx.algorithms.components
+    - networkx.algorithms.connectivity
+    - networkx.algorithms.flow
+    - networkx.algorithms.isomorphism
+    - networkx.algorithms.link_analysis
+    - networkx.algorithms.node_classification
+    - networkx.algorithms.operators
+    - networkx.algorithms.shortest_paths
+    - networkx.algorithms.traversal
+    - networkx.algorithms.tree
+    - networkx.classes
+    - networkx.drawing
+    - networkx.generators
+    - networkx.linalg
+    - networkx.readwrite
+    - networkx.readwrite.json_graph
+    - networkx.utils
+  commands:
+    - pip check
+  requires:
+    - pip
+
+about:
+  home: https://networkx.github.io/
+  license: BSD-3-Clause
+  license_file: LICENSE.txt
+  license_family: BSD
+  summary: Python package for creating and manipulating complex networks
+  description: |
+    NetworkX is a Python language software package for the creation,
+    manipulation, and study of the structure, dynamics, and functions of complex
+    networks.
+  doc_url: http://networkx.github.io/documentation.html
+  dev_url: https://github.com/networkx/networkx
+  doc_source_url: https://github.com/networkx/networkx/blob/v1.11/doc/source/index.rst
+
+extra:
+  recipe-maintainers:
+    - synapticarbors
+    - ocefpaf
+    - SylvainCorlay

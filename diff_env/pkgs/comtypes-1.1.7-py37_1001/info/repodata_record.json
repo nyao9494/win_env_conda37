@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "py37_1001",
+  "build_number": 1001,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "comtypes-1.1.7-py37_1001.conda",
+  "legacy_bz2_md5": "2b604695de69e7cc121d295da1645961",
+  "license": "MIT",
+  "md5": "362e2d752426dc1530706a9e78de1d3e",
+  "name": "comtypes",
+  "platform": "win32",
+  "sha256": "f914d7cf041306338ee5d966acdeba89b3dada8f8af8901d139034e6bb4d42e4",
+  "size": 242553,
+  "subdir": "win-64",
+  "timestamp": 1591781100876,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/comtypes-1.1.7-py37_1001.conda",
+  "version": "1.1.7"
+}

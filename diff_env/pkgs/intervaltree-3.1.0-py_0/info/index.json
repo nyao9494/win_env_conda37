@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python",
+    "sortedcontainers"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "APACHE",
+  "name": "intervaltree",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1598376475639,
+  "version": "3.1.0"
+}

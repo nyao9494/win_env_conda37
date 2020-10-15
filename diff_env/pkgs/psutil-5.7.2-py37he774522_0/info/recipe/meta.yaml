@@ -1,0 +1,72 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00000sildk5\tmp\build\80754af9\rsync-recipes\psutil-5.7.2-python_3.7-on-winbuilder, last modified Tue Aug 25 08:41:58 2020
+# ------------------------------------------------
+
+package:
+    name: psutil
+    version: 5.7.2
+source:
+    fn: psutil-5.7.2.tar.gz
+    sha256: 90990af1c3c67195c44c9a889184f84f5b2320dce3ee3acbd054e3ba0b4a7beb
+    url: https://pypi.io/packages/source/p/psutil/psutil-5.7.2.tar.gz
+build:
+    number: '0'
+    script: python -m pip install --ignore-installed --no-deps .
+    string: py37he774522_0
+requirements:
+    build:
+        - vs2017_win-64 19.16.27032.1 hb4161e2_3
+        - vswhere 2.7.1 h21ff451_0
+    host:
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py37_0
+        - openssl 1.1.1g he774522_1
+        - pip 20.2.2 py37_0
+        - python 3.7.7 h81c818b_4
+        - setuptools 49.6.0 py37_0
+        - sqlite 3.33.0 h2a8f88b_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_3
+        - wheel 0.34.2 py37_0
+        - wincertstore 0.2 py37_0
+        - zlib 1.2.11 h62dcd97_4
+    run:
+        - python >=3.7,<3.8.0a0
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+    imports:
+        - psutil
+        - psutil._psutil_windows
+        - psutil.tests
+about:
+    description: 'psutil (process and system utilities) is a cross-platform library
+        for
+
+        retrieving information on running processes and system utilization (CPU,
+
+        memory, disks, network) in Python. It is useful mainly for system
+
+        monitoring, profiling and limiting process resources and management of
+
+        running processes.
+
+        '
+    dev_url: https://github.com/giampaolo/psutil
+    doc_source_url: https://github.com/giampaolo/psutil/blob/master/docs/index.rst
+    doc_url: http://pythonhosted.org/psutil/
+    home: https://github.com/giampaolo/psutil
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: A cross-platform process and system utilities module for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - gqmelo
+        - jakirkham
+        - jjhelmus
+        - nehaljwani
+        - pelson

@@ -1,0 +1,76 @@
+# This file created by conda-build 3.20.3
+# meta.yaml template originally from:
+# C:\ci\containers\00000iroict\tmp\build\80754af9\combined_recipe, last modified Thu Oct  8 11:35:08 2020
+# ------------------------------------------------
+
+package:
+    name: pytest
+    version: 6.1.1
+source:
+    sha256: 8f593023c1a0f916110285b6efd7f99db07d59546e3d8c36fc60e2ab05d3be92
+    url: https://pypi.io/packages/source/p/pytest/pytest-6.1.1.tar.gz
+build:
+    entry_points:
+        - py.test = py.test:main
+        - pytest = py.test:main
+    number: '0'
+    script: C:\\ci\\pytest_1602184509784\\_h_env\\python.exe setup.py install --single-version-externally-managed
+        --record record.txt
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2020.7.22 0
+        - certifi 2020.6.20 py37_0
+        - openssl 1.1.1h he774522_0
+        - pip 20.2.3 py37_0
+        - python 3.7.9 h60c2a47_0
+        - setuptools 50.3.0 py37h9490d1a_1
+        - setuptools-scm 4.1.2 py_0
+        - setuptools_scm 4.1.2 0
+        - sqlite 3.33.0 h2a8f88b_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_3
+        - wheel 0.35.1 py_0
+        - wincertstore 0.2 py37_0
+        - zlib 1.2.11 h62dcd97_4
+    run:
+        - atomicwrites >=1.0
+        - attrs >=17.4.0
+        - colorama
+        - importlib-metadata >=0.12
+        - iniconfig
+        - more-itertools >=4.0.0
+        - packaging
+        - pluggy >=0.12,<1.0
+        - py >=1.8.2
+        - python >=3.7,<3.8.0a0
+        - toml
+    run_constrained:
+        - pytest-faulthandler >=2
+test:
+    commands:
+        - pytest -h
+    imports:
+        - pytest
+about:
+    description: 'The pytest framework makes it easy to write small tests, yet scales
+        to
+
+        support complex functional testing for applications and libraries.
+
+        '
+    dev_url: https://github.com/pytest-dev/pytest/
+    doc_url: https://docs.pytest.org/en/latest/
+    home: https://docs.pytest.org/en/latest/
+    license: MIT
+    license_file: LICENSE
+    summary: Simple and powerful testing with Python.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - flub
+        - goanpeca
+        - mingwandroid
+        - nicoddemus
+        - ocefpaf

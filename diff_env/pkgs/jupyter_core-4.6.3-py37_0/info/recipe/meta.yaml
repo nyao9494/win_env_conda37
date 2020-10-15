@@ -1,0 +1,69 @@
+# This file created by conda-build 3.18.11
+# meta.yaml template originally from:
+# C:\ci\containers\00001n7c3lq\tmp\build\80754af9\rsync-recipes\jupyter_core-4.6.3-python_3.7-on-winbuilder, last modified Tue Mar 31 09:55:26 2020
+# ------------------------------------------------
+
+package:
+    name: jupyter_core
+    version: 4.6.3
+source:
+    sha256: 394fd5dd787e7c8861741880bdf8a00ce39f95de5d18e579c74b882522219e7e
+    url: https://pypi.io/packages/source/j/jupyter_core/jupyter_core-4.6.3.tar.gz
+build:
+    entry_points:
+        - jupyter = jupyter_core.command:main
+        - jupyter-migrate = jupyter_core.migrate:main
+        - jupyter-troubleshoot = jupyter_core.troubleshoot:main
+    number: '0'
+    script: C:\\ci\\jupyter_core_1585645280999\\_h_env\\python.exe -m pip install
+        . --no-deps -vv
+    string: py37_0
+requirements:
+    host:
+        - ca-certificates 2020.1.1 0
+        - certifi 2019.11.28 py37_1
+        - openssl 1.1.1e he774522_0
+        - pip 20.0.2 py37_1
+        - python 3.7.7 h60c2a47_0_cpython
+        - setuptools 46.1.3 py37_0
+        - setuptools_scm 3.4.3 py_0
+        - sqlite 3.31.1 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_1
+        - wheel 0.34.2 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+        - pywin32 >=1.0
+        - traitlets
+test:
+    commands:
+        - jupyter -h
+        - jupyter-migrate -h
+        - jupyter-troubleshoot --help
+        - pip check
+    imports:
+        - jupyter_core
+    requires:
+        - nose
+        - pip
+        - pytest
+about:
+    dev_url: https://github.com/jupyter/jupyter_core
+    doc_source_url: https://github.com/jupyter/jupyter_core/tree/master/docs
+    doc_url: https://jupyter-core.readthedocs.io
+    home: https://jupyter.org
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: COPYING.md
+    summary: Core common functionality of Jupyter projects.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - Carreau
+        - bollwyvl
+        - jakirkham
+        - minrk
+        - ocefpaf
+        - pelson

@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "h7edee0f_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "mpfr >=4.0.2,<5.0a0",
+    "mpir",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "mpc-1.1.0-h7edee0f_1.conda",
+  "legacy_bz2_md5": "b1f4a2141e12612249b8089819955455",
+  "license": "LGPL-3-or-later",
+  "md5": "28e63ce0fc73626eacf9aaabc85e3215",
+  "name": "mpc",
+  "platform": "win32",
+  "sha256": "4b6bdc2959b2e677ab88ee1e9f5fc3bd7215d0a9512c25fabd51b2e694b4402d",
+  "size": 266142,
+  "subdir": "win-64",
+  "timestamp": 1593196545234,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/mpc-1.1.0-h7edee0f_1.conda",
+  "version": "1.1.0"
+}

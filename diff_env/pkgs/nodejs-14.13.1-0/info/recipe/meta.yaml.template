@@ -1,0 +1,72 @@
+{% set version = "14.13.1" %}
+
+# NODE_MODULE_VERSION set in src/node_version.h
+{% set NODE_MODULE_VERSION = 83 %}
+
+package:
+  name: nodejs
+  version: {{ version }}
+
+source:
+  fn: node-v{{ version }}.tar.gz
+  url: https://nodejs.org/dist/v{{ version }}/node-v{{ version }}.tar.gz  # [not win]
+  sha256: f0080d3284ea1585e255a3f459ce151e8106a33f4ce8bed0da15ff99c6a082a5  # [not win]
+  url: https://nodejs.org/dist/v{{ version }}/node-v{{ version }}-win-x64.zip  # [win]
+  sha256: a9d590f54a8e384c250e1c40f291b7367e1fdabfed4e9112eece0f8bec97609e  # [win]
+  patches:
+    - linux-librt.patch  # [not win]
+    - cinttypes.patch  # [linux]
+    - linux-install.patch  # [linux]
+
+build:
+  number: 0
+  # Prefix replacement breaks in the binary embedded configurations.
+  detect_binary_files_with_prefix: false
+
+requirements:
+  build:
+    - {{ compiler('c') }}  # [not win]
+    - {{ compiler('cxx') }}  # [not win]
+    - python 3.7  # [not win]
+    - git  # [linux]
+    - ninja  # [not win]
+    - pkg-config  # [not win]
+  host:
+    - vs2015_runtime  # [win]
+    - icu >=65  # [not win]
+    - libuv >=1.33  # [not win]
+    - openssl  >=1.1.1d  # [not win]
+    - zlib  # [not win]
+  run:
+    - vs2015_runtime  # [win]
+    - icu  # [not win]
+    - libuv  # [not win]
+    - openssl  # [not win]
+    - zlib  # [not win]
+  run_constrained:   # [osx]
+    - __osx >={{ MACOSX_DEPLOYMENT_TARGET|default("10.9") }}  # [osx]
+
+test:
+  commands:
+    - node -h
+    - node -v
+    - npm version
+    - npm install -h
+    - npm config get prefix -g
+    - test $(echo "console.log(1 + 3)" | node) == 4  # [not win]
+    - test -f $PREFIX/lib/libnode.{{ NODE_MODULE_VERSION }}.dylib  # [osx]
+    - test -f $PREFIX/lib/libnode.so.{{ NODE_MODULE_VERSION }}  # [linux]
+
+about:
+  home: https://nodejs.org/
+  license: MIT
+  license_file: LICENSE
+  summary: a platform for easily building fast, scalable network applications
+
+extra:
+  recipe-maintainers:
+    - minrk
+    - msarahan
+    - pelson
+    - blink1073
+    - xhochy

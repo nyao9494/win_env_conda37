@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "h74a9793_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "tbb-2020.3-h74a9793_0.conda",
+  "legacy_bz2_md5": "dc23d8009bc43aa070e959b4b80be25d",
+  "license": "Apache-2.0",
+  "md5": "2e17bad57fba31dfbe968a60772ba1a5",
+  "name": "tbb",
+  "platform": "win32",
+  "sha256": "ec3e980eb950e664153ffc5732bb933c0cea1948232d71c44427205e563e7cb0",
+  "size": 160252,
+  "subdir": "win-64",
+  "timestamp": 1600548031952,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/tbb-2020.3-h74a9793_0.conda",
+  "version": "2020.3"
+}

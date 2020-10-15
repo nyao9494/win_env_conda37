@@ -1,0 +1,41 @@
+# This file created by conda-build 3.18.5
+# meta.yaml template originally from:
+# C:\Users\jhelmus\workspace\anaconda_depends_metapackage\anaconda_custom_recipe, last modified Wed Jul  3 12:40:20 2019
+# ------------------------------------------------
+
+package:
+    name: anaconda
+    version: custom
+build:
+    number: '1'
+    string: py37_1
+requirements:
+    host:
+        - ca-certificates 2019.5.15 0
+        - certifi 2019.6.16 py37_0
+        - openssl 1.1.1c he774522_1
+        - pip 19.1.1 py37_0
+        - python 3.7.3 h8c8aaf0_1
+        - setuptools 41.0.1 py37_0
+        - sqlite 3.28.0 he774522_0
+        - vc 14.1 h21ff451_4
+        - vs2015_runtime 14.15.26706 h3a45250_1
+        - wheel 0.33.4 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - _anaconda_depends
+        - python >=3.7,<3.8.0a0
+about:
+    description: 'Anaconda is a Python distribution which includes over 400
+
+        Python packages for science, math, engineering, and data analysis.
+
+        '
+    dev_url: https://github.com/ContinuumIO/anaconda
+    doc_url: https://docs.anaconda.com/anaconda
+    home: https://www.anaconda.com/distribution
+    license: BSD
+    summary: Simplifies package management and deployment of Anaconda
+extra:
+    copy_test_source_files: true
+    final: true

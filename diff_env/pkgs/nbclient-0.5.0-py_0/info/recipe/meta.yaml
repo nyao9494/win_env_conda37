@@ -1,0 +1,71 @@
+# This file created by conda-build 3.20.2
+# meta.yaml template originally from:
+# /tmp/build/80754af9/rsync-recipes/nbclient-0.5.0-on-linux_64, last modified Thu Sep 24 19:46:36 2020
+# ------------------------------------------------
+
+package:
+    name: nbclient
+    version: 0.5.0
+source:
+    sha256: 8ad52d27ba144fca1402db014857e53c5a864a2f407be66ca9d74c3a56d6591d
+    url: https://pypi.io/packages/source/n/nbclient/nbclient-0.5.0.tar.gz
+build:
+    noarch: python
+    number: '0'
+    script: /tmp/build/80754af9/nbclient_1601059699549/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+        -m pip install . -vv
+    string: py_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.7.22 0
+        - certifi 2020.6.20 py38_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20191231 h14c3975_1
+        - libffi 3.3 he6710b0_2
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1h h7b6447c_0
+        - pip 20.2.2 py38_0
+        - python 3.8.5 h7579374_1
+        - readline 8.0 h7b6447c_0
+        - setuptools 49.6.0 py38_0
+        - sqlite 3.33.0 h62c20be_0
+        - tk 8.6.10 hbc83047_0
+        - wheel 0.35.1 py_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - async_generator
+        - jupyter_client >=6.1.5
+        - nbformat >=5.0
+        - nest-asyncio
+        - python >=3.6
+        - traitlets >=4.2
+test:
+    imports:
+        - nbclient
+about:
+    description: 'NBClient is a tool for parameterizing and executing Jupyter Notebooks.
+
+        NBClient lets you execute notebooks. Similar in nature to jupyter_client,
+        as the jupyter_client
+
+        is to the jupyter protocol nbclient is to notebooks allowing for execution
+        contexts to be run.
+
+        '
+    dev_url: https://github.com/jupyter/nbclient
+    doc_source_url: https://github.com/jupyter/nbclient/tree/master/docs
+    doc_url: https://nbclient.readthedocs.io
+    home: https://jupyter.org
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: A client library for executing notebooks. Formally nbconvert's ExecutePreprocessor.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - davidbrochart

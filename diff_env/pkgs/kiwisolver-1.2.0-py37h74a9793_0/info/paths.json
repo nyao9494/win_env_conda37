@@ -1,0 +1,47 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/kiwisolver-1.2.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "Lib/site-packages/kiwisolver-1.2.0.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "26da8d49744796f2601fb5fe9e5d8b9e8102064ca60a8dc1825b6177cb05450c",
+      "size_in_bytes": 3279
+    },
+    {
+      "_path": "Lib/site-packages/kiwisolver-1.2.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "189ae14aa277ee028a59df65a8fba5b46de670fd35df129e1cb0fb432179cf83",
+      "size_in_bytes": 1718
+    },
+    {
+      "_path": "Lib/site-packages/kiwisolver-1.2.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "18fc53e0658b6200f81bca871a2f6fae1360c23fa4939edabde65beec2f98942",
+      "size_in_bytes": 587
+    },
+    {
+      "_path": "Lib/site-packages/kiwisolver-1.2.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "83c7a8727efb57f897c6af6569420f4aec5dc111e584eb07ded2e9bb5b8a52f4",
+      "size_in_bytes": 106
+    },
+    {
+      "_path": "Lib/site-packages/kiwisolver-1.2.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "c6ac168fba121e5a488dcc3640c25bf29b9314f7630c13bbf00669f608d387d7",
+      "size_in_bytes": 11
+    },
+    {
+      "_path": "Lib/site-packages/kiwisolver.cp37-win_amd64.pyd",
+      "path_type": "hardlink",
+      "sha256": "75f68a255b6d86542551233a9a8f093fea4d7882bc72e475cabbbdcfc5b348aa",
+      "size_in_bytes": 123904
+    }
+  ],
+  "paths_version": 1
+}

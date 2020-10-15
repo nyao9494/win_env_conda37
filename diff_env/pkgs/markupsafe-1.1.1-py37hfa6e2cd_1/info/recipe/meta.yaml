@@ -1,0 +1,64 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00002uigonf\tmp\build\80754af9\pull-recipes-markupsafe\recipe, last modified Fri Jul 10 03:57:37 2020
+# ------------------------------------------------
+
+package:
+    name: markupsafe
+    version: 1.1.1
+source:
+    sha256: 29872e92839765e546828bb7754a68c418d927cd064fd4708fab9fe9c8bb116b
+    url: https://pypi.io/packages/source/M/MarkupSafe/MarkupSafe-1.1.1.tar.gz
+build:
+    number: '1'
+    script: C:\ci\markupsafe_1594405949945\_h_env\python.exe -m pip install . --no-deps
+        -vv
+    string: py37hfa6e2cd_1
+requirements:
+    build:
+        - vs2015_win-64 14.0.25420 h55c1224_11
+    host:
+        - ca-certificates 2020.6.24 0
+        - certifi 2020.6.20 py37_0
+        - openssl 1.1.1g he774522_0
+        - pip 20.1.1 py37_1
+        - python 3.7.7 h81c818b_4
+        - setuptools 47.3.1 py37_0
+        - sqlite 3.32.3 h2a8f88b_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_3
+        - wheel 0.34.2 py37_0
+        - wincertstore 0.2 py37_0
+        - zlib 1.2.11 h62dcd97_4
+    run:
+        - python >=3.7,<3.8.0a0
+        - vc >=14,<15.0a0
+test:
+    imports:
+        - markupsafe
+about:
+    description: 'MarkupSafe is a library for Python that implements a unicode string
+        that
+
+        is aware of HTML escaping rules and can be used to implement automatic
+
+        string escaping. It is used by Jinja 2, the Mako templating engine, the
+
+        Pylons web framework and many more.
+
+        '
+    dev_url: https://github.com/pallets/markupsafe
+    doc_source_url: https://github.com/pallets/markupsafe/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/MarkupSafe
+    home: https://www.palletsprojects.com/p/markupsafe
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE.rst
+    summary: A Python module that implements the jinja2.Markup string
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ocefpaf
+        - pelson
+        - scopatz

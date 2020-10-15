@@ -1,0 +1,67 @@
+# This file created by conda-build 3.17.8
+# meta.yaml template originally from:
+# C:\ci\containers\00001nv17hk\tmp\build\80754af9\rsync-recipes\typed-ast-1.4.1-python_3.7-on-winbuilder, last modified Mon Jan 27 19:26:47 2020
+# ------------------------------------------------
+
+package:
+    name: typed-ast
+    version: 1.4.1
+source:
+    sha256: 8c8aaad94455178e3187ab22c8b01a3837f8ee50e09cf31f1ba129eb293ec30b
+    url: https://pypi.io/packages/source/t/typed_ast/typed_ast-1.4.1.tar.gz
+build:
+    number: '0'
+    script: C:\ci\typed-ast_1580153408237\_h_env\python.exe -m pip install . --no-deps
+        -vv
+    string: py37he774522_0
+requirements:
+    build:
+        - vs2017_win-64 19.16.27032.1 hb8d98e7_1
+        - vswhere 2.7.1 h21ff451_0
+    host:
+        - ca-certificates 2019.11.27 0
+        - certifi 2019.11.28 py37_0
+        - openssl 1.1.1d he774522_3
+        - pip 19.3.1 py37_0
+        - python 3.7.6 h60c2a47_2
+        - setuptools 44.0.0 py37_0
+        - sqlite 3.30.1 he774522_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_1
+        - wheel 0.33.6 py37_0
+        - wincertstore 0.2 py37_0
+    run:
+        - python >=3.7,<3.8.0a0
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012,<15.0a0
+test:
+    imports:
+        - typed_ast
+about:
+    description: 'typed_ast is a Python 3 package that provides a Python 2.7 and Python
+        3
+
+        parser similar to the standard ast library. Unlike ast, the parsers in
+
+        typed_ast include PEP 484 type comments and are independent of the version
+
+        of Python under which they are run. The typed_ast parsers produce the
+
+        standard Python AST (plus type comments), and are both fast and correct, as
+
+        they are based on the CPython 2.7 and 3.6 parsers.
+
+        '
+    dev_url: https://github.com/python/typed_ast
+    doc_url: https://github.com/python/typed_ast/blob/master/README.md
+    home: https://github.com/python/typed_ast
+    license: Apache 2.0
+    license_family: Apache
+    license_file: LICENSE
+    summary: a fork of Python 2 and 3 ast modules with type comment support
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - nehaljwani
+        - ocefpaf

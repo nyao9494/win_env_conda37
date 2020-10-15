@@ -1,0 +1,58 @@
+# This file created by conda-build 3.15.1
+# meta.yaml template originally from:
+# C:\projects\jupyter-highlight-selected-word-feedstock\recipe, last modified Sat Oct  6 06:13:27 2018
+# ------------------------------------------------
+
+package:
+    name: jupyter_highlight_selected_word
+    version: 0.2.0
+source:
+    sha256: 9fa740424859a807950ca08d2bfd28a35154cd32dd6d50ac4e0950022adc0e7b
+    url: https://pypi.io/packages/source/j/jupyter_highlight_selected_word/jupyter_highlight_selected_word-0.2.0.tar.gz
+build:
+    number: '1000'
+    script: C:\bld\jupyter_highlight_selected_word_1538806536765\_h_env\python.exe
+        -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv
+    string: py37_1000
+requirements:
+    host:
+        - certifi 2018.8.24 py37_1001
+        - pip 18.0 py37_1001
+        - python 3.7.0 hc182675_1004
+        - setuptools 40.4.3 py37_0
+        - vc 14 0
+        - vs2015_runtime 14.0.25420 0
+        - wheel 0.32.1 py37_0
+        - wincertstore 0.2 py37_1002
+    run:
+        - jupyter_contrib_core >=0.3
+        - notebook >=4.0
+        - python >=3.7,<3.8.0a0
+        - setuptools
+test:
+    imports:
+        - jupyter_highlight_selected_word
+about:
+    home: https://github.com/jcb91/jupyter_highlight_selected_word
+    license: BSD-3-Clause
+    license_file: LICENSE.txt
+    summary: 'Jupyter notebook extension that enables highlighting of all instances
+        of
+
+        the currently-selected or cursor-adjecent word in either the current cell''s
+
+        editor, or in the whole notebook.
+
+        Based on the  CodeMirror addon
+
+        https://codemirror.net/demo/matchhighlighter.html
+
+        extended to work across multiple editors.
+
+        '
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jcb91
+        - ocefpaf

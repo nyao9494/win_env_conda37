@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "python >=3.6,<4.0",
+    "setuptools"
+  ],
+  "license": "MIT",
+  "name": "isort",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1602604024192,
+  "version": "5.6.4"
+}

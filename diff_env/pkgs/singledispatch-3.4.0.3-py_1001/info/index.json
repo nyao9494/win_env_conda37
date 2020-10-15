@@ -1,0 +1,16 @@
+{
+  "arch": null,
+  "build": "py_1001",
+  "build_number": 1001,
+  "depends": [
+    "python",
+    "six"
+  ],
+  "license": "MIT",
+  "name": "singledispatch",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1602523735659,
+  "version": "3.4.0.3"
+}

@@ -1,0 +1,26 @@
+{
+  "build": "pyhb0f4dca_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.6",
+    "soupsieve >=1.2"
+  ],
+  "features": "",
+  "fn": "beautifulsoup4-4.9.3-pyhb0f4dca_0.conda",
+  "legacy_bz2_md5": "bc50cdbb40dda0c7d5d6fe8b4ba02e9c",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "ad1d06598a9f6695cf375736c88e02d3",
+  "name": "beautifulsoup4",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "cfd74330befbd2d6056e1e7d3e4020e1ae968fec801897ec988cce201cb3ca07",
+  "size": 93188,
+  "subdir": "noarch",
+  "timestamp": 1601924142713,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/beautifulsoup4-4.9.3-pyhb0f4dca_0.conda",
+  "version": "4.9.3"
+}

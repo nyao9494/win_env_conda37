@@ -1,0 +1,46 @@
+{% set version = "0.17.0" %}
+
+package:
+  name: joblib
+  version: {{ version }}
+
+source:
+  url: https://github.com/joblib/joblib/archive/{{ version }}.tar.gz
+  sha256: 6dd8d75808624ac60434a3c6de4623dc49e4f9f3332501b467c36b0fbfdd54c9
+
+build:
+  number: 0
+  noarch: python
+  script: {{ PYTHON }} -m pip install . -vv
+
+requirements:
+  host:
+    - python >=3.6
+    - pip
+  run:
+    - python >=3.6
+    - setuptools
+
+test:
+  requires:
+    - pip
+  commands:
+    - pip check
+  imports:
+    - joblib
+    - joblib.externals
+
+about:
+  home: https://pypi.org/project/joblib/
+  summary: 'Lightweight pipelining: using Python functions as pipeline jobs.'
+  license: BSD-3-Clause
+  license_file: LICENSE.txt
+
+extra:
+  recipe-maintainers:
+    - ocefpaf
+    - jakirkham
+    - ogrisel
+    - lesteve
+    - tomMoral
+    - pierreglaser

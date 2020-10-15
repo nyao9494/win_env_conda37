@@ -1,0 +1,40 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "openssl !=1.1.1e"
+  ],
+  "depends": [
+    "click >=6.6",
+    "cloudpickle >=1.5.0",
+    "cytoolz >=0.8.2",
+    "dask-core >=2.9.0",
+    "msgpack-python >=0.6.0",
+    "psutil >=5.0",
+    "python >=3.7,<3.8.0a0",
+    "pyyaml",
+    "setuptools",
+    "sortedcontainers !=2.0.0,!=2.0.1",
+    "tblib >=1.6.0",
+    "toolz >=0.8.2",
+    "tornado >=5",
+    "zict >=0.1.3"
+  ],
+  "features": "",
+  "fn": "distributed-2.30.0-py37_0.conda",
+  "legacy_bz2_md5": "759f49526225275849fec4fc0a7d8cc8",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "599f8958ad242a064a325ec0abeef198",
+  "name": "distributed",
+  "platform": "win32",
+  "sha256": "d661dd65916b60ecc99016ee6b260c8fc83d7a413a92154aa7ccc10dd2f9d240",
+  "size": 1051243,
+  "subdir": "win-64",
+  "timestamp": 1602065923888,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/distributed-2.30.0-py37_0.conda",
+  "version": "2.30.0"
+}

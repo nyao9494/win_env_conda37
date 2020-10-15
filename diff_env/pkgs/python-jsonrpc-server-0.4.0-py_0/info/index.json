@@ -1,0 +1,18 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "future",
+    "python",
+    "ujson >=3.0.0"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "python-jsonrpc-server",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1600278565894,
+  "version": "0.4.0"
+}

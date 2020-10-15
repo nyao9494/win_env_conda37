@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+      "size_in_bytes": 4
+    },
+    {
+      "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/LICENSE.rst",
+      "path_type": "hardlink",
+      "sha256": "f8e02f1a07e4c6fc59a4bee831ddde26b97064105c423b9e24340f35aaa80262",
+      "size_in_bytes": 1152
+    },
+    {
+      "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "471ed8d237e02893cc8b4746a1336ade6f7dae1bab5bb4daf78038ae8e928ac9",
+      "size_in_bytes": 3301
+    },
+    {
+      "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "006d9c2743791a7959b833014ab8054a54f2678577cc405f01650221fd2c09de",
+      "size_in_bytes": 712
+    },
+    {
+      "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "e93dd36191386058b61d34b505e647357022f0de763994f83be749ebea267bfe",
+      "size_in_bytes": 116
+    },
+    {
+      "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "7077c7ab77dc58923bdfb99e8b7a1e35f8f478d7fa3d71a2a0e53dae43d97e45",
+      "size_in_bytes": 68
+    },
+    {
+      "_path": "Lib/site-packages/pathlib2-2.3.5.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "b4d3e48ac16218116c3d49c220783adaf485964c7fd4d3bce8877c95b2667c54",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "Lib/site-packages/pathlib2/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "3417eee7069ca6cd72d58b655d548f27c15b1385ad217b9cae9e6e39834e3be5",
+      "size_in_bytes": 59133
+    },
+    {
+      "_path": "Lib/site-packages/pathlib2/__pycache__/__init__.cpython-37.pyc",
+      "path_type": "hardlink",
+      "sha256": "a09bbd039c10a027e6bb09e859c5dc0b94c3081031915e080be51a831e046130",
+      "size_in_bytes": 49390
+    }
+  ],
+  "paths_version": 1
+}

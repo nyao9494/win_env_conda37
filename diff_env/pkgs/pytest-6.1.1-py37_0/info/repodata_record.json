@@ -1,0 +1,36 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [
+    "pytest-faulthandler >=2"
+  ],
+  "depends": [
+    "atomicwrites >=1.0",
+    "attrs >=17.4.0",
+    "colorama",
+    "importlib-metadata >=0.12",
+    "iniconfig",
+    "more-itertools >=4.0.0",
+    "packaging",
+    "pluggy >=0.12,<1.0",
+    "py >=1.8.2",
+    "python >=3.7,<3.8.0a0",
+    "toml"
+  ],
+  "features": "",
+  "fn": "pytest-6.1.1-py37_0.conda",
+  "legacy_bz2_md5": "6d51f00a10db6e1da79c0a2c993d0761",
+  "license": "MIT",
+  "md5": "c16ef1153b67c42121fbd02d123e06df",
+  "name": "pytest",
+  "platform": "win32",
+  "sha256": "879e79f2b6517203eb18ad2927ca897fa54a91018670df3c6bbda3e1351d2fe4",
+  "size": 435647,
+  "subdir": "win-64",
+  "timestamp": 1602184582744,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pytest-6.1.1-py37_0.conda",
+  "version": "6.1.1"
+}

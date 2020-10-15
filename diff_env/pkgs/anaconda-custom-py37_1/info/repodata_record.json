@@ -1,0 +1,25 @@
+{
+  "arch": "x86_64",
+  "build": "py37_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "_anaconda_depends",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "anaconda-custom-py37_1.conda",
+  "legacy_bz2_md5": "d3b21239d59d8898feffee8ba70fee41",
+  "license": "BSD",
+  "md5": "2f0be67f667c99593841f15933f97a5d",
+  "name": "anaconda",
+  "platform": "win32",
+  "sha256": "602bd4a48f490ae057678159ddd9652df32d26a6fecd21e457c670c5b270c122",
+  "size": 2739,
+  "subdir": "win-64",
+  "timestamp": 1562176302660,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/anaconda-custom-py37_1.conda",
+  "version": "custom"
+}

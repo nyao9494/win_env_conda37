@@ -1,0 +1,61 @@
+# This file created by conda-build 3.20.3
+# meta.yaml template originally from:
+# /tmp/build/80754af9/combined_recipe, last modified Mon Oct 12 17:27:59 2020
+# ------------------------------------------------
+
+package:
+    name: singledispatch
+    version: 3.4.0.3
+source:
+    sha256: 5b06af87df13818d14f08a028e42f566640aef80805c3b50c5056b086e3c2b9c
+    url: https://pypi.io/packages/source/s/singledispatch/singledispatch-3.4.0.3.tar.gz
+build:
+    noarch: python
+    number: '1001'
+    script: /tmp/build/80754af9/singledispatch_1602523705405/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold/bin/python
+        -m pip install . -vv
+    string: py_1001
+requirements:
+    host:
+        - _libgcc_mutex 0.1 main
+        - ca-certificates 2020.7.22 0
+        - certifi 2020.6.20 py36_0
+        - ld_impl_linux-64 2.33.1 h53a641e_7
+        - libedit 3.1.20191231 h14c3975_1
+        - libffi 3.3 he6710b0_2
+        - libgcc-ng 9.1.0 hdf63c60_0
+        - libstdcxx-ng 9.1.0 hdf63c60_0
+        - ncurses 6.2 he6710b0_1
+        - openssl 1.1.1h h7b6447c_0
+        - pip 20.2.3 py36_0
+        - python 3.6.12 hcff3b4d_2
+        - readline 8.0 h7b6447c_0
+        - setuptools 50.3.0 py36hb0f4dca_1
+        - sqlite 3.33.0 h62c20be_0
+        - tk 8.6.10 hbc83047_0
+        - wheel 0.35.1 py_0
+        - xz 5.2.5 h7b6447c_0
+        - zlib 1.2.11 h7b6447c_3
+    run:
+        - python
+        - six
+test:
+    imports:
+        - singledispatch
+about:
+    description: 'This library brings functools.singledispatch from Python 3.4 to
+        Python
+
+        2.6-3.3.
+
+        '
+    doc_source_url: https://github.com/ambv/singledispatch/blob/master/README.rst
+    doc_url: http://docs.python.org/3/library/functools.html#functools.singledispatch
+    home: http://docs.python.org/3/library/functools.html#functools.singledispatch
+    license: MIT
+    summary: Transforms a function into a single-dispatch generic function
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham

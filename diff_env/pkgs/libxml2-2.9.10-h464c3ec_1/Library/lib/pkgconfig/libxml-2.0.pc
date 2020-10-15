@@ -1,0 +1,11 @@
+prefix=C:/ci/libxml2_1591964033607/_h_env/Library 
+exec_prefix=C:/ci/libxml2_1591964033607/_h_env/Library 
+libdir=C:/ci/libxml2_1591964033607/_h_env/Library/lib 
+includedir=C:/ci/libxml2_1591964033607/_h_env/Library/include 
+modules=0 
+Name: libXML 
+Version: 2.9.10 
+Description: libXML library version2. 
+Requires: 
+Libs: -LC:/ci/libxml2_1591964033607/_h_env/Library/lib -lxml2 -liconv -lz 
+Cflags: -IC:/ci/libxml2_1591964033607/_h_env/Library/include/libxml 

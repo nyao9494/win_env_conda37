@@ -1,0 +1,25 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "python >=3.5",
+    "snowballstemmer"
+  ],
+  "features": "",
+  "fn": "pydocstyle-5.1.1-py_0.conda",
+  "legacy_bz2_md5": "abf9d2b54c3170f69cb55ab589ad9e19",
+  "license": "MIT",
+  "md5": "85ab549f2e5686b48a67683f7f429750",
+  "name": "pydocstyle",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "72775e0961441d7f7625392f31f0ad37d14438836e26c2e96175b0bc57368bcc",
+  "size": 38563,
+  "subdir": "noarch",
+  "timestamp": 1598885037779,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/pydocstyle-5.1.1-py_0.conda",
+  "version": "5.1.1"
+}

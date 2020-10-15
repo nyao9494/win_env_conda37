@@ -1,0 +1,26 @@
+{
+  "arch": "x86_64",
+  "build": "py37hfa6e2cd_1001",
+  "build_number": 1001,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "vc >=14,<15.0a0"
+  ],
+  "features": "",
+  "fn": "mistune-0.8.4-py37hfa6e2cd_1001.conda",
+  "legacy_bz2_md5": "2013749bf8d7a133c49cc03eb35b2ba9",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "4b66ab9ed38bde049550d158b24159d5",
+  "name": "mistune",
+  "platform": "win32",
+  "sha256": "728349b1ea3781f1047f6fdd747b65a4e3471a53ec0b88a8ab4fed38b4c96edd",
+  "size": 56139,
+  "subdir": "win-64",
+  "timestamp": 1594373341572,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/mistune-0.8.4-py37hfa6e2cd_1001.conda",
+  "version": "0.8.4"
+}

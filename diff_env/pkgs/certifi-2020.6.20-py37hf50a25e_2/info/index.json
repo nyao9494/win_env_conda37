@@ -1,0 +1,15 @@
+{
+  "arch": "x86_64",
+  "build": "py37hf50a25e_2",
+  "build_number": 2,
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m"
+  ],
+  "license": "ISC",
+  "name": "certifi",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1602222227420,
+  "version": "2020.6.20"
+}

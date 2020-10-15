@@ -1,0 +1,151 @@
+{
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "importlib_metadata >=0.5",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "C:\\Users\\M151325\\Anaconda37\\pkgs\\path-15.0.0-py37_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/path-15.0.0.dist-info/INSTALLER",
+    "Lib/site-packages/path-15.0.0.dist-info/LICENSE",
+    "Lib/site-packages/path-15.0.0.dist-info/METADATA",
+    "Lib/site-packages/path-15.0.0.dist-info/RECORD",
+    "Lib/site-packages/path-15.0.0.dist-info/REQUESTED",
+    "Lib/site-packages/path-15.0.0.dist-info/WHEEL",
+    "Lib/site-packages/path-15.0.0.dist-info/direct_url.json",
+    "Lib/site-packages/path-15.0.0.dist-info/top_level.txt",
+    "Lib/site-packages/path/__init__.py",
+    "Lib/site-packages/path/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/path/__pycache__/matchers.cpython-37.pyc",
+    "Lib/site-packages/path/__pycache__/py37compat.cpython-37.pyc",
+    "Lib/site-packages/path/matchers.py",
+    "Lib/site-packages/path/py37compat.py",
+    ".nonadmin"
+  ],
+  "fn": "path-15.0.0-py37_0.conda",
+  "legacy_bz2_md5": "a5e8c218f52a527fcbccc564a93bcdad",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\M151325\\Anaconda37\\pkgs\\path-15.0.0-py37_0",
+    "type": 1
+  },
+  "md5": "7414ce3f2e773ad4a1225cd5dc0f6cfa",
+  "name": "path",
+  "package_tarball_full_path": "C:\\Users\\M151325\\Anaconda37\\pkgs\\path-15.0.0-py37_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/path-15.0.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "sha256_in_prefix": "ceebae7b8927a3227e5303cf5e0f1f7b34bb542ad7250ac03fbcde36ec2f1508",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "Lib/site-packages/path-15.0.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8",
+        "sha256_in_prefix": "db3f0246b1f9278f15845b99fec478b8b506eb76487993722f8c6e254285faf8",
+        "size_in_bytes": 1050
+      },
+      {
+        "_path": "Lib/site-packages/path-15.0.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3e0f714361f68cfae75d4a40158422166a3bd3a1887287794486389a4b821229",
+        "sha256_in_prefix": "3e0f714361f68cfae75d4a40158422166a3bd3a1887287794486389a4b821229",
+        "size_in_bytes": 6896
+      },
+      {
+        "_path": "Lib/site-packages/path-15.0.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "aa2baf5f3177fe561117a35082ac5b5cf6b7df494e10e40d8c2c9b56f9272c45",
+        "sha256_in_prefix": "aa2baf5f3177fe561117a35082ac5b5cf6b7df494e10e40d8c2c9b56f9272c45",
+        "size_in_bytes": 1004
+      },
+      {
+        "_path": "Lib/site-packages/path-15.0.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/path-15.0.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "61463343a510768ab15e38a63a2b53ab29e5b410a4c18eaa9537d3876233a905",
+        "sha256_in_prefix": "61463343a510768ab15e38a63a2b53ab29e5b410a4c18eaa9537d3876233a905",
+        "size_in_bytes": 97
+      },
+      {
+        "_path": "Lib/site-packages/path-15.0.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ac36b00911627d341e9f986436febbeff2d70e64470d3d93ae2ba8a77a7e0921",
+        "sha256_in_prefix": "ac36b00911627d341e9f986436febbeff2d70e64470d3d93ae2ba8a77a7e0921",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "Lib/site-packages/path-15.0.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "d8a68357f40705851032b610c2e1e753596c9370b7b2f459ae2d26c399475e2d",
+        "sha256_in_prefix": "d8a68357f40705851032b610c2e1e753596c9370b7b2f459ae2d26c399475e2d",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/path/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "82b8ec2314cbbc4dd84a0df14164b6b6cb7eae31bd999af653e161c3ae40cc91",
+        "sha256_in_prefix": "82b8ec2314cbbc4dd84a0df14164b6b6cb7eae31bd999af653e161c3ae40cc91",
+        "size_in_bytes": 52882
+      },
+      {
+        "_path": "Lib/site-packages/path/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "5713d9af430b9910c74a9be3bff236a0b29619579ce17a2b964fde1ec750d47e",
+        "sha256_in_prefix": "5713d9af430b9910c74a9be3bff236a0b29619579ce17a2b964fde1ec750d47e",
+        "size_in_bytes": 55251
+      },
+      {
+        "_path": "Lib/site-packages/path/__pycache__/matchers.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "0c8606b2400dc868a2c7ef6fc6ae50d524f2dd3b3761e14410fbae1d8a9de561",
+        "sha256_in_prefix": "0c8606b2400dc868a2c7ef6fc6ae50d524f2dd3b3761e14410fbae1d8a9de561",
+        "size_in_bytes": 2092
+      },
+      {
+        "_path": "Lib/site-packages/path/__pycache__/py37compat.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "2a8a6c6540474a75a416a0724039c0943b23f4029f698804aab6a413317a7a06",
+        "sha256_in_prefix": "2a8a6c6540474a75a416a0724039c0943b23f4029f698804aab6a413317a7a06",
+        "size_in_bytes": 1953
+      },
+      {
+        "_path": "Lib/site-packages/path/matchers.py",
+        "path_type": "hardlink",
+        "sha256": "80e77143acd4f68700f9ae6d45683ea394e495e2a2ff1f858e6cdd83ed4ff80a",
+        "sha256_in_prefix": "80e77143acd4f68700f9ae6d45683ea394e495e2a2ff1f858e6cdd83ed4ff80a",
+        "size_in_bytes": 1385
+      },
+      {
+        "_path": "Lib/site-packages/path/py37compat.py",
+        "path_type": "hardlink",
+        "sha256": "4b5a4fc278646c473299217f9ada8a47290a071e22f3e76dd5ff137d5d56cb58",
+        "sha256_in_prefix": "4b5a4fc278646c473299217f9ada8a47290a071e22f3e76dd5ff137d5d56cb58",
+        "size_in_bytes": 4746
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "007469337a84f60681a0c9aba1cfef55748029019c7e4b6751132b5b1a2519ce",
+  "size": 38004,
+  "subdir": "win-64",
+  "timestamp": 1596940872388,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/path-15.0.0-py37_0.conda",
+  "version": "15.0.0"
+}

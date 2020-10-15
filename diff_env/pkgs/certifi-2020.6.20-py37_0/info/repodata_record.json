@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "py37_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0"
+  ],
+  "features": "",
+  "fn": "certifi-2020.6.20-py37_0.conda",
+  "legacy_bz2_md5": "80f5c00d593023b05244273335bc5673",
+  "license": "ISC",
+  "md5": "2dd4573fe73d20acab2d61e7c7be66ef",
+  "name": "certifi",
+  "platform": "win32",
+  "sha256": "4b39a21ec6fde0fc21360a458b0236a2965da974ad016566b9bff1404bcdf078",
+  "size": 159570,
+  "subdir": "win-64",
+  "timestamp": 1592841401307,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/certifi-2020.6.20-py37_0.conda",
+  "version": "2020.6.20"
+}

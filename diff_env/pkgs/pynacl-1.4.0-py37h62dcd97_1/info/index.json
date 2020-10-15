@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "py37h62dcd97_1",
+  "build_number": 1,
+  "depends": [
+    "cffi >=1.4.1",
+    "python >=3.7,<3.8.0a0",
+    "six",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "name": "pynacl",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1595009333782,
+  "version": "1.4.0"
+}

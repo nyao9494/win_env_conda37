@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "py37h0964b28_3",
+  "build_number": 3,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "mpc",
+    "mpfr >=4.0.1,<5.0a0",
+    "mpir",
+    "python >=3.7,<3.8.0a0",
+    "vc 14.*"
+  ],
+  "features": "",
+  "fn": "gmpy2-2.0.8-py37h0964b28_3.conda",
+  "legacy_bz2_md5": "a842faed338c8b088400527d88d7cf44",
+  "license": "LGPL 3",
+  "md5": "4379d8c868691d82eb7842abe599bac5",
+  "name": "gmpy2",
+  "platform": "win32",
+  "sha256": "96ce7ecd864d39508595bb3bcafcc8e145ed15a25dd64e11752205271a63dbba",
+  "size": 142175,
+  "subdir": "win-64",
+  "timestamp": 1533247358341,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/gmpy2-2.0.8-py37h0964b28_3.conda",
+  "version": "2.0.8"
+}

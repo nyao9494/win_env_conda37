@@ -1,0 +1,32 @@
+# This file created by conda-build 3.14.0
+# meta.yaml template originally from:
+# C:\ci\containers\00001766rdv\tmp\build\80754af9\rsync-recipes\zope-1.0-python_3.7-on-winbuilder, last modified Thu Sep  6 13:26:52 2018
+# ------------------------------------------------
+
+package:
+    name: zope
+    version: '1.0'
+build:
+    number: '1'
+    string: py37_1
+requirements:
+    host:
+        - python 3.7.0 hea74fb7_0
+        - vc 14 h0510ff6_3
+        - vs2015_runtime 14.0.25123 3
+    run:
+        - python >=3.7,<3.8.0a0
+test:
+    imports:
+        - zope
+about:
+    description: 'Zope is an open-source web application server.
+
+        '
+    doc_source_url: https://github.com/zopefoundation/Zope/blob/master/docs/index.rst
+    doc_url: https://zope.readthedocs.io/en/latest/
+    license: BSD
+    summary: web application server
+extra:
+    copy_test_source_files: true
+    final: true

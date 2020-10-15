@@ -1,0 +1,73 @@
+# This file created by conda-build 3.20.3
+# meta.yaml template originally from:
+# C:\ci\containers\00002g2gs4j\tmp\build\80754af9\combined_recipe, last modified Mon Oct 12 08:44:50 2020
+# ------------------------------------------------
+
+package:
+    name: freetype
+    version: 2.10.3
+source:
+    patches:
+        - 0003-Install-the-pkg-config-file-on-Windows-too.patch
+    sha256: 9dfb4e11efd6e460a87b1991a64bc69344ee7dc219d9b29e7faabc1c168ce8b0
+    url: http://download.savannah.gnu.org/releases/freetype/freetype-2.10.3.tar.gz
+build:
+    number: '0'
+    run_exports:
+        - freetype >=2.10.3,<3.0a0
+    string: hd328e21_0
+requirements:
+    build:
+        - bzip2 1.0.8 he774522_0
+        - ca-certificates 2020.7.22 0
+        - cmake 3.18.2 hab937c2_0
+        - libuv 1.40.0 he774522_0
+        - lz4-c 1.9.2 hf4a77e7_3
+        - ninja 1.10.1 py38h7ef1ec2_0
+        - openssl 1.1.1h he774522_0
+        - python 3.8.5 h5fd99cc_1
+        - sqlite 3.33.0 h2a8f88b_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_3
+        - vs2017_win-64 19.16.27032.1 hb4161e2_3
+        - vswhere 2.7.1 h21ff451_0
+        - xz 5.2.5 h62dcd97_0
+        - zlib 1.2.11 h62dcd97_4
+        - zstd 1.4.5 h04227a9_0
+    host:
+        - libpng 1.6.37 h2a8f88b_0
+        - vc 14.1 h0510ff6_4
+        - vs2015_runtime 14.16.27012 hf0eaf9b_3
+        - zlib 1.2.11 h62dcd97_4
+    run:
+        - libpng >=1.6.37,<1.7.0a0
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012,<15.0a0
+        - zlib >=1.2.11,<1.3.0a0
+test:
+    commands:
+        - if exist %LIBRARY_BIN%\freetype.dll (exit 0) else (exit 1)
+about:
+    description: 'FreeType is designed to be small, efficient, highly customizable
+
+        and portable while capable of producing high-quality output (glyph images)
+
+        of most vector and bitmap font formats.
+
+        '
+    dev_url: http://git.savannah.gnu.org/cgit/freetype/
+    doc_source_url: https://sourceforge.net/projects/freetype/?source=navbar
+    doc_url: http://freetype.sourceforge.net/freetype2/documentation.html
+    home: https://www.freetype.org/
+    license: GPL-2.0-only and LicenseRef-FreeType
+    license_file:
+        - docs/FTL.TXT
+        - docs/GPLv2.TXT
+    summary: A Free, High-Quality, and Portable Font Engine
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - ccordoba12
+        - msarahan
+        - ocefpaf

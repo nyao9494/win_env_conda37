@@ -1,0 +1,28 @@
+{
+  "arch": "x86_64",
+  "build": "py37h7a1dbc1_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "libcurl >=7.71.1,<8.0a0",
+    "python >=3.7,<3.8.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "pycurl-7.43.0.6-py37h7a1dbc1_0.conda",
+  "legacy_bz2_md5": "ecdc1a8c4921a849fd671d8bd5956e35",
+  "license": "LGPL, MIT",
+  "license_family": "LGPL",
+  "md5": "7be74c30819773320814ab8265e9a74e",
+  "name": "pycurl",
+  "platform": "win32",
+  "sha256": "8a5eaac439a196ac5a4e303007e3c187b9503d67275772a0cbc1b793ecce02b7",
+  "size": 63669,
+  "subdir": "win-64",
+  "timestamp": 1602278824814,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pycurl-7.43.0.6-py37h7a1dbc1_0.conda",
+  "version": "7.43.0.6"
+}

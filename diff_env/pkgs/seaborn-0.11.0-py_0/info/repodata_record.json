@@ -1,0 +1,29 @@
+{
+  "build": "py_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "matplotlib >=2.1.2",
+    "numpy >=1.13.3",
+    "pandas >=0.22.0",
+    "python >=3.6",
+    "scipy >=1.0.1"
+  ],
+  "features": "",
+  "fn": "seaborn-0.11.0-py_0.conda",
+  "legacy_bz2_md5": "9d4aada010a9646cd80fdc3289abef20",
+  "license": "BSD 3-Clause",
+  "license_family": "BSD",
+  "md5": "7bdf099beb473c7a46d3c29080e546cd",
+  "name": "seaborn",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "f2a7cca3d376026a1d43a24dee704b4434724a7b223f094d2f737077bcae3af6",
+  "size": 215142,
+  "subdir": "noarch",
+  "timestamp": 1600553611141,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/seaborn-0.11.0-py_0.conda",
+  "version": "0.11.0"
+}
