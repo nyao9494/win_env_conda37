@@ -1,9 +1,0 @@
-{
-    "uninstalled_core_extensions": [
-        "@jupyterlab/git",
-        "@lckr/jupyterlab_variableinspector",
-        "jupyterlab-drawio",
-        "@jupyterlab/toc",
-        "nbdime-jupyterlab"
-    ]
-}

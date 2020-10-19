@@ -1,9 +1,0 @@
-libdir=C:/Users/M151325/Anaconda37/Library/lib
-includedir=C:/Users/M151325/Anaconda37/Library/include
-
-Name: LAPACK
-Description: FORTRAN reference implementation of LAPACK Linear Algebra PACKage
-Version: 3.8.0
-URL: http://www.netlib.org/lapack/
-Libs: -L${libdir} -llapack
-Requires.private: blas

@@ -1,8 +1,0 @@
-Library/COPYING.GL2PS
-Library/COPYING.LGPL
-Library/README.txt
-Library/bin/gl2ps.dll
-Library/gl2psTest.c
-Library/gl2psTestSimple.c
-Library/include/gl2ps.h
-Library/lib/gl2ps.lib

@@ -1,7 +1,0 @@
-{
-  "mpi": "nompi",
-  "numpy": "1.16",
-  "hdf5": "1.10.6",
-  "python": "3.7.* *_cpython",
-  "c_compiler": "vs2017"
-}

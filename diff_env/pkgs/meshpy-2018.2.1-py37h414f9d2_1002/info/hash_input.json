@@ -1,6 +1,0 @@
-{
-  "c_compiler": "vs2017",
-  "numpy": "1.16",
-  "cxx_compiler": "vs2017",
-  "python": "3.7.* *_cpython"
-}

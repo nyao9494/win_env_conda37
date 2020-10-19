@@ -1,4 +1,7 @@
 
+## freecad python3.7
+https://github.com/sgrogan/FreeCAD/releases/tag/PY3.7-win
+
 ## git
 
 ```
@@ -78,3 +81,15 @@ conda install -c conda-forge pythonocc-core=7.4.0
 
 下記は手動でインストール 100M越え
 - C:\Users\M151325\Anaconda37\pkgs\qt-5.12.9-hb2cf2c5_0.tar.bz2
+
+blender jupyter 
+```
+blender_notebook install --blender-exec="$prefix\blender\blender-2.90.1-windows64\blender.exe"
+```
+
+
+## STEP_3
+
+```
+pip install img2pdf
+```
