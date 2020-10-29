@@ -1,0 +1,59 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/Flask_Compress-1.7.0.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/Flask_Compress-1.7.0.dist-info/LICENSE.txt",
+      "path_type": "hardlink",
+      "sha256": "a19e75a2c6ab5168e1c0f185f6d14b4f0130cd926511b88f3382833a211e2269",
+      "size_in_bytes": 1085
+    },
+    {
+      "_path": "site-packages/Flask_Compress-1.7.0.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "a148ac4c4f580fb49c200a25ea14ee98b8d37516d4e3471faba39d52b6b79896",
+      "size_in_bytes": 6070
+    },
+    {
+      "_path": "site-packages/Flask_Compress-1.7.0.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "4908150895a04a6ef5f029913c836bbe0403467f467b09ef8b4eaaf6b78b9ab6",
+      "size_in_bytes": 843
+    },
+    {
+      "_path": "site-packages/Flask_Compress-1.7.0.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/Flask_Compress-1.7.0.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "site-packages/Flask_Compress-1.7.0.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "fdb0ab2b82dd8c725e784567742db03ae0a4b5ee2c78ba3380e61556ac22bf96",
+      "size_in_bytes": 110
+    },
+    {
+      "_path": "site-packages/Flask_Compress-1.7.0.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "47b72a9dc35a6769aff1e3b8fa1661260bf926ce15f4a1e6885b163dcde51bcc",
+      "size_in_bytes": 15
+    },
+    {
+      "_path": "site-packages/flask_compress.py",
+      "path_type": "hardlink",
+      "sha256": "70e6f8d87bd4c1f4f226635d49493d2d9273e6d864a7776c5ffca6c7f24487ef",
+      "size_in_bytes": 8097
+    }
+  ],
+  "paths_version": 1
+}

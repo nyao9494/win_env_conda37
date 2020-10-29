@@ -1,0 +1,323 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/dash_core_components-1.12.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/dash_core_components-1.12.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "e7e3cdd47060b41d3d70bd026a14cb94299d50d7c35a021012768fa16c5b2496",
+      "size_in_bytes": 236
+    },
+    {
+      "_path": "site-packages/dash_core_components-1.12.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "5c19a7b3d08ff36a3e0121f6cf8e8e1f67721c4a145d3d551d17c2fe70ddfe93",
+      "size_in_bytes": 6525
+    },
+    {
+      "_path": "site-packages/dash_core_components-1.12.1.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/dash_core_components-1.12.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "site-packages/dash_core_components-1.12.1.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "d6ed62d987d8ed0517c1d55cbd9d38c7e9d84399f528a7eebfbbd12a954b7c88",
+      "size_in_bytes": 116
+    },
+    {
+      "_path": "site-packages/dash_core_components-1.12.1.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "0d5d000c25535e0119732f181ba6cdc155b614eaad4b87db86ceadf561bd612b",
+      "size_in_bytes": 21
+    },
+    {
+      "_path": "site-packages/dash_core_components/Checklist.py",
+      "path_type": "hardlink",
+      "sha256": "e6dac19c5cb82a2e911a014c79d5f7554fd74caf256497f4e6a7c8e4d524c4d7",
+      "size_in_bytes": 4651
+    },
+    {
+      "_path": "site-packages/dash_core_components/ConfirmDialog.py",
+      "path_type": "hardlink",
+      "sha256": "b30cac61bfbff423b7d7dafcd0e05254d31d33d6483a42f5ddbf89e32e24fb8e",
+      "size_in_bytes": 2369
+    },
+    {
+      "_path": "site-packages/dash_core_components/ConfirmDialogProvider.py",
+      "path_type": "hardlink",
+      "sha256": "805bb0d9a1a5498544eea2273abd52b615138e7c5d6ddb2c17bf9a814a8b6a70",
+      "size_in_bytes": 3107
+    },
+    {
+      "_path": "site-packages/dash_core_components/DatePickerRange.py",
+      "path_type": "hardlink",
+      "sha256": "b8a9f7056a9a3dcf90fd436ec86d6f9659b36cd3822eac91ecc1c0ce92a4c4f8",
+      "size_in_bytes": 9754
+    },
+    {
+      "_path": "site-packages/dash_core_components/DatePickerSingle.py",
+      "path_type": "hardlink",
+      "sha256": "c10fef1dbbfcf690a6a107239d6546870fd83b60337d84d330e0df138363aefe",
+      "size_in_bytes": 8178
+    },
+    {
+      "_path": "site-packages/dash_core_components/Dropdown.py",
+      "path_type": "hardlink",
+      "sha256": "b0c082d496e1e15b816a77b97c30ca5dbee5aee221a4cad607935f9a068374d7",
+      "size_in_bytes": 5996
+    },
+    {
+      "_path": "site-packages/dash_core_components/Graph.py",
+      "path_type": "hardlink",
+      "sha256": "feb2b71bbfb07087ae429046ef54fe1e77a6d61810004f33d9575f9144f981b1",
+      "size_in_bytes": 13626
+    },
+    {
+      "_path": "site-packages/dash_core_components/Input.py",
+      "path_type": "hardlink",
+      "sha256": "4c571789b3671e0d7dcf71f1066574ee194c5df24b2925a7a8efada111c4ea69",
+      "size_in_bytes": 13356
+    },
+    {
+      "_path": "site-packages/dash_core_components/Interval.py",
+      "path_type": "hardlink",
+      "sha256": "284629c11e5762d651b593a4b2208ab2353971b2f917fa0eb0b0fcbdd5f286fd",
+      "size_in_bytes": 2055
+    },
+    {
+      "_path": "site-packages/dash_core_components/Link.py",
+      "path_type": "hardlink",
+      "sha256": "0dd107abbc15a03ff5b40fabc8ec36a08bef7666c236776995354a2b93deaaf3",
+      "size_in_bytes": 2810
+    },
+    {
+      "_path": "site-packages/dash_core_components/Loading.py",
+      "path_type": "hardlink",
+      "sha256": "2cdbd137087c51fcd1770fea114fd888a95d588a746246a4cdd2163b069ce67d",
+      "size_in_bytes": 3314
+    },
+    {
+      "_path": "site-packages/dash_core_components/Location.py",
+      "path_type": "hardlink",
+      "sha256": "34e27ce726214f84262aa2725dfb70ed46f066b08ae9310d4d6ceafe2ee3c104",
+      "size_in_bytes": 1964
+    },
+    {
+      "_path": "site-packages/dash_core_components/LogoutButton.py",
+      "path_type": "hardlink",
+      "sha256": "bb38813ed0cfb3de13f332567b4e44400e5d10d8282ae790b71ca4f3b994c6be",
+      "size_in_bytes": 2888
+    },
+    {
+      "_path": "site-packages/dash_core_components/Markdown.py",
+      "path_type": "hardlink",
+      "sha256": "dc26305d4ebe40ab27e05c2ffe0c2f5c0102c680748f32b6a69ed3b1221ae9ce",
+      "size_in_bytes": 3313
+    },
+    {
+      "_path": "site-packages/dash_core_components/RadioItems.py",
+      "path_type": "hardlink",
+      "sha256": "139f64b4d9ca0ad38bb66278c5b271fbdfa0a6d59e8c7dcfa4f4e801617fe789",
+      "size_in_bytes": 4648
+    },
+    {
+      "_path": "site-packages/dash_core_components/RangeSlider.py",
+      "path_type": "hardlink",
+      "sha256": "569ab5c1859afcb97402322f6d1a85850bd224ba8c2bbe3fa510d3518d95ade3",
+      "size_in_bytes": 6583
+    },
+    {
+      "_path": "site-packages/dash_core_components/Slider.py",
+      "path_type": "hardlink",
+      "sha256": "3f81885b824612c10b3863d71ab875647a9224a9e85be6176bf18426b6ed7d6b",
+      "size_in_bytes": 5915
+    },
+    {
+      "_path": "site-packages/dash_core_components/Store.py",
+      "path_type": "hardlink",
+      "sha256": "96ae6d9f4a6e9614ab06a9459e2c4685abd594f42170264e1d4bbe81072297f9",
+      "size_in_bytes": 2123
+    },
+    {
+      "_path": "site-packages/dash_core_components/Tab.py",
+      "path_type": "hardlink",
+      "sha256": "9941dcdc144bec84aed63b087388dc19a2b48aba1403873473d402ee0f72e7de",
+      "size_in_bytes": 3395
+    },
+    {
+      "_path": "site-packages/dash_core_components/Tabs.py",
+      "path_type": "hardlink",
+      "sha256": "215ac10c5f1ff476056a4a5b39aabf7a035670ceb794447a3ff4ba87d5421a2d",
+      "size_in_bytes": 5569
+    },
+    {
+      "_path": "site-packages/dash_core_components/Textarea.py",
+      "path_type": "hardlink",
+      "sha256": "fa8996d304e0b940618a8d20eb3a245d9e7c6fea1a155f2398e347f98e28bc83",
+      "size_in_bytes": 7610
+    },
+    {
+      "_path": "site-packages/dash_core_components/Upload.py",
+      "path_type": "hardlink",
+      "sha256": "579b3e451037e785c3a946729e4a05b28a73dea1f07175e4e8806d7935963b72",
+      "size_in_bytes": 4939
+    },
+    {
+      "_path": "site-packages/dash_core_components/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "31c6c0b8043c9e082c3e027b2b4785884d436bd73ac9ad3c8dd68fa80c846440",
+      "size_in_bytes": 4384
+    },
+    {
+      "_path": "site-packages/dash_core_components/_imports_.py",
+      "path_type": "hardlink",
+      "sha256": "30dd0aebf88ad7f0dd1b9cfe802353d46e342379c530996fec0b8ef8fe264527",
+      "size_in_bytes": 1095
+    },
+    {
+      "_path": "site-packages/dash_core_components/async-datepicker.js",
+      "path_type": "hardlink",
+      "sha256": "625370f233106268721cb744cf6cfb7129867bd57db1b68e917e4d200cec1223",
+      "size_in_bytes": 288874
+    },
+    {
+      "_path": "site-packages/dash_core_components/async-datepicker.js.map",
+      "path_type": "hardlink",
+      "sha256": "94607b4b87a2e5d62cfba787ba3ac9fbad126f160b27cedefd04ecbfa2d3cc95",
+      "size_in_bytes": 1065061
+    },
+    {
+      "_path": "site-packages/dash_core_components/async-dropdown.js",
+      "path_type": "hardlink",
+      "sha256": "57ca2bb342a6eb6278dc257ef41a4c6553b0c061b3ff0176300172488fdf617f",
+      "size_in_bytes": 126541
+    },
+    {
+      "_path": "site-packages/dash_core_components/async-dropdown.js.map",
+      "path_type": "hardlink",
+      "sha256": "d869c09830a972e0abab9ce78418b1f19b66a0fb9c4574cf6b5e94a1359b993c",
+      "size_in_bytes": 475889
+    },
+    {
+      "_path": "site-packages/dash_core_components/async-graph.js",
+      "path_type": "hardlink",
+      "sha256": "b1f3776f74554ffb830e3dd54f9fb260e15a0bbaefc73cfac9807eb3dd440fdd",
+      "size_in_bytes": 17402
+    },
+    {
+      "_path": "site-packages/dash_core_components/async-graph.js.map",
+      "path_type": "hardlink",
+      "sha256": "ab9a8f3998b14f59ba0835dc50e819029a76778519ec8721fcd892fdffd4273a",
+      "size_in_bytes": 65635
+    },
+    {
+      "_path": "site-packages/dash_core_components/async-highlight.js",
+      "path_type": "hardlink",
+      "sha256": "e2cb62eba6ccdbda3fa00a9e43479497a79d6578ddef8e4dd4b7d711861d6edb",
+      "size_in_bytes": 45573
+    },
+    {
+      "_path": "site-packages/dash_core_components/async-highlight.js.map",
+      "path_type": "hardlink",
+      "sha256": "6706c3c04a7acd325f828711fdb00b7908a4b875b5722360b429ca5933a1496f",
+      "size_in_bytes": 127470
+    },
+    {
+      "_path": "site-packages/dash_core_components/async-markdown.js",
+      "path_type": "hardlink",
+      "sha256": "a60f8825982a351e4c178dedc3ff9ec8e3becc8f15e9fbe60113fbead2c57285",
+      "size_in_bytes": 190971
+    },
+    {
+      "_path": "site-packages/dash_core_components/async-markdown.js.map",
+      "path_type": "hardlink",
+      "sha256": "adbeb778f5b2d72609eee88937635db29c429e9148875ab61077226a26d37a09",
+      "size_in_bytes": 656443
+    },
+    {
+      "_path": "site-packages/dash_core_components/async-plotlyjs.js",
+      "path_type": "hardlink",
+      "sha256": "014a59e926ad6f6ae2a0726b06afdf59de2e00ea0dd17a8e12960edb851cefa8",
+      "size_in_bytes": 3442512
+    },
+    {
+      "_path": "site-packages/dash_core_components/async-slider.js",
+      "path_type": "hardlink",
+      "sha256": "c253641a2e5bf4923a1f93b0811097f6c54750074c2ceb59b7443ad268afaa11",
+      "size_in_bytes": 100548
+    },
+    {
+      "_path": "site-packages/dash_core_components/async-slider.js.map",
+      "path_type": "hardlink",
+      "sha256": "961e32e0201d2fd5e52b7568a73c1b7f7302620acfe46dfcac6dde0d225d2367",
+      "size_in_bytes": 378669
+    },
+    {
+      "_path": "site-packages/dash_core_components/async-upload.js",
+      "path_type": "hardlink",
+      "sha256": "8f39830c5e889c92d8d6ebf19cceef3e19a6af2305d8b2ed9e6aefe927939888",
+      "size_in_bytes": 16172
+    },
+    {
+      "_path": "site-packages/dash_core_components/async-upload.js.map",
+      "path_type": "hardlink",
+      "sha256": "59d4c8414cb94859f97c36b28f0a2520f10d25a134cc1960b29386656a1a75c9",
+      "size_in_bytes": 51111
+    },
+    {
+      "_path": "site-packages/dash_core_components/dash_core_components-shared.js",
+      "path_type": "hardlink",
+      "sha256": "cbc7859cb07918809e5ec75085809b1ab158db9e051f9e6ce54e8b43f39ab92e",
+      "size_in_bytes": 29553
+    },
+    {
+      "_path": "site-packages/dash_core_components/dash_core_components-shared.js.map",
+      "path_type": "hardlink",
+      "sha256": "65feb18d30f60e58a2558fa4434954fe2d9d7fd96db5188f205459ad861d4eed",
+      "size_in_bytes": 138578
+    },
+    {
+      "_path": "site-packages/dash_core_components/dash_core_components.min.js",
+      "path_type": "hardlink",
+      "sha256": "fcad566d437a3181fa65718e87340edfdaa6e0eaa84644c0979841cec577b70e",
+      "size_in_bytes": 504213
+    },
+    {
+      "_path": "site-packages/dash_core_components/dash_core_components.min.js.map",
+      "path_type": "hardlink",
+      "sha256": "7c65dd45ed28dd4f10055ae8b5ae5158606fbe631143e4ea98a5ba5066012efe",
+      "size_in_bytes": 1341815
+    },
+    {
+      "_path": "site-packages/dash_core_components/metadata.json",
+      "path_type": "hardlink",
+      "sha256": "dc06885502c3de0e93bfdef0bf5a5d85c557574ddf472e591bf26e7181f351c5",
+      "size_in_bytes": 171335
+    },
+    {
+      "_path": "site-packages/dash_core_components/package-info.json",
+      "path_type": "hardlink",
+      "sha256": "3cffb380fdad54cd299db2cfefe39048d6b89874a704d035861e876241c7b987",
+      "size_in_bytes": 4545
+    },
+    {
+      "_path": "site-packages/dash_core_components/plotly.min.js",
+      "path_type": "hardlink",
+      "sha256": "bf10b9173b049418fb63630b92c746b57e8653b62afe88e12d3204a720a0c7c2",
+      "size_in_bytes": 3447342
+    }
+  ],
+  "paths_version": 1
+}

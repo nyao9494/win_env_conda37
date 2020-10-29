@@ -1,0 +1,91 @@
+# This file created by conda-build 3.20.3
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Sun Oct 11 18:05:01 2020
+# ------------------------------------------------
+
+package:
+    name: lz4
+    version: 3.1.0
+source:
+    fn: lz4-3.1.0.tar.gz
+    sha256: debe75513db3eb9e5cdcd82a329ff38374b6316ab65b848b571e0404746c1e05
+    url: https://pypi.io/packages/source/l/lz4/lz4-3.1.0.tar.gz
+build:
+    number: '1'
+    script: D:\\bld\\lz4_1602439735873\\_h_env\\python.exe -m pip install . --no-deps
+        -vv
+    string: py37h2519948_1
+requirements:
+    build:
+        - vs2017_win-64 19.16.27038 h2e3bad8_2
+        - vswhere 2.7.1 h21ff451_0
+    host:
+        - atomicwrites 1.4.0 pyh9f0ad1d_0
+        - attrs 20.2.0 pyh9f0ad1d_0
+        - ca-certificates 2020.6.20 hecda079_0
+        - certifi 2020.6.20 py37hf50a25e_2
+        - colorama 0.4.3 py_0
+        - gettext 0.19.8.1 hb01d8f6_1002
+        - glib 2.66.1 hccabbfd_0
+        - importlib-metadata 2.0.0 py_1
+        - importlib_metadata 2.0.0 1
+        - iniconfig 1.0.1 pyh9f0ad1d_0
+        - libffi 3.2.1 ha925a31_1007
+        - libiconv 1.16 he774522_0
+        - lz4-c 1.9.2 h62dcd97_2
+        - m2w64-gcc-libgfortran 5.3.0 6
+        - m2w64-gcc-libs 5.3.0 7
+        - m2w64-gcc-libs-core 5.3.0 7
+        - m2w64-gmp 6.1.0 2
+        - m2w64-libwinpthread-git 5.0.0.4634.697f757 2
+        - more-itertools 8.5.0 py_0
+        - msys2-conda-epoch 20160418 1
+        - openssl 1.1.1h he774522_0
+        - packaging 20.4 pyh9f0ad1d_0
+        - pcre 8.44 h6538335_0
+        - pip 20.2.3 py_0
+        - pkg-config 0.29.2 h8cfccfd_1006
+        - pkgconfig 1.4.0 py37hc8dfbb8_2
+        - pluggy 0.13.1 py37hc8dfbb8_3
+        - py 1.9.0 pyh9f0ad1d_0
+        - pyparsing 2.4.7 pyh9f0ad1d_0
+        - pytest 6.1.1 py37hc8dfbb8_1
+        - pytest-runner 5.2 py_0
+        - python 3.7.8 h60c2a47_1_cpython
+        - python_abi 3.7 1_cp37m
+        - setuptools 49.6.0 py37hf50a25e_2
+        - setuptools-scm 4.1.2 pyh9f0ad1d_0
+        - setuptools_scm 4.1.2 0
+        - six 1.15.0 pyh9f0ad1d_0
+        - sqlite 3.33.0 he774522_1
+        - toml 0.10.1 pyh9f0ad1d_0
+        - vc 14.1 h869be7e_1
+        - vs2015_runtime 14.16.27012 h30e32a0_2
+        - wheel 0.35.1 pyh9f0ad1d_0
+        - wincertstore 0.2 py37hc8dfbb8_1005
+        - zipp 3.3.0 py_0
+        - zlib 1.2.11 h62dcd97_1009
+    run:
+        - lz4-c >=1.9.2,<1.9.3.0a0
+        - lz4-c >=1.9.2,<1.9.3.0a0
+        - python >=3.7,<3.8.0a0
+        - python_abi 3.7.* *_cp37m
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012
+test:
+    imports:
+        - lz4
+about:
+    dev_url: https://github.com/python-lz4/python-lz4
+    doc_url: http://python-lz4.readthedocs.io/en/stable/
+    home: https://github.com/python-lz4/python-lz4
+    license: BSD-3-Clause
+    license_family: BSD
+    license_file: LICENSE
+    summary: LZ4 Bindings for Python
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - xhochy

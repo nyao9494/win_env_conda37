@@ -1,0 +1,17 @@
+site-packages/dash_renderer-1.8.2.dist-info/INSTALLER
+site-packages/dash_renderer-1.8.2.dist-info/METADATA
+site-packages/dash_renderer-1.8.2.dist-info/RECORD
+site-packages/dash_renderer-1.8.2.dist-info/REQUESTED
+site-packages/dash_renderer-1.8.2.dist-info/WHEEL
+site-packages/dash_renderer-1.8.2.dist-info/direct_url.json
+site-packages/dash_renderer-1.8.2.dist-info/top_level.txt
+site-packages/dash_renderer/__init__.py
+site-packages/dash_renderer/dash_renderer.dev.js
+site-packages/dash_renderer/dash_renderer.min.js
+site-packages/dash_renderer/polyfill@7.8.7.min.js
+site-packages/dash_renderer/prop-types@15.7.2.js
+site-packages/dash_renderer/prop-types@15.7.2.min.js
+site-packages/dash_renderer/react-dom@16.13.0.js
+site-packages/dash_renderer/react-dom@16.13.0.min.js
+site-packages/dash_renderer/react@16.13.0.js
+site-packages/dash_renderer/react@16.13.0.min.js

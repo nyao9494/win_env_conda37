@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "pyh9f0ad1d_1",
+  "build_number": 1,
+  "depends": [
+    "dash >=1.6.1",
+    "python"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "dash-daq",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1596869725655,
+  "version": "0.5.0"
+}

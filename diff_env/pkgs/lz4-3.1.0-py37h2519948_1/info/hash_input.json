@@ -1,0 +1,6 @@
+{
+  "lz4_c": "1.9.2",
+  "vc": "14",
+  "c_compiler": "vs2017",
+  "python": "3.7.* *_cpython"
+}

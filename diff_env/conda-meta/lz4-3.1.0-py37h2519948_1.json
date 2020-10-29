@@ -1,0 +1,217 @@
+{
+  "build": "py37h2519948_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "lz4-c >=1.9.2,<1.9.3.0a0",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "extracted_package_dir": "C:\\Users\\M151325\\Anaconda37\\pkgs\\lz4-3.1.0-py37h2519948_1",
+  "features": "",
+  "files": [
+    "Lib/site-packages/lz4-3.1.0.dist-info/INSTALLER",
+    "Lib/site-packages/lz4-3.1.0.dist-info/LICENSE",
+    "Lib/site-packages/lz4-3.1.0.dist-info/METADATA",
+    "Lib/site-packages/lz4-3.1.0.dist-info/RECORD",
+    "Lib/site-packages/lz4-3.1.0.dist-info/REQUESTED",
+    "Lib/site-packages/lz4-3.1.0.dist-info/WHEEL",
+    "Lib/site-packages/lz4-3.1.0.dist-info/direct_url.json",
+    "Lib/site-packages/lz4-3.1.0.dist-info/top_level.txt",
+    "Lib/site-packages/lz4/__init__.py",
+    "Lib/site-packages/lz4/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/lz4/__pycache__/version.cpython-37.pyc",
+    "Lib/site-packages/lz4/_version.cp37-win_amd64.pyd",
+    "Lib/site-packages/lz4/block/__init__.py",
+    "Lib/site-packages/lz4/block/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/lz4/block/_block.cp37-win_amd64.pyd",
+    "Lib/site-packages/lz4/frame/__init__.py",
+    "Lib/site-packages/lz4/frame/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/lz4/frame/_frame.cp37-win_amd64.pyd",
+    "Lib/site-packages/lz4/stream/__init__.py",
+    "Lib/site-packages/lz4/stream/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/lz4/stream/_stream.cp37-win_amd64.pyd",
+    "Lib/site-packages/lz4/version.py",
+    ".nonadmin"
+  ],
+  "fn": "lz4-3.1.0-py37h2519948_1.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\Users\\M151325\\Anaconda37\\pkgs\\lz4-3.1.0-py37h2519948_1",
+    "type": 1
+  },
+  "md5": "bd0f72075129da64debaf69a70024e20",
+  "name": "lz4",
+  "package_tarball_full_path": "C:\\Users\\M151325\\Anaconda37\\pkgs\\lz4-3.1.0-py37h2519948_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/lz4-3.1.0.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "Lib/site-packages/lz4-3.1.0.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "e2ac43d6eb80eb4e52141817c812437e0b981b1d7b2dc7cc86c7ef5524044c6f",
+        "sha256_in_prefix": "e2ac43d6eb80eb4e52141817c812437e0b981b1d7b2dc7cc86c7ef5524044c6f",
+        "size_in_bytes": 1495
+      },
+      {
+        "_path": "Lib/site-packages/lz4-3.1.0.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "b6d87746722dc5a77e35aee1828d80b06deb73ad15f34ea84b2be71b55133a6a",
+        "sha256_in_prefix": "b6d87746722dc5a77e35aee1828d80b06deb73ad15f34ea84b2be71b55133a6a",
+        "size_in_bytes": 3653
+      },
+      {
+        "_path": "Lib/site-packages/lz4-3.1.0.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "23476780337258bde1be4e5f6e3d63bb928fb73a74fd6a39942e79f102eb9edf",
+        "sha256_in_prefix": "23476780337258bde1be4e5f6e3d63bb928fb73a74fd6a39942e79f102eb9edf",
+        "size_in_bytes": 1620
+      },
+      {
+        "_path": "Lib/site-packages/lz4-3.1.0.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "Lib/site-packages/lz4-3.1.0.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "cddcde94d00dece3256c600f8b3c561230d8c37e88d577cebacf8e4f22d6940c",
+        "sha256_in_prefix": "cddcde94d00dece3256c600f8b3c561230d8c37e88d577cebacf8e4f22d6940c",
+        "size_in_bytes": 106
+      },
+      {
+        "_path": "Lib/site-packages/lz4-3.1.0.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "583ee9cc6252537e37913bb2517e57adc5890bd66d35229ac42bc4eca8feb966",
+        "sha256_in_prefix": "583ee9cc6252537e37913bb2517e57adc5890bd66d35229ac42bc4eca8feb966",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "Lib/site-packages/lz4-3.1.0.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "717ebf83115474d4a8e344dfc6b1a94c282eedea469b7c96de6da4ee2ad30f32",
+        "sha256_in_prefix": "717ebf83115474d4a8e344dfc6b1a94c282eedea469b7c96de6da4ee2ad30f32",
+        "size_in_bytes": 4
+      },
+      {
+        "_path": "Lib/site-packages/lz4/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "7adb15f971bdbe00a7f842ab169cd626c188a7e554b47fada4dad098c9831025",
+        "sha256_in_prefix": "7adb15f971bdbe00a7f842ab169cd626c188a7e554b47fada4dad098c9831025",
+        "size_in_bytes": 627
+      },
+      {
+        "_path": "Lib/site-packages/lz4/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "1c7260ff93381001d493e42e7fb9ecfe6dbb21333c58d7ee379c691479b6b095",
+        "sha256_in_prefix": "1c7260ff93381001d493e42e7fb9ecfe6dbb21333c58d7ee379c691479b6b095",
+        "size_in_bytes": 266
+      },
+      {
+        "_path": "Lib/site-packages/lz4/__pycache__/version.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "581a483a2cc8ee4750277564460e9fda22caf1fb1a29213c972c835367ab14dd",
+        "sha256_in_prefix": "581a483a2cc8ee4750277564460e9fda22caf1fb1a29213c972c835367ab14dd",
+        "size_in_bytes": 136
+      },
+      {
+        "_path": "Lib/site-packages/lz4/_version.cp37-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "e1c5f9841cc6e39f590ca450e3ace5715c7dfc1e3539de0f5ea6c3aac8805767",
+        "sha256_in_prefix": "e1c5f9841cc6e39f590ca450e3ace5715c7dfc1e3539de0f5ea6c3aac8805767",
+        "size_in_bytes": 10752
+      },
+      {
+        "_path": "Lib/site-packages/lz4/block/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "2ac4901a068fa49b553c9e507cc69d54615db8ccb48527ad2475863663afa6ca",
+        "sha256_in_prefix": "2ac4901a068fa49b553c9e507cc69d54615db8ccb48527ad2475863663afa6ca",
+        "size_in_bytes": 70
+      },
+      {
+        "_path": "Lib/site-packages/lz4/block/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "b1c363557f5ff26a16feac79b13063460216be334c6b43d043297338864edff1",
+        "sha256_in_prefix": "b1c363557f5ff26a16feac79b13063460216be334c6b43d043297338864edff1",
+        "size_in_bytes": 210
+      },
+      {
+        "_path": "Lib/site-packages/lz4/block/_block.cp37-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "d185cdfd76940429e20bb6c912707210b1737c00c924d6cf644f5e03ff91e63c",
+        "sha256_in_prefix": "d185cdfd76940429e20bb6c912707210b1737c00c924d6cf644f5e03ff91e63c",
+        "size_in_bytes": 105472
+      },
+      {
+        "_path": "Lib/site-packages/lz4/frame/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e959dfa6b55a2e7dfa6a656d0b411d501e9be6cdba248464cb6c91fbdb8eebed",
+        "sha256_in_prefix": "e959dfa6b55a2e7dfa6a656d0b411d501e9be6cdba248464cb6c91fbdb8eebed",
+        "size_in_bytes": 29444
+      },
+      {
+        "_path": "Lib/site-packages/lz4/frame/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "bc95112120a5c21b8d0ffc6dda6cf384e3ed08f040aaafe9829090f307b26be0",
+        "sha256_in_prefix": "bc95112120a5c21b8d0ffc6dda6cf384e3ed08f040aaafe9829090f307b26be0",
+        "size_in_bytes": 25064
+      },
+      {
+        "_path": "Lib/site-packages/lz4/frame/_frame.cp37-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "e31ee09deeb50c1539affd8e71bd1fc7fba2dae2ea7128192379cc29fc54715f",
+        "sha256_in_prefix": "e31ee09deeb50c1539affd8e71bd1fc7fba2dae2ea7128192379cc29fc54715f",
+        "size_in_bytes": 149504
+      },
+      {
+        "_path": "Lib/site-packages/lz4/stream/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "b684e8cf9559ce4616022e108a9e65266f40e999761b0e89ef627aaabdab746c",
+        "sha256_in_prefix": "b684e8cf9559ce4616022e108a9e65266f40e999761b0e89ef627aaabdab746c",
+        "size_in_bytes": 8832
+      },
+      {
+        "_path": "Lib/site-packages/lz4/stream/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "hardlink",
+        "sha256": "e501d2352a7143f39b47c255e986774db7425caa8ccfd0b1d7310a9e5e8f0957",
+        "sha256_in_prefix": "e501d2352a7143f39b47c255e986774db7425caa8ccfd0b1d7310a9e5e8f0957",
+        "size_in_bytes": 9166
+      },
+      {
+        "_path": "Lib/site-packages/lz4/stream/_stream.cp37-win_amd64.pyd",
+        "path_type": "hardlink",
+        "sha256": "e58efa45629a8ac474f87431a176950f886bf6b19bffe8d3a1fb0e6488cb550f",
+        "sha256_in_prefix": "e58efa45629a8ac474f87431a176950f886bf6b19bffe8d3a1fb0e6488cb550f",
+        "size_in_bytes": 117760
+      },
+      {
+        "_path": "Lib/site-packages/lz4/version.py",
+        "path_type": "hardlink",
+        "sha256": "e833b18c700d5f9ed2d434fd727358bd2a310f8cc018b4e9e6c08e19c140721c",
+        "sha256_in_prefix": "e833b18c700d5f9ed2d434fd727358bd2a310f8cc018b4e9e6c08e19c140721c",
+        "size_in_bytes": 120
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "72ac5c2afa5de6731dc17c10524782c75370e4174fef6ebfb72b78f829d46bb9",
+  "size": 115629,
+  "subdir": "win-64",
+  "timestamp": 1602440126095,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/lz4-3.1.0-py37h2519948_1.tar.bz2",
+  "version": "3.1.0"
+}

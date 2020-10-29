@@ -1,0 +1,25 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "dash",
+    "python"
+  ],
+  "features": "",
+  "fn": "dash-core-components-1.12.1-pyh9f0ad1d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "e57da8d805be18f97a123ef291cc7fc8",
+  "name": "dash-core-components",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "c15ef26571f05908ddb02b16a6463e5e66a1f4ff9b26555b3acb93126690176a",
+  "size": 2964165,
+  "subdir": "noarch",
+  "timestamp": 1600319372429,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dash-core-components-1.12.1-pyh9f0ad1d_0.tar.bz2",
+  "version": "1.12.1"
+}

@@ -1,0 +1,1873 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "dash",
+    "python"
+  ],
+  "extracted_package_dir": "C:\\Users\\M151325\\Anaconda37\\pkgs\\dash-html-components-1.1.1-pyh9f0ad1d_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/dash_html_components-1.1.1.dist-info/INSTALLER",
+    "Lib/site-packages/dash_html_components-1.1.1.dist-info/LICENSE",
+    "Lib/site-packages/dash_html_components-1.1.1.dist-info/LICENSE.md",
+    "Lib/site-packages/dash_html_components-1.1.1.dist-info/METADATA",
+    "Lib/site-packages/dash_html_components-1.1.1.dist-info/RECORD",
+    "Lib/site-packages/dash_html_components-1.1.1.dist-info/REQUESTED",
+    "Lib/site-packages/dash_html_components-1.1.1.dist-info/WHEEL",
+    "Lib/site-packages/dash_html_components-1.1.1.dist-info/direct_url.json",
+    "Lib/site-packages/dash_html_components-1.1.1.dist-info/top_level.txt",
+    "Lib/site-packages/dash_html_components/A.py",
+    "Lib/site-packages/dash_html_components/Abbr.py",
+    "Lib/site-packages/dash_html_components/Acronym.py",
+    "Lib/site-packages/dash_html_components/Address.py",
+    "Lib/site-packages/dash_html_components/Area.py",
+    "Lib/site-packages/dash_html_components/Article.py",
+    "Lib/site-packages/dash_html_components/Aside.py",
+    "Lib/site-packages/dash_html_components/Audio.py",
+    "Lib/site-packages/dash_html_components/B.py",
+    "Lib/site-packages/dash_html_components/Base.py",
+    "Lib/site-packages/dash_html_components/Basefont.py",
+    "Lib/site-packages/dash_html_components/Bdi.py",
+    "Lib/site-packages/dash_html_components/Bdo.py",
+    "Lib/site-packages/dash_html_components/Big.py",
+    "Lib/site-packages/dash_html_components/Blink.py",
+    "Lib/site-packages/dash_html_components/Blockquote.py",
+    "Lib/site-packages/dash_html_components/Br.py",
+    "Lib/site-packages/dash_html_components/Button.py",
+    "Lib/site-packages/dash_html_components/Canvas.py",
+    "Lib/site-packages/dash_html_components/Caption.py",
+    "Lib/site-packages/dash_html_components/Center.py",
+    "Lib/site-packages/dash_html_components/Cite.py",
+    "Lib/site-packages/dash_html_components/Code.py",
+    "Lib/site-packages/dash_html_components/Col.py",
+    "Lib/site-packages/dash_html_components/Colgroup.py",
+    "Lib/site-packages/dash_html_components/Command.py",
+    "Lib/site-packages/dash_html_components/Content.py",
+    "Lib/site-packages/dash_html_components/Data.py",
+    "Lib/site-packages/dash_html_components/Datalist.py",
+    "Lib/site-packages/dash_html_components/Dd.py",
+    "Lib/site-packages/dash_html_components/Del.py",
+    "Lib/site-packages/dash_html_components/Details.py",
+    "Lib/site-packages/dash_html_components/Dfn.py",
+    "Lib/site-packages/dash_html_components/Dialog.py",
+    "Lib/site-packages/dash_html_components/Div.py",
+    "Lib/site-packages/dash_html_components/Dl.py",
+    "Lib/site-packages/dash_html_components/Dt.py",
+    "Lib/site-packages/dash_html_components/Element.py",
+    "Lib/site-packages/dash_html_components/Em.py",
+    "Lib/site-packages/dash_html_components/Embed.py",
+    "Lib/site-packages/dash_html_components/Fieldset.py",
+    "Lib/site-packages/dash_html_components/Figcaption.py",
+    "Lib/site-packages/dash_html_components/Figure.py",
+    "Lib/site-packages/dash_html_components/Font.py",
+    "Lib/site-packages/dash_html_components/Footer.py",
+    "Lib/site-packages/dash_html_components/Form.py",
+    "Lib/site-packages/dash_html_components/Frame.py",
+    "Lib/site-packages/dash_html_components/Frameset.py",
+    "Lib/site-packages/dash_html_components/H1.py",
+    "Lib/site-packages/dash_html_components/H2.py",
+    "Lib/site-packages/dash_html_components/H3.py",
+    "Lib/site-packages/dash_html_components/H4.py",
+    "Lib/site-packages/dash_html_components/H5.py",
+    "Lib/site-packages/dash_html_components/H6.py",
+    "Lib/site-packages/dash_html_components/Header.py",
+    "Lib/site-packages/dash_html_components/Hgroup.py",
+    "Lib/site-packages/dash_html_components/Hr.py",
+    "Lib/site-packages/dash_html_components/I.py",
+    "Lib/site-packages/dash_html_components/Iframe.py",
+    "Lib/site-packages/dash_html_components/Img.py",
+    "Lib/site-packages/dash_html_components/Ins.py",
+    "Lib/site-packages/dash_html_components/Isindex.py",
+    "Lib/site-packages/dash_html_components/Kbd.py",
+    "Lib/site-packages/dash_html_components/Keygen.py",
+    "Lib/site-packages/dash_html_components/Label.py",
+    "Lib/site-packages/dash_html_components/Legend.py",
+    "Lib/site-packages/dash_html_components/Li.py",
+    "Lib/site-packages/dash_html_components/Link.py",
+    "Lib/site-packages/dash_html_components/Listing.py",
+    "Lib/site-packages/dash_html_components/Main.py",
+    "Lib/site-packages/dash_html_components/MapEl.py",
+    "Lib/site-packages/dash_html_components/Mark.py",
+    "Lib/site-packages/dash_html_components/Marquee.py",
+    "Lib/site-packages/dash_html_components/Meta.py",
+    "Lib/site-packages/dash_html_components/Meter.py",
+    "Lib/site-packages/dash_html_components/Multicol.py",
+    "Lib/site-packages/dash_html_components/Nav.py",
+    "Lib/site-packages/dash_html_components/Nextid.py",
+    "Lib/site-packages/dash_html_components/Nobr.py",
+    "Lib/site-packages/dash_html_components/Noscript.py",
+    "Lib/site-packages/dash_html_components/ObjectEl.py",
+    "Lib/site-packages/dash_html_components/Ol.py",
+    "Lib/site-packages/dash_html_components/Optgroup.py",
+    "Lib/site-packages/dash_html_components/Option.py",
+    "Lib/site-packages/dash_html_components/Output.py",
+    "Lib/site-packages/dash_html_components/P.py",
+    "Lib/site-packages/dash_html_components/Param.py",
+    "Lib/site-packages/dash_html_components/Picture.py",
+    "Lib/site-packages/dash_html_components/Plaintext.py",
+    "Lib/site-packages/dash_html_components/Pre.py",
+    "Lib/site-packages/dash_html_components/Progress.py",
+    "Lib/site-packages/dash_html_components/Q.py",
+    "Lib/site-packages/dash_html_components/Rb.py",
+    "Lib/site-packages/dash_html_components/Rp.py",
+    "Lib/site-packages/dash_html_components/Rt.py",
+    "Lib/site-packages/dash_html_components/Rtc.py",
+    "Lib/site-packages/dash_html_components/Ruby.py",
+    "Lib/site-packages/dash_html_components/S.py",
+    "Lib/site-packages/dash_html_components/Samp.py",
+    "Lib/site-packages/dash_html_components/Script.py",
+    "Lib/site-packages/dash_html_components/Section.py",
+    "Lib/site-packages/dash_html_components/Select.py",
+    "Lib/site-packages/dash_html_components/Shadow.py",
+    "Lib/site-packages/dash_html_components/Slot.py",
+    "Lib/site-packages/dash_html_components/Small.py",
+    "Lib/site-packages/dash_html_components/Source.py",
+    "Lib/site-packages/dash_html_components/Spacer.py",
+    "Lib/site-packages/dash_html_components/Span.py",
+    "Lib/site-packages/dash_html_components/Strike.py",
+    "Lib/site-packages/dash_html_components/Strong.py",
+    "Lib/site-packages/dash_html_components/Sub.py",
+    "Lib/site-packages/dash_html_components/Summary.py",
+    "Lib/site-packages/dash_html_components/Sup.py",
+    "Lib/site-packages/dash_html_components/Table.py",
+    "Lib/site-packages/dash_html_components/Tbody.py",
+    "Lib/site-packages/dash_html_components/Td.py",
+    "Lib/site-packages/dash_html_components/Template.py",
+    "Lib/site-packages/dash_html_components/Textarea.py",
+    "Lib/site-packages/dash_html_components/Tfoot.py",
+    "Lib/site-packages/dash_html_components/Th.py",
+    "Lib/site-packages/dash_html_components/Thead.py",
+    "Lib/site-packages/dash_html_components/Time.py",
+    "Lib/site-packages/dash_html_components/Title.py",
+    "Lib/site-packages/dash_html_components/Tr.py",
+    "Lib/site-packages/dash_html_components/Track.py",
+    "Lib/site-packages/dash_html_components/U.py",
+    "Lib/site-packages/dash_html_components/Ul.py",
+    "Lib/site-packages/dash_html_components/Var.py",
+    "Lib/site-packages/dash_html_components/Video.py",
+    "Lib/site-packages/dash_html_components/Wbr.py",
+    "Lib/site-packages/dash_html_components/Xmp.py",
+    "Lib/site-packages/dash_html_components/__init__.py",
+    "Lib/site-packages/dash_html_components/_imports_.py",
+    "Lib/site-packages/dash_html_components/dash_html_components.min.js",
+    "Lib/site-packages/dash_html_components/dash_html_components.min.js.map",
+    "Lib/site-packages/dash_html_components/metadata.json",
+    "Lib/site-packages/dash_html_components/package-info.json",
+    ".nonadmin",
+    "Lib/site-packages/dash_html_components/__pycache__/A.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Abbr.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Acronym.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Address.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Area.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Article.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Aside.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Audio.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/B.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Base.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Basefont.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Bdi.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Bdo.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Big.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Blink.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Blockquote.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Br.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Button.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Canvas.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Caption.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Center.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Cite.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Code.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Col.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Colgroup.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Command.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Content.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Data.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Datalist.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Dd.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Del.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Details.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Dfn.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Dialog.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Div.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Dl.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Dt.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Element.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Em.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Embed.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Fieldset.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Figcaption.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Figure.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Font.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Footer.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Form.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Frame.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Frameset.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/H1.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/H2.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/H3.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/H4.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/H5.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/H6.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Header.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Hgroup.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Hr.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/I.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Iframe.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Img.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Ins.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Isindex.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Kbd.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Keygen.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Label.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Legend.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Li.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Link.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Listing.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Main.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/MapEl.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Mark.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Marquee.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Meta.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Meter.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Multicol.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Nav.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Nextid.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Nobr.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Noscript.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/ObjectEl.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Ol.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Optgroup.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Option.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Output.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/P.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Param.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Picture.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Plaintext.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Pre.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Progress.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Q.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Rb.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Rp.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Rt.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Rtc.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Ruby.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/S.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Samp.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Script.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Section.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Select.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Shadow.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Slot.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Small.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Source.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Spacer.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Span.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Strike.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Strong.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Sub.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Summary.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Sup.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Table.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Tbody.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Td.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Template.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Textarea.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Tfoot.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Th.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Thead.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Time.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Title.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Tr.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Track.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/U.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Ul.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Var.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Video.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Wbr.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/Xmp.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/dash_html_components/__pycache__/_imports_.cpython-37.pyc"
+  ],
+  "fn": "dash-html-components-1.1.1-pyh9f0ad1d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\Users\\M151325\\Anaconda37\\pkgs\\dash-html-components-1.1.1-pyh9f0ad1d_0",
+    "type": 1
+  },
+  "md5": "8f0c0add7e37adbc3d454cd1bf0e27d1",
+  "name": "dash-html-components",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\M151325\\Anaconda37\\pkgs\\dash-html-components-1.1.1-pyh9f0ad1d_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/dash_html_components-1.1.1.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/dash_html_components-1.1.1.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "8137c500d458f5ca2019bd0d1615038043b21aa307f7f9f9612b88ba6354edf4",
+        "sha256_in_prefix": "8137c500d458f5ca2019bd0d1615038043b21aa307f7f9f9612b88ba6354edf4",
+        "size_in_bytes": 42
+      },
+      {
+        "_path": "site-packages/dash_html_components-1.1.1.dist-info/LICENSE.md",
+        "path_type": "hardlink",
+        "sha256": "4b639c9327e6eda011fa3edf37e0d5a034645c65b7995266dfd871d3b6369b6e",
+        "sha256_in_prefix": "4b639c9327e6eda011fa3edf37e0d5a034645c65b7995266dfd871d3b6369b6e",
+        "size_in_bytes": 1073
+      },
+      {
+        "_path": "site-packages/dash_html_components-1.1.1.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "3ce644f9fc1dc2fc4fdc1cf11bd19cdc855fc6c500bc9f657373cecb4ce9b68d",
+        "sha256_in_prefix": "3ce644f9fc1dc2fc4fdc1cf11bd19cdc855fc6c500bc9f657373cecb4ce9b68d",
+        "size_in_bytes": 3542
+      },
+      {
+        "_path": "site-packages/dash_html_components-1.1.1.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "795bafbbfc662d7d1be668899753d6a14ecfaa21d508a3c6bd20ec7ed612496b",
+        "sha256_in_prefix": "795bafbbfc662d7d1be668899753d6a14ecfaa21d508a3c6bd20ec7ed612496b",
+        "size_in_bytes": 20355
+      },
+      {
+        "_path": "site-packages/dash_html_components-1.1.1.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dash_html_components-1.1.1.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "sha256_in_prefix": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/dash_html_components-1.1.1.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "7722ef08ca7a2ab4b03219f0a1d80c3b0c04b75e3efb7970f3cd8fa37bde3c8a",
+        "sha256_in_prefix": "7722ef08ca7a2ab4b03219f0a1d80c3b0c04b75e3efb7970f3cd8fa37bde3c8a",
+        "size_in_bytes": 116
+      },
+      {
+        "_path": "site-packages/dash_html_components-1.1.1.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "b45d6cebeb70fe5faa4b258ca4a7af6cf50a0725b745ec927682e77e06f30dde",
+        "sha256_in_prefix": "b45d6cebeb70fe5faa4b258ca4a7af6cf50a0725b745ec927682e77e06f30dde",
+        "size_in_bytes": 21
+      },
+      {
+        "_path": "site-packages/dash_html_components/A.py",
+        "path_type": "hardlink",
+        "sha256": "7c594cb82056ab9affcab97db74cbdb4b672dcf42c64dcbeba0b4d8fd5b1e255",
+        "sha256_in_prefix": "7c594cb82056ab9affcab97db74cbdb4b672dcf42c64dcbeba0b4d8fd5b1e255",
+        "size_in_bytes": 5722
+      },
+      {
+        "_path": "site-packages/dash_html_components/Abbr.py",
+        "path_type": "hardlink",
+        "sha256": "eccf5b0b8d05a7c6fc26108e4a675aebfff253352945ee27504d2c624d6ae68d",
+        "sha256_in_prefix": "eccf5b0b8d05a7c6fc26108e4a675aebfff253352945ee27504d2c624d6ae68d",
+        "size_in_bytes": 4775
+      },
+      {
+        "_path": "site-packages/dash_html_components/Acronym.py",
+        "path_type": "hardlink",
+        "sha256": "a104e4165154d0e08cb125b5d5094502dd6445c7245cc9178a9928a91787c352",
+        "sha256_in_prefix": "a104e4165154d0e08cb125b5d5094502dd6445c7245cc9178a9928a91787c352",
+        "size_in_bytes": 4796
+      },
+      {
+        "_path": "site-packages/dash_html_components/Address.py",
+        "path_type": "hardlink",
+        "sha256": "f945892fb58baefbd47ed65ba4c62a403a38c34bcf4ba21571d6ae860ae7d6b4",
+        "sha256_in_prefix": "f945892fb58baefbd47ed65ba4c62a403a38c34bcf4ba21571d6ae860ae7d6b4",
+        "size_in_bytes": 4796
+      },
+      {
+        "_path": "site-packages/dash_html_components/Area.py",
+        "path_type": "hardlink",
+        "sha256": "71163c075e1df36acc1067c1a2bdfb106c087c739dd38b7714216607cee53595",
+        "sha256_in_prefix": "71163c075e1df36acc1067c1a2bdfb106c087c739dd38b7714216607cee53595",
+        "size_in_bytes": 6006
+      },
+      {
+        "_path": "site-packages/dash_html_components/Article.py",
+        "path_type": "hardlink",
+        "sha256": "7d84111c4a9e57b5f8d3026c53145a14aab342cb7f43f3a33728a695a6a4a1fd",
+        "sha256_in_prefix": "7d84111c4a9e57b5f8d3026c53145a14aab342cb7f43f3a33728a695a6a4a1fd",
+        "size_in_bytes": 4796
+      },
+      {
+        "_path": "site-packages/dash_html_components/Aside.py",
+        "path_type": "hardlink",
+        "sha256": "c870b349986cc118435e7c43de7ec84b08df259a4172e2f8d2358f6a95e08376",
+        "sha256_in_prefix": "c870b349986cc118435e7c43de7ec84b08df259a4172e2f8d2358f6a95e08376",
+        "size_in_bytes": 4782
+      },
+      {
+        "_path": "site-packages/dash_html_components/Audio.py",
+        "path_type": "hardlink",
+        "sha256": "b6f5ee5c4d7bab8fdfed78f5c56f1ee386e9eff3d7c72ab46aa589738b490602",
+        "sha256_in_prefix": "b6f5ee5c4d7bab8fdfed78f5c56f1ee386e9eff3d7c72ab46aa589738b490602",
+        "size_in_bytes": 5952
+      },
+      {
+        "_path": "site-packages/dash_html_components/B.py",
+        "path_type": "hardlink",
+        "sha256": "bc3d71f5ad76463587002e25598120ee978e6254d530cd623ec6532e5a1292a4",
+        "sha256_in_prefix": "bc3d71f5ad76463587002e25598120ee978e6254d530cd623ec6532e5a1292a4",
+        "size_in_bytes": 4753
+      },
+      {
+        "_path": "site-packages/dash_html_components/Base.py",
+        "path_type": "hardlink",
+        "sha256": "4f63160cd58b7ab75bf648760035369c492b10f89ddae9b8f12bf4c6299d74f6",
+        "sha256_in_prefix": "4f63160cd58b7ab75bf648760035369c492b10f89ddae9b8f12bf4c6299d74f6",
+        "size_in_bytes": 5102
+      },
+      {
+        "_path": "site-packages/dash_html_components/Basefont.py",
+        "path_type": "hardlink",
+        "sha256": "41bd57b507211338fa34dab243622befc8efa489f7dee96a86450a5e77c87607",
+        "sha256_in_prefix": "41bd57b507211338fa34dab243622befc8efa489f7dee96a86450a5e77c87607",
+        "size_in_bytes": 4802
+      },
+      {
+        "_path": "site-packages/dash_html_components/Bdi.py",
+        "path_type": "hardlink",
+        "sha256": "d1374b98e4a6929f84f1e3f1ef8c7112fcb1aa1d31c732f34b2142a1ddf8b213",
+        "sha256_in_prefix": "d1374b98e4a6929f84f1e3f1ef8c7112fcb1aa1d31c732f34b2142a1ddf8b213",
+        "size_in_bytes": 4767
+      },
+      {
+        "_path": "site-packages/dash_html_components/Bdo.py",
+        "path_type": "hardlink",
+        "sha256": "0640151296930ba961b41ed6f6366111a7c84df0eb28457b60ffb4117a00b71f",
+        "sha256_in_prefix": "0640151296930ba961b41ed6f6366111a7c84df0eb28457b60ffb4117a00b71f",
+        "size_in_bytes": 4767
+      },
+      {
+        "_path": "site-packages/dash_html_components/Big.py",
+        "path_type": "hardlink",
+        "sha256": "e154b1dbda107fdedad81caadf812b7d7dbb0f2a3a0053bb8b3b0a9e0b0bbf2f",
+        "sha256_in_prefix": "e154b1dbda107fdedad81caadf812b7d7dbb0f2a3a0053bb8b3b0a9e0b0bbf2f",
+        "size_in_bytes": 4767
+      },
+      {
+        "_path": "site-packages/dash_html_components/Blink.py",
+        "path_type": "hardlink",
+        "sha256": "a3c1b1025b7a99197d8dabb0e4b00e7fc841599a2be02e79e82e7bf9f64df87a",
+        "sha256_in_prefix": "a3c1b1025b7a99197d8dabb0e4b00e7fc841599a2be02e79e82e7bf9f64df87a",
+        "size_in_bytes": 4781
+      },
+      {
+        "_path": "site-packages/dash_html_components/Blockquote.py",
+        "path_type": "hardlink",
+        "sha256": "770293c6301ab28de1b5521af6a45fbbacacc8095122ad6f03d91e86778668f8",
+        "sha256_in_prefix": "770293c6301ab28de1b5521af6a45fbbacacc8095122ad6f03d91e86778668f8",
+        "size_in_bytes": 4951
+      },
+      {
+        "_path": "site-packages/dash_html_components/Br.py",
+        "path_type": "hardlink",
+        "sha256": "97a22c62068fbc710372d18c4d966f9fb7242dc6ea85d588aafcae1386d8dd91",
+        "sha256_in_prefix": "97a22c62068fbc710372d18c4d966f9fb7242dc6ea85d588aafcae1386d8dd91",
+        "size_in_bytes": 4760
+      },
+      {
+        "_path": "site-packages/dash_html_components/Button.py",
+        "path_type": "hardlink",
+        "sha256": "20d4afbfca13a4659ac16c65620097fa36d099dcd1d10c44a0564978e0442d27",
+        "sha256_in_prefix": "20d4afbfca13a4659ac16c65620097fa36d099dcd1d10c44a0564978e0442d27",
+        "size_in_bytes": 7390
+      },
+      {
+        "_path": "site-packages/dash_html_components/Canvas.py",
+        "path_type": "hardlink",
+        "sha256": "c29b152e1429610717f01973cb943f991d221c3e64bdfb9ff38e22b3e4bfe14b",
+        "sha256_in_prefix": "c29b152e1429610717f01973cb943f991d221c3e64bdfb9ff38e22b3e4bfe14b",
+        "size_in_bytes": 5402
+      },
+      {
+        "_path": "site-packages/dash_html_components/Caption.py",
+        "path_type": "hardlink",
+        "sha256": "7a7e199692c9f7759d6748159bbf1a382dba04522b3871fc881b4b7d8ac2b2e8",
+        "sha256_in_prefix": "7a7e199692c9f7759d6748159bbf1a382dba04522b3871fc881b4b7d8ac2b2e8",
+        "size_in_bytes": 4795
+      },
+      {
+        "_path": "site-packages/dash_html_components/Center.py",
+        "path_type": "hardlink",
+        "sha256": "a55c2c2fb2124d18de9a76e017dc0302b0642100aabe4d4cf29c18a1a7514d16",
+        "sha256_in_prefix": "a55c2c2fb2124d18de9a76e017dc0302b0642100aabe4d4cf29c18a1a7514d16",
+        "size_in_bytes": 4788
+      },
+      {
+        "_path": "site-packages/dash_html_components/Cite.py",
+        "path_type": "hardlink",
+        "sha256": "b9de3091f518bfd76c9126633fe59965dc909d94aae6fe2dde56eb13102235dc",
+        "sha256_in_prefix": "b9de3091f518bfd76c9126633fe59965dc909d94aae6fe2dde56eb13102235dc",
+        "size_in_bytes": 4774
+      },
+      {
+        "_path": "site-packages/dash_html_components/Code.py",
+        "path_type": "hardlink",
+        "sha256": "64b9382d7904265198f643f5b9427456879fd995828b5ed9da27ad62968bc0e5",
+        "sha256_in_prefix": "64b9382d7904265198f643f5b9427456879fd995828b5ed9da27ad62968bc0e5",
+        "size_in_bytes": 4774
+      },
+      {
+        "_path": "site-packages/dash_html_components/Col.py",
+        "path_type": "hardlink",
+        "sha256": "4de21b5b8cadea3c4d62695f6cfd7e927bee697c478b9652195d61a967118889",
+        "sha256_in_prefix": "4de21b5b8cadea3c4d62695f6cfd7e927bee697c478b9652195d61a967118889",
+        "size_in_bytes": 4835
+      },
+      {
+        "_path": "site-packages/dash_html_components/Colgroup.py",
+        "path_type": "hardlink",
+        "sha256": "e18f52f1b3f9b5602dfbcdf0d5f4fb05138d9d5fb7013ba9193411b14fd095b4",
+        "sha256_in_prefix": "e18f52f1b3f9b5602dfbcdf0d5f4fb05138d9d5fb7013ba9193411b14fd095b4",
+        "size_in_bytes": 4870
+      },
+      {
+        "_path": "site-packages/dash_html_components/Command.py",
+        "path_type": "hardlink",
+        "sha256": "3967f96c2608ada5b408e485729c66ccdd970eeffec225d05d4854b15a00bd78",
+        "sha256_in_prefix": "3967f96c2608ada5b408e485729c66ccdd970eeffec225d05d4854b15a00bd78",
+        "size_in_bytes": 5480
+      },
+      {
+        "_path": "site-packages/dash_html_components/Content.py",
+        "path_type": "hardlink",
+        "sha256": "01fa2ddfd4b796c8c0a2b54b8c5507dc4aa5f3aba7c9f677a774d83381df94e9",
+        "sha256_in_prefix": "01fa2ddfd4b796c8c0a2b54b8c5507dc4aa5f3aba7c9f677a774d83381df94e9",
+        "size_in_bytes": 4795
+      },
+      {
+        "_path": "site-packages/dash_html_components/Data.py",
+        "path_type": "hardlink",
+        "sha256": "637a56718b309824b21de7976b110904fa6fe0e4974147d10615fe2f75c32c0d",
+        "sha256_in_prefix": "637a56718b309824b21de7976b110904fa6fe0e4974147d10615fe2f75c32c0d",
+        "size_in_bytes": 4924
+      },
+      {
+        "_path": "site-packages/dash_html_components/Datalist.py",
+        "path_type": "hardlink",
+        "sha256": "4127b26c0b271a4a9bc5a1163ae49a7f2f8c9a88c16fe32ac3bb66eb1f8898a9",
+        "sha256_in_prefix": "4127b26c0b271a4a9bc5a1163ae49a7f2f8c9a88c16fe32ac3bb66eb1f8898a9",
+        "size_in_bytes": 4802
+      },
+      {
+        "_path": "site-packages/dash_html_components/Dd.py",
+        "path_type": "hardlink",
+        "sha256": "f5171a8639f971c129e6cf56b93f6f6fd2e1a9ac039346a946b44e79639482dd",
+        "sha256_in_prefix": "f5171a8639f971c129e6cf56b93f6f6fd2e1a9ac039346a946b44e79639482dd",
+        "size_in_bytes": 4760
+      },
+      {
+        "_path": "site-packages/dash_html_components/Del.py",
+        "path_type": "hardlink",
+        "sha256": "f96dfc41afae1a94cea32f3b3ffd7a76b801f5b50669f5436029b5cf2e1418a2",
+        "sha256_in_prefix": "f96dfc41afae1a94cea32f3b3ffd7a76b801f5b50669f5436029b5cf2e1418a2",
+        "size_in_bytes": 5044
+      },
+      {
+        "_path": "site-packages/dash_html_components/Details.py",
+        "path_type": "hardlink",
+        "sha256": "f287ea0bd8439573e9982b27ca08a240233e1197630421b6ed89f0261847f849",
+        "sha256_in_prefix": "f287ea0bd8439573e9982b27ca08a240233e1197630421b6ed89f0261847f849",
+        "size_in_bytes": 4958
+      },
+      {
+        "_path": "site-packages/dash_html_components/Dfn.py",
+        "path_type": "hardlink",
+        "sha256": "d8b3c3a1b945804423f1e634159c78372b554bc9431ad02c458245c1ccda85a2",
+        "sha256_in_prefix": "d8b3c3a1b945804423f1e634159c78372b554bc9431ad02c458245c1ccda85a2",
+        "size_in_bytes": 4767
+      },
+      {
+        "_path": "site-packages/dash_html_components/Dialog.py",
+        "path_type": "hardlink",
+        "sha256": "fd5e83c02f631c40b13dc2ae5f52cc4d758c2ccf9039938d1a66722e8f007356",
+        "sha256_in_prefix": "fd5e83c02f631c40b13dc2ae5f52cc4d758c2ccf9039938d1a66722e8f007356",
+        "size_in_bytes": 4788
+      },
+      {
+        "_path": "site-packages/dash_html_components/Div.py",
+        "path_type": "hardlink",
+        "sha256": "ea39a1cce5453c870fef3f1d66b41ab44dea85b5ebfb2d0cc7cdde0cd0223069",
+        "sha256_in_prefix": "ea39a1cce5453c870fef3f1d66b41ab44dea85b5ebfb2d0cc7cdde0cd0223069",
+        "size_in_bytes": 4767
+      },
+      {
+        "_path": "site-packages/dash_html_components/Dl.py",
+        "path_type": "hardlink",
+        "sha256": "e718bd4ce0fc8a6e0bb0d1f18fea7b117d5536de719772e9a4f67ae3b421902a",
+        "sha256_in_prefix": "e718bd4ce0fc8a6e0bb0d1f18fea7b117d5536de719772e9a4f67ae3b421902a",
+        "size_in_bytes": 4760
+      },
+      {
+        "_path": "site-packages/dash_html_components/Dt.py",
+        "path_type": "hardlink",
+        "sha256": "a8049385a51e65ba0d24b262b60134068c6197be7c11fe33935d07c89ae2e810",
+        "sha256_in_prefix": "a8049385a51e65ba0d24b262b60134068c6197be7c11fe33935d07c89ae2e810",
+        "size_in_bytes": 4760
+      },
+      {
+        "_path": "site-packages/dash_html_components/Element.py",
+        "path_type": "hardlink",
+        "sha256": "d890d4574128809990b3f961e1aefcf356c016722ad8324c7afe14577f8cc2aa",
+        "sha256_in_prefix": "d890d4574128809990b3f961e1aefcf356c016722ad8324c7afe14577f8cc2aa",
+        "size_in_bytes": 4796
+      },
+      {
+        "_path": "site-packages/dash_html_components/Em.py",
+        "path_type": "hardlink",
+        "sha256": "f65fd464fb4b58b2a0358d11284c4e1cacac671360e60ad23812fa578cc5128c",
+        "sha256_in_prefix": "f65fd464fb4b58b2a0358d11284c4e1cacac671360e60ad23812fa578cc5128c",
+        "size_in_bytes": 4761
+      },
+      {
+        "_path": "site-packages/dash_html_components/Embed.py",
+        "path_type": "hardlink",
+        "sha256": "8a686c1a967f5b245fb6a96074049e5ff1da3b6453a70e7a4ec826e091a1e9a5",
+        "sha256_in_prefix": "8a686c1a967f5b245fb6a96074049e5ff1da3b6453a70e7a4ec826e091a1e9a5",
+        "size_in_bytes": 5598
+      },
+      {
+        "_path": "site-packages/dash_html_components/Fieldset.py",
+        "path_type": "hardlink",
+        "sha256": "3eee1800bcfc5578eb7e31f07ba21e495549ec241db4610c85ad478754ef1431",
+        "sha256_in_prefix": "3eee1800bcfc5578eb7e31f07ba21e495549ec241db4610c85ad478754ef1431",
+        "size_in_bytes": 5272
+      },
+      {
+        "_path": "site-packages/dash_html_components/Figcaption.py",
+        "path_type": "hardlink",
+        "sha256": "8ed3727140079e9178f4aaff3262f35f1158dcff978d85ae0785ce7499bc9f5d",
+        "sha256_in_prefix": "8ed3727140079e9178f4aaff3262f35f1158dcff978d85ae0785ce7499bc9f5d",
+        "size_in_bytes": 4816
+      },
+      {
+        "_path": "site-packages/dash_html_components/Figure.py",
+        "path_type": "hardlink",
+        "sha256": "77f8f35b8ca0f37f08a3210f3293af973ffe04490c5e8bcd97e00e39db3e2c0d",
+        "sha256_in_prefix": "77f8f35b8ca0f37f08a3210f3293af973ffe04490c5e8bcd97e00e39db3e2c0d",
+        "size_in_bytes": 4788
+      },
+      {
+        "_path": "site-packages/dash_html_components/Font.py",
+        "path_type": "hardlink",
+        "sha256": "7fc6a340fbfab6b7ec975c7b4846b23f298ed2552517d9b2ddc8c8e413dbdcce",
+        "sha256_in_prefix": "7fc6a340fbfab6b7ec975c7b4846b23f298ed2552517d9b2ddc8c8e413dbdcce",
+        "size_in_bytes": 4774
+      },
+      {
+        "_path": "site-packages/dash_html_components/Footer.py",
+        "path_type": "hardlink",
+        "sha256": "9ae3d7a39c6505f54ff09f0ed1dafc38e4d677862e8457bd09b44312f3d36b94",
+        "sha256_in_prefix": "9ae3d7a39c6505f54ff09f0ed1dafc38e4d677862e8457bd09b44312f3d36b94",
+        "size_in_bytes": 4788
+      },
+      {
+        "_path": "site-packages/dash_html_components/Form.py",
+        "path_type": "hardlink",
+        "sha256": "598e9d29c6ff0682771f7639b4a87e06ff6bdbba145aff80cd628f04c771d25f",
+        "sha256_in_prefix": "598e9d29c6ff0682771f7639b4a87e06ff6bdbba145aff80cd628f04c771d25f",
+        "size_in_bytes": 6345
+      },
+      {
+        "_path": "site-packages/dash_html_components/Frame.py",
+        "path_type": "hardlink",
+        "sha256": "7c6aaf8d9f66881ffcb0fb7abd147dac304017edb620d397e549de19cef7c8d9",
+        "sha256_in_prefix": "7c6aaf8d9f66881ffcb0fb7abd147dac304017edb620d397e549de19cef7c8d9",
+        "size_in_bytes": 4781
+      },
+      {
+        "_path": "site-packages/dash_html_components/Frameset.py",
+        "path_type": "hardlink",
+        "sha256": "0d22ec0aa6226d0be3d537f9ef08db8f4ee4d0d44677c50b39bb234fb221b2b2",
+        "sha256_in_prefix": "0d22ec0aa6226d0be3d537f9ef08db8f4ee4d0d44677c50b39bb234fb221b2b2",
+        "size_in_bytes": 4802
+      },
+      {
+        "_path": "site-packages/dash_html_components/H1.py",
+        "path_type": "hardlink",
+        "sha256": "5ebd101a7c6964e91f2ed511ead95ace364e7b9efc0d0b00fc40b7203e2ad2ff",
+        "sha256_in_prefix": "5ebd101a7c6964e91f2ed511ead95ace364e7b9efc0d0b00fc40b7203e2ad2ff",
+        "size_in_bytes": 4760
+      },
+      {
+        "_path": "site-packages/dash_html_components/H2.py",
+        "path_type": "hardlink",
+        "sha256": "67f9c63c2562e4a284c7431879f2374c9cbe87acaa2d270a87436463af958613",
+        "sha256_in_prefix": "67f9c63c2562e4a284c7431879f2374c9cbe87acaa2d270a87436463af958613",
+        "size_in_bytes": 4760
+      },
+      {
+        "_path": "site-packages/dash_html_components/H3.py",
+        "path_type": "hardlink",
+        "sha256": "1ee42e7748d3883c8f7a1e9f41123bd28f867e0b3244a5f6385ba8fa3bb1c7e7",
+        "sha256_in_prefix": "1ee42e7748d3883c8f7a1e9f41123bd28f867e0b3244a5f6385ba8fa3bb1c7e7",
+        "size_in_bytes": 4760
+      },
+      {
+        "_path": "site-packages/dash_html_components/H4.py",
+        "path_type": "hardlink",
+        "sha256": "f4371b546dae4fe6639677bcd6698a8eba2dbce512268844a9a31585c05b3a63",
+        "sha256_in_prefix": "f4371b546dae4fe6639677bcd6698a8eba2dbce512268844a9a31585c05b3a63",
+        "size_in_bytes": 4760
+      },
+      {
+        "_path": "site-packages/dash_html_components/H5.py",
+        "path_type": "hardlink",
+        "sha256": "838bef1b511bdb3e9d8ba35fe7c5cad0844def5e2c91d70e229c57b5607ed80e",
+        "sha256_in_prefix": "838bef1b511bdb3e9d8ba35fe7c5cad0844def5e2c91d70e229c57b5607ed80e",
+        "size_in_bytes": 4760
+      },
+      {
+        "_path": "site-packages/dash_html_components/H6.py",
+        "path_type": "hardlink",
+        "sha256": "f21b5146e893374c5b76e143d4f1f46f77b87c9aada21c4310f3bfd80c960e3d",
+        "sha256_in_prefix": "f21b5146e893374c5b76e143d4f1f46f77b87c9aada21c4310f3bfd80c960e3d",
+        "size_in_bytes": 4760
+      },
+      {
+        "_path": "site-packages/dash_html_components/Header.py",
+        "path_type": "hardlink",
+        "sha256": "f255ca85bbf28aae6e910b8ff2b9dae11288cd64dad0da99c9154f8b500456db",
+        "sha256_in_prefix": "f255ca85bbf28aae6e910b8ff2b9dae11288cd64dad0da99c9154f8b500456db",
+        "size_in_bytes": 4788
+      },
+      {
+        "_path": "site-packages/dash_html_components/Hgroup.py",
+        "path_type": "hardlink",
+        "sha256": "7ced36962d0e159f0d4bb0e87e1516b8f7813d2116f65de61a315a596c94b6a0",
+        "sha256_in_prefix": "7ced36962d0e159f0d4bb0e87e1516b8f7813d2116f65de61a315a596c94b6a0",
+        "size_in_bytes": 4788
+      },
+      {
+        "_path": "site-packages/dash_html_components/Hr.py",
+        "path_type": "hardlink",
+        "sha256": "545618bef9c82144647870571b02761bb17859b78d11a1115d68dc597716a7c1",
+        "sha256_in_prefix": "545618bef9c82144647870571b02761bb17859b78d11a1115d68dc597716a7c1",
+        "size_in_bytes": 4760
+      },
+      {
+        "_path": "site-packages/dash_html_components/I.py",
+        "path_type": "hardlink",
+        "sha256": "a891afc4754479f98a2c9bc48adf37db033700f7b21dbaba44f7b85045ae08b0",
+        "sha256_in_prefix": "a891afc4754479f98a2c9bc48adf37db033700f7b21dbaba44f7b85045ae08b0",
+        "size_in_bytes": 4754
+      },
+      {
+        "_path": "site-packages/dash_html_components/Iframe.py",
+        "path_type": "hardlink",
+        "sha256": "f9af695b40c28e107f76ef1c292d706290b4760c4773310edf7b4148d057d89e",
+        "sha256_in_prefix": "f9af695b40c28e107f76ef1c292d706290b4760c4773310edf7b4148d057d89e",
+        "size_in_bytes": 5937
+      },
+      {
+        "_path": "site-packages/dash_html_components/Img.py",
+        "path_type": "hardlink",
+        "sha256": "b388e06c452fe853746e5453c403566e104a15e3dc1361bb69442eb4f1eae05d",
+        "sha256_in_prefix": "b388e06c452fe853746e5453c403566e104a15e3dc1361bb69442eb4f1eae05d",
+        "size_in_bytes": 6010
+      },
+      {
+        "_path": "site-packages/dash_html_components/Ins.py",
+        "path_type": "hardlink",
+        "sha256": "38dc116f8eeb18e81a6d993a3465eb8412df5355d9bf2f776ee4f275f3e5e622",
+        "sha256_in_prefix": "38dc116f8eeb18e81a6d993a3465eb8412df5355d9bf2f776ee4f275f3e5e622",
+        "size_in_bytes": 5045
+      },
+      {
+        "_path": "site-packages/dash_html_components/Isindex.py",
+        "path_type": "hardlink",
+        "sha256": "8b24950094754f10680c852cefc9280a251adaa015bc59ed401f382bf13a7410",
+        "sha256_in_prefix": "8b24950094754f10680c852cefc9280a251adaa015bc59ed401f382bf13a7410",
+        "size_in_bytes": 4796
+      },
+      {
+        "_path": "site-packages/dash_html_components/Kbd.py",
+        "path_type": "hardlink",
+        "sha256": "7d1f5988875accb2ca7727cb3792628135e5aa2c1cf82a201ce1c53dea68f228",
+        "sha256_in_prefix": "7d1f5988875accb2ca7727cb3792628135e5aa2c1cf82a201ce1c53dea68f228",
+        "size_in_bytes": 4767
+      },
+      {
+        "_path": "site-packages/dash_html_components/Keygen.py",
+        "path_type": "hardlink",
+        "sha256": "27aa4bab210e73c33a9f3eecb211968f0225bbaf9d3ae95392ea197d11c82033",
+        "sha256_in_prefix": "27aa4bab210e73c33a9f3eecb211968f0225bbaf9d3ae95392ea197d11c82033",
+        "size_in_bytes": 5744
+      },
+      {
+        "_path": "site-packages/dash_html_components/Label.py",
+        "path_type": "hardlink",
+        "sha256": "05357c5bb1e1d07a9d45218fa4e1c958f152913f4a196fcb9fe701713bb8268d",
+        "sha256_in_prefix": "05357c5bb1e1d07a9d45218fa4e1c958f152913f4a196fcb9fe701713bb8268d",
+        "size_in_bytes": 5030
+      },
+      {
+        "_path": "site-packages/dash_html_components/Legend.py",
+        "path_type": "hardlink",
+        "sha256": "a80e070dd99891c2a3aa22a66e8a275ce210e14f21ee7b7d6beb1751a1b3c3ab",
+        "sha256_in_prefix": "a80e070dd99891c2a3aa22a66e8a275ce210e14f21ee7b7d6beb1751a1b3c3ab",
+        "size_in_bytes": 4788
+      },
+      {
+        "_path": "site-packages/dash_html_components/Li.py",
+        "path_type": "hardlink",
+        "sha256": "0eb250650b34bb406e602f9714faee75a612d0ff0bc9de54461298134bdc05b9",
+        "sha256_in_prefix": "0eb250650b34bb406e602f9714faee75a612d0ff0bc9de54461298134bdc05b9",
+        "size_in_bytes": 4910
+      },
+      {
+        "_path": "site-packages/dash_html_components/Link.py",
+        "path_type": "hardlink",
+        "sha256": "a5374e61350e50a46a2635929800f55a828951fcaa52fdb72a3142f7471e5c9e",
+        "sha256_in_prefix": "a5374e61350e50a46a2635929800f55a828951fcaa52fdb72a3142f7471e5c9e",
+        "size_in_bytes": 5677
+      },
+      {
+        "_path": "site-packages/dash_html_components/Listing.py",
+        "path_type": "hardlink",
+        "sha256": "48a2bca27672c4a11159793741f3a1abdfcdc24f20519c6aff15e1e9879e2f9e",
+        "sha256_in_prefix": "48a2bca27672c4a11159793741f3a1abdfcdc24f20519c6aff15e1e9879e2f9e",
+        "size_in_bytes": 4795
+      },
+      {
+        "_path": "site-packages/dash_html_components/Main.py",
+        "path_type": "hardlink",
+        "sha256": "472b2fe451cf7fa3d87487b8a8f7efee0bbf1b3eae79a9b53fb42f36c32e32e9",
+        "sha256_in_prefix": "472b2fe451cf7fa3d87487b8a8f7efee0bbf1b3eae79a9b53fb42f36c32e32e9",
+        "size_in_bytes": 4774
+      },
+      {
+        "_path": "site-packages/dash_html_components/MapEl.py",
+        "path_type": "hardlink",
+        "sha256": "9ffa6f52b9803b99f3d653a87dd84da459da2d673adf474ec23b2d97d19e669e",
+        "sha256_in_prefix": "9ffa6f52b9803b99f3d653a87dd84da459da2d673adf474ec23b2d97d19e669e",
+        "size_in_bytes": 4938
+      },
+      {
+        "_path": "site-packages/dash_html_components/Mark.py",
+        "path_type": "hardlink",
+        "sha256": "e9f0e4f09a5f353176e6edd57f9d1df4dc82a5ecec0285905250bf50401064fa",
+        "sha256_in_prefix": "e9f0e4f09a5f353176e6edd57f9d1df4dc82a5ecec0285905250bf50401064fa",
+        "size_in_bytes": 4774
+      },
+      {
+        "_path": "site-packages/dash_html_components/Marquee.py",
+        "path_type": "hardlink",
+        "sha256": "6ba4d6aa882f02678edaecf1c7ee24ad2fa5b73676c1342ecfec5a2c686f7a10",
+        "sha256_in_prefix": "6ba4d6aa882f02678edaecf1c7ee24ad2fa5b73676c1342ecfec5a2c686f7a10",
+        "size_in_bytes": 4984
+      },
+      {
+        "_path": "site-packages/dash_html_components/Meta.py",
+        "path_type": "hardlink",
+        "sha256": "b70c519705acdc60f4ed0d9f1a15ee04f10c1cb3cffd6a469ca05a1783552917",
+        "sha256_in_prefix": "b70c519705acdc60f4ed0d9f1a15ee04f10c1cb3cffd6a469ca05a1783552917",
+        "size_in_bytes": 5338
+      },
+      {
+        "_path": "site-packages/dash_html_components/Meter.py",
+        "path_type": "hardlink",
+        "sha256": "855ad19cc3319893a51d08bce1c52e1ba6903da202c04646659bccc0e255352a",
+        "sha256_in_prefix": "855ad19cc3319893a51d08bce1c52e1ba6903da202c04646659bccc0e255352a",
+        "size_in_bytes": 5619
+      },
+      {
+        "_path": "site-packages/dash_html_components/Multicol.py",
+        "path_type": "hardlink",
+        "sha256": "96c91d2faa1e0514d0bd9413992669e71cfccf944c7a8671d7b66ab20e83946b",
+        "sha256_in_prefix": "96c91d2faa1e0514d0bd9413992669e71cfccf944c7a8671d7b66ab20e83946b",
+        "size_in_bytes": 4802
+      },
+      {
+        "_path": "site-packages/dash_html_components/Nav.py",
+        "path_type": "hardlink",
+        "sha256": "c118332710113f5e490acc50c27d7742ba2b756c1bf6972f859d5d981104520c",
+        "sha256_in_prefix": "c118332710113f5e490acc50c27d7742ba2b756c1bf6972f859d5d981104520c",
+        "size_in_bytes": 4767
+      },
+      {
+        "_path": "site-packages/dash_html_components/Nextid.py",
+        "path_type": "hardlink",
+        "sha256": "4c8cd83f1823d86fb54c5fc17e0ff4e4f7d64383f0ae1187921fde1f81b7f9b7",
+        "sha256_in_prefix": "4c8cd83f1823d86fb54c5fc17e0ff4e4f7d64383f0ae1187921fde1f81b7f9b7",
+        "size_in_bytes": 4788
+      },
+      {
+        "_path": "site-packages/dash_html_components/Nobr.py",
+        "path_type": "hardlink",
+        "sha256": "dd5c4cc39ed61e6cd47efe22e3ad1d7463dcc896896c7836f878d78856dceae3",
+        "sha256_in_prefix": "dd5c4cc39ed61e6cd47efe22e3ad1d7463dcc896896c7836f878d78856dceae3",
+        "size_in_bytes": 4774
+      },
+      {
+        "_path": "site-packages/dash_html_components/Noscript.py",
+        "path_type": "hardlink",
+        "sha256": "a8f16242d525389d247c00e0e7b087d2fe18a0f76d2806528c78f9ff3a119873",
+        "sha256_in_prefix": "a8f16242d525389d247c00e0e7b087d2fe18a0f76d2806528c78f9ff3a119873",
+        "size_in_bytes": 4802
+      },
+      {
+        "_path": "site-packages/dash_html_components/ObjectEl.py",
+        "path_type": "hardlink",
+        "sha256": "e98b705ecd1c4e686148450f215e5546889834b0ae06104af929951cf79fdc76",
+        "sha256_in_prefix": "e98b705ecd1c4e686148450f215e5546889834b0ae06104af929951cf79fdc76",
+        "size_in_bytes": 5874
+      },
+      {
+        "_path": "site-packages/dash_html_components/Ol.py",
+        "path_type": "hardlink",
+        "sha256": "76ecee38548014f96c79a8c2b2f8ee465e10b410878d6f09fa5c1cd3831efea3",
+        "sha256_in_prefix": "76ecee38548014f96c79a8c2b2f8ee465e10b410878d6f09fa5c1cd3831efea3",
+        "size_in_bytes": 5098
+      },
+      {
+        "_path": "site-packages/dash_html_components/Optgroup.py",
+        "path_type": "hardlink",
+        "sha256": "191629d45146cf52d4d22129f12ae185bdfc0bb596485b16827049eefea36f26",
+        "sha256_in_prefix": "191629d45146cf52d4d22129f12ae185bdfc0bb596485b16827049eefea36f26",
+        "size_in_bytes": 5111
+      },
+      {
+        "_path": "site-packages/dash_html_components/Option.py",
+        "path_type": "hardlink",
+        "sha256": "83512d0ac76c5d9e967ced2308902fb3b0a0af4260285b66b15e6377a5f7ee9b",
+        "sha256_in_prefix": "83512d0ac76c5d9e967ced2308902fb3b0a0af4260285b66b15e6377a5f7ee9b",
+        "size_in_bytes": 5429
+      },
+      {
+        "_path": "site-packages/dash_html_components/Output.py",
+        "path_type": "hardlink",
+        "sha256": "0d4f6959ef37bd4c749ad22ed58348d525e666a367c88d6a4ebd90df543e0784",
+        "sha256_in_prefix": "0d4f6959ef37bd4c749ad22ed58348d525e666a367c88d6a4ebd90df543e0784",
+        "size_in_bytes": 5199
+      },
+      {
+        "_path": "site-packages/dash_html_components/P.py",
+        "path_type": "hardlink",
+        "sha256": "bcac5b9d5c6f4fd06848057e4a1026945d16403f7dd8a4d946962b0881f7e618",
+        "sha256_in_prefix": "bcac5b9d5c6f4fd06848057e4a1026945d16403f7dd8a4d946962b0881f7e618",
+        "size_in_bytes": 4753
+      },
+      {
+        "_path": "site-packages/dash_html_components/Param.py",
+        "path_type": "hardlink",
+        "sha256": "e72f69b12d4abe33a8ebd01f8ccb3b637af2bb1c0f8b94ecbf77af249e362ec9",
+        "sha256_in_prefix": "e72f69b12d4abe33a8ebd01f8ccb3b637af2bb1c0f8b94ecbf77af249e362ec9",
+        "size_in_bytes": 5092
+      },
+      {
+        "_path": "site-packages/dash_html_components/Picture.py",
+        "path_type": "hardlink",
+        "sha256": "7d7c68f2a9f8585d2510a22a3a6b9bd8bf388bcc527c039e4e3955b7ce1bddf3",
+        "sha256_in_prefix": "7d7c68f2a9f8585d2510a22a3a6b9bd8bf388bcc527c039e4e3955b7ce1bddf3",
+        "size_in_bytes": 4795
+      },
+      {
+        "_path": "site-packages/dash_html_components/Plaintext.py",
+        "path_type": "hardlink",
+        "sha256": "e87946532d7ecb4aa3e846a6500d31ff0cf3d16eeab9fc079b2ed8b46195f8b7",
+        "sha256_in_prefix": "e87946532d7ecb4aa3e846a6500d31ff0cf3d16eeab9fc079b2ed8b46195f8b7",
+        "size_in_bytes": 4809
+      },
+      {
+        "_path": "site-packages/dash_html_components/Pre.py",
+        "path_type": "hardlink",
+        "sha256": "41c88efbad5bc02f5388d8edcc081604646ba7a8c21dd5be94a111cf400e69fa",
+        "sha256_in_prefix": "41c88efbad5bc02f5388d8edcc081604646ba7a8c21dd5be94a111cf400e69fa",
+        "size_in_bytes": 4767
+      },
+      {
+        "_path": "site-packages/dash_html_components/Progress.py",
+        "path_type": "hardlink",
+        "sha256": "1beda66fa1f48ff1d0683acd743a1373fc2150ee96b48fb0df49d3423bd8acc4",
+        "sha256_in_prefix": "1beda66fa1f48ff1d0683acd743a1373fc2150ee96b48fb0df49d3423bd8acc4",
+        "size_in_bytes": 5185
+      },
+      {
+        "_path": "site-packages/dash_html_components/Q.py",
+        "path_type": "hardlink",
+        "sha256": "75ab6a709d592c72c24be8b1aa400a91cbfdda1e783acb8726ffb80ab9363ff4",
+        "sha256_in_prefix": "75ab6a709d592c72c24be8b1aa400a91cbfdda1e783acb8726ffb80ab9363ff4",
+        "size_in_bytes": 4888
+      },
+      {
+        "_path": "site-packages/dash_html_components/Rb.py",
+        "path_type": "hardlink",
+        "sha256": "ab9e3aca3e34fe16a9a5391526ab70078e70f43f4cba84b975c068d6a634056f",
+        "sha256_in_prefix": "ab9e3aca3e34fe16a9a5391526ab70078e70f43f4cba84b975c068d6a634056f",
+        "size_in_bytes": 4760
+      },
+      {
+        "_path": "site-packages/dash_html_components/Rp.py",
+        "path_type": "hardlink",
+        "sha256": "f7612ef3a8fbd9f652513802b3ec0fabe97627ed7924bcb03411f282ceeb4984",
+        "sha256_in_prefix": "f7612ef3a8fbd9f652513802b3ec0fabe97627ed7924bcb03411f282ceeb4984",
+        "size_in_bytes": 4760
+      },
+      {
+        "_path": "site-packages/dash_html_components/Rt.py",
+        "path_type": "hardlink",
+        "sha256": "74daebeb8b55991c0e10c59b6e707facea5877570d4d8090f2ddc9433f250112",
+        "sha256_in_prefix": "74daebeb8b55991c0e10c59b6e707facea5877570d4d8090f2ddc9433f250112",
+        "size_in_bytes": 4760
+      },
+      {
+        "_path": "site-packages/dash_html_components/Rtc.py",
+        "path_type": "hardlink",
+        "sha256": "e13cb73a76e47d5a70f7761c23dffc3a26d10af92ffd689449c397c9976309f8",
+        "sha256_in_prefix": "e13cb73a76e47d5a70f7761c23dffc3a26d10af92ffd689449c397c9976309f8",
+        "size_in_bytes": 4767
+      },
+      {
+        "_path": "site-packages/dash_html_components/Ruby.py",
+        "path_type": "hardlink",
+        "sha256": "21aee6ffeb2b1bb163b09fe5da524232e8900469d4d79bd8fce15cc478be8cd0",
+        "sha256_in_prefix": "21aee6ffeb2b1bb163b09fe5da524232e8900469d4d79bd8fce15cc478be8cd0",
+        "size_in_bytes": 4774
+      },
+      {
+        "_path": "site-packages/dash_html_components/S.py",
+        "path_type": "hardlink",
+        "sha256": "afe83e5cf7b04591d0796f17c3b673243b3984ff99ca10f9ae4767b680943f31",
+        "sha256_in_prefix": "afe83e5cf7b04591d0796f17c3b673243b3984ff99ca10f9ae4767b680943f31",
+        "size_in_bytes": 4753
+      },
+      {
+        "_path": "site-packages/dash_html_components/Samp.py",
+        "path_type": "hardlink",
+        "sha256": "70f88e6bf50b45f5fd329620c115c81ae12003c672ffaea1c8309735a1a79c1c",
+        "sha256_in_prefix": "70f88e6bf50b45f5fd329620c115c81ae12003c672ffaea1c8309735a1a79c1c",
+        "size_in_bytes": 4774
+      },
+      {
+        "_path": "site-packages/dash_html_components/Script.py",
+        "path_type": "hardlink",
+        "sha256": "1166a83dd4495cd45f8ad85c8d68b71003d1b28d7b92a30dd7b25ebf0ec5e3b2",
+        "sha256_in_prefix": "1166a83dd4495cd45f8ad85c8d68b71003d1b28d7b92a30dd7b25ebf0ec5e3b2",
+        "size_in_bytes": 5754
+      },
+      {
+        "_path": "site-packages/dash_html_components/Section.py",
+        "path_type": "hardlink",
+        "sha256": "a5a0592e956ffdc942ba28a44d77d7b4893b97e059d1517445ba6a645053d4eb",
+        "sha256_in_prefix": "a5a0592e956ffdc942ba28a44d77d7b4893b97e059d1517445ba6a645053d4eb",
+        "size_in_bytes": 4795
+      },
+      {
+        "_path": "site-packages/dash_html_components/Select.py",
+        "path_type": "hardlink",
+        "sha256": "a0d7af35fecdca51546cca6e010224248b1111fe91ca22719f37e2282ee0742b",
+        "sha256_in_prefix": "a0d7af35fecdca51546cca6e010224248b1111fe91ca22719f37e2282ee0742b",
+        "size_in_bytes": 6308
+      },
+      {
+        "_path": "site-packages/dash_html_components/Shadow.py",
+        "path_type": "hardlink",
+        "sha256": "79e77a8e1c8f934a1179f8b8fed7e3536d6cdbf7d484b82985bd92bca2ebdaeb",
+        "sha256_in_prefix": "79e77a8e1c8f934a1179f8b8fed7e3536d6cdbf7d484b82985bd92bca2ebdaeb",
+        "size_in_bytes": 4788
+      },
+      {
+        "_path": "site-packages/dash_html_components/Slot.py",
+        "path_type": "hardlink",
+        "sha256": "f8d1608dd21a91d9e806f78c8e46a33a2e3de6ae30a922a184e4b34ae9ec78bc",
+        "sha256_in_prefix": "f8d1608dd21a91d9e806f78c8e46a33a2e3de6ae30a922a184e4b34ae9ec78bc",
+        "size_in_bytes": 4774
+      },
+      {
+        "_path": "site-packages/dash_html_components/Small.py",
+        "path_type": "hardlink",
+        "sha256": "43cdabf4e885cce7c0ec326a90235250086960701ba1b5a374e9ce799bfd4d94",
+        "sha256_in_prefix": "43cdabf4e885cce7c0ec326a90235250086960701ba1b5a374e9ce799bfd4d94",
+        "size_in_bytes": 4781
+      },
+      {
+        "_path": "site-packages/dash_html_components/Source.py",
+        "path_type": "hardlink",
+        "sha256": "11ecfd67d82fc4272b8fafedec81cbfb8a705f8e7532604805503d390b17137e",
+        "sha256_in_prefix": "11ecfd67d82fc4272b8fafedec81cbfb8a705f8e7532604805503d390b17137e",
+        "size_in_bytes": 5327
+      },
+      {
+        "_path": "site-packages/dash_html_components/Spacer.py",
+        "path_type": "hardlink",
+        "sha256": "8bae44db402cbe807ed0b4b87b3bcfa9790ec510732af396b3fa5fbe56ce6d70",
+        "sha256_in_prefix": "8bae44db402cbe807ed0b4b87b3bcfa9790ec510732af396b3fa5fbe56ce6d70",
+        "size_in_bytes": 4788
+      },
+      {
+        "_path": "site-packages/dash_html_components/Span.py",
+        "path_type": "hardlink",
+        "sha256": "ba89fa7ecce1bbee2b025cd8d615f340245e8e14bb070eff3fa76686f399ec0e",
+        "sha256_in_prefix": "ba89fa7ecce1bbee2b025cd8d615f340245e8e14bb070eff3fa76686f399ec0e",
+        "size_in_bytes": 4774
+      },
+      {
+        "_path": "site-packages/dash_html_components/Strike.py",
+        "path_type": "hardlink",
+        "sha256": "115cb36e9428953a010df664026d70ef11f2a6a189c24552114678f310239b17",
+        "sha256_in_prefix": "115cb36e9428953a010df664026d70ef11f2a6a189c24552114678f310239b17",
+        "size_in_bytes": 4788
+      },
+      {
+        "_path": "site-packages/dash_html_components/Strong.py",
+        "path_type": "hardlink",
+        "sha256": "1401791a0f44980c5be8a2dabecf03a17462c8306303e96658a62ed105664c16",
+        "sha256_in_prefix": "1401791a0f44980c5be8a2dabecf03a17462c8306303e96658a62ed105664c16",
+        "size_in_bytes": 4788
+      },
+      {
+        "_path": "site-packages/dash_html_components/Sub.py",
+        "path_type": "hardlink",
+        "sha256": "d94ae3d618f2f67d1fa5f25bae69bca41f0811f9735b8cc1a21ae40b7233950c",
+        "sha256_in_prefix": "d94ae3d618f2f67d1fa5f25bae69bca41f0811f9735b8cc1a21ae40b7233950c",
+        "size_in_bytes": 4767
+      },
+      {
+        "_path": "site-packages/dash_html_components/Summary.py",
+        "path_type": "hardlink",
+        "sha256": "d292f5aec1b885cce4dd462276a8b10280779175d81e5f6ee41dba50dbd95d20",
+        "sha256_in_prefix": "d292f5aec1b885cce4dd462276a8b10280779175d81e5f6ee41dba50dbd95d20",
+        "size_in_bytes": 4795
+      },
+      {
+        "_path": "site-packages/dash_html_components/Sup.py",
+        "path_type": "hardlink",
+        "sha256": "f979c658c4ea124a5567670d2b404cf53e11ef367e9d43957e20d0721d12dbc2",
+        "sha256_in_prefix": "f979c658c4ea124a5567670d2b404cf53e11ef367e9d43957e20d0721d12dbc2",
+        "size_in_bytes": 4767
+      },
+      {
+        "_path": "site-packages/dash_html_components/Table.py",
+        "path_type": "hardlink",
+        "sha256": "57803ec29dd6099d667df7591a03495a50071da09453cb6f916fba1139a5819a",
+        "sha256_in_prefix": "57803ec29dd6099d667df7591a03495a50071da09453cb6f916fba1139a5819a",
+        "size_in_bytes": 4861
+      },
+      {
+        "_path": "site-packages/dash_html_components/Tbody.py",
+        "path_type": "hardlink",
+        "sha256": "bec6276cc26531201c9ba81579efc2bebce34f13568cea72d0c2e29d633ccf32",
+        "sha256_in_prefix": "bec6276cc26531201c9ba81579efc2bebce34f13568cea72d0c2e29d633ccf32",
+        "size_in_bytes": 4781
+      },
+      {
+        "_path": "site-packages/dash_html_components/Td.py",
+        "path_type": "hardlink",
+        "sha256": "53b3b3de6f9f597e808475888185c9d2206217f51d15d19b54eb24b76c850114",
+        "sha256_in_prefix": "53b3b3de6f9f597e808475888185c9d2206217f51d15d19b54eb24b76c850114",
+        "size_in_bytes": 5207
+      },
+      {
+        "_path": "site-packages/dash_html_components/Template.py",
+        "path_type": "hardlink",
+        "sha256": "80764dee75f7fba7405e108f672954308fa7f4875149752d6745350de3b44531",
+        "sha256_in_prefix": "80764dee75f7fba7405e108f672954308fa7f4875149752d6745350de3b44531",
+        "size_in_bytes": 4802
+      },
+      {
+        "_path": "site-packages/dash_html_components/Textarea.py",
+        "path_type": "hardlink",
+        "sha256": "77e686451cd7eb3015ac089f14dd6aafa4e50a9ab193dc16e00a6220924b58a8",
+        "sha256_in_prefix": "77e686451cd7eb3015ac089f14dd6aafa4e50a9ab193dc16e00a6220924b58a8",
+        "size_in_bytes": 7237
+      },
+      {
+        "_path": "site-packages/dash_html_components/Tfoot.py",
+        "path_type": "hardlink",
+        "sha256": "4559b3da0578e7ec9ec3a12074418ece3a94f60ffa0bdc47d5aeb9f67008eac1",
+        "sha256_in_prefix": "4559b3da0578e7ec9ec3a12074418ece3a94f60ffa0bdc47d5aeb9f67008eac1",
+        "size_in_bytes": 4781
+      },
+      {
+        "_path": "site-packages/dash_html_components/Th.py",
+        "path_type": "hardlink",
+        "sha256": "b58f663619233d10644eef3a1c47511e4bfb2a59391dee8c4926daf964886095",
+        "sha256_in_prefix": "b58f663619233d10644eef3a1c47511e4bfb2a59391dee8c4926daf964886095",
+        "size_in_bytes": 5359
+      },
+      {
+        "_path": "site-packages/dash_html_components/Thead.py",
+        "path_type": "hardlink",
+        "sha256": "320060cbb2e1a42dbece9a14f2499b43ef3fce80a4da1d8d235e9787e4412fe4",
+        "sha256_in_prefix": "320060cbb2e1a42dbece9a14f2499b43ef3fce80a4da1d8d235e9787e4412fe4",
+        "size_in_bytes": 4781
+      },
+      {
+        "_path": "site-packages/dash_html_components/Time.py",
+        "path_type": "hardlink",
+        "sha256": "47e6586d9a67b90dfcdbf0b2c3d3222fd3eb7cbdbde710710cf7f6a583a5e5c7",
+        "sha256_in_prefix": "47e6586d9a67b90dfcdbf0b2c3d3222fd3eb7cbdbde710710cf7f6a583a5e5c7",
+        "size_in_bytes": 4916
+      },
+      {
+        "_path": "site-packages/dash_html_components/Title.py",
+        "path_type": "hardlink",
+        "sha256": "8b291c831b4f7214b8eb260b2a763a7a2e1742a1de3aa93b5011347cd0d01569",
+        "sha256_in_prefix": "8b291c831b4f7214b8eb260b2a763a7a2e1742a1de3aa93b5011347cd0d01569",
+        "size_in_bytes": 4781
+      },
+      {
+        "_path": "site-packages/dash_html_components/Tr.py",
+        "path_type": "hardlink",
+        "sha256": "ee6b4f6e210a002b9b1bce27e198537eb38021fac334506062cad5f09e66d555",
+        "sha256_in_prefix": "ee6b4f6e210a002b9b1bce27e198537eb38021fac334506062cad5f09e66d555",
+        "size_in_bytes": 4760
+      },
+      {
+        "_path": "site-packages/dash_html_components/Track.py",
+        "path_type": "hardlink",
+        "sha256": "46274184736f6e87ff6374baa1b01f4abf71ed58dee04c130fd56cbb522af8fd",
+        "sha256_in_prefix": "46274184736f6e87ff6374baa1b01f4abf71ed58dee04c130fd56cbb522af8fd",
+        "size_in_bytes": 5411
+      },
+      {
+        "_path": "site-packages/dash_html_components/U.py",
+        "path_type": "hardlink",
+        "sha256": "4427a02f0d4fdea231f24e5b1f3ac7c74451a4586cd6cb051f9da4dfc227232a",
+        "sha256_in_prefix": "4427a02f0d4fdea231f24e5b1f3ac7c74451a4586cd6cb051f9da4dfc227232a",
+        "size_in_bytes": 4754
+      },
+      {
+        "_path": "site-packages/dash_html_components/Ul.py",
+        "path_type": "hardlink",
+        "sha256": "7072aca8fc303c2ad8ffa4793f4f7e3e9bdbd2ec2c99d9276ec5e4553e33b4e3",
+        "sha256_in_prefix": "7072aca8fc303c2ad8ffa4793f4f7e3e9bdbd2ec2c99d9276ec5e4553e33b4e3",
+        "size_in_bytes": 4761
+      },
+      {
+        "_path": "site-packages/dash_html_components/Var.py",
+        "path_type": "hardlink",
+        "sha256": "4e546acacf6470a52bb7ffb9caaf31fd513b45ef9179b47fba2bccb3c29eb95a",
+        "sha256_in_prefix": "4e546acacf6470a52bb7ffb9caaf31fd513b45ef9179b47fba2bccb3c29eb95a",
+        "size_in_bytes": 4767
+      },
+      {
+        "_path": "site-packages/dash_html_components/Video.py",
+        "path_type": "hardlink",
+        "sha256": "b5373b6168bfeaa04590e894c3457c6753cdb52279b18331a628d8aadc991f6a",
+        "sha256_in_prefix": "b5373b6168bfeaa04590e894c3457c6753cdb52279b18331a628d8aadc991f6a",
+        "size_in_bytes": 6713
+      },
+      {
+        "_path": "site-packages/dash_html_components/Wbr.py",
+        "path_type": "hardlink",
+        "sha256": "7afeaa85fe12cc1775ee4df7594a8e4578925ffe5ac63d26364433c3d994ecb8",
+        "sha256_in_prefix": "7afeaa85fe12cc1775ee4df7594a8e4578925ffe5ac63d26364433c3d994ecb8",
+        "size_in_bytes": 4767
+      },
+      {
+        "_path": "site-packages/dash_html_components/Xmp.py",
+        "path_type": "hardlink",
+        "sha256": "903d1a52a8ee171900086532f26f424a38cd0fa7b2764c5edde705ef4b70cf87",
+        "sha256_in_prefix": "903d1a52a8ee171900086532f26f424a38cd0fa7b2764c5edde705ef4b70cf87",
+        "size_in_bytes": 4767
+      },
+      {
+        "_path": "site-packages/dash_html_components/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "f93f451da5d431791ac49009136e43429f8ad0b719f41cb0d90cd3124dd54921",
+        "sha256_in_prefix": "f93f451da5d431791ac49009136e43429f8ad0b719f41cb0d90cd3124dd54921",
+        "size_in_bytes": 2066
+      },
+      {
+        "_path": "site-packages/dash_html_components/_imports_.py",
+        "path_type": "hardlink",
+        "sha256": "746f17a62162b8159a926f2b6cbbad4595e518986d402cca9694c67dd1187d6a",
+        "sha256_in_prefix": "746f17a62162b8159a926f2b6cbbad4595e518986d402cca9694c67dd1187d6a",
+        "size_in_bytes": 4853
+      },
+      {
+        "_path": "site-packages/dash_html_components/dash_html_components.min.js",
+        "path_type": "hardlink",
+        "sha256": "2817cc77ea12f6140bf21a50ea846ede69ef844d354f82539987a68bf25bb094",
+        "sha256_in_prefix": "2817cc77ea12f6140bf21a50ea846ede69ef844d354f82539987a68bf25bb094",
+        "size_in_bytes": 256110
+      },
+      {
+        "_path": "site-packages/dash_html_components/dash_html_components.min.js.map",
+        "path_type": "hardlink",
+        "sha256": "c1ed06707afe1ab0e6af06dab761ac126d4b631071460cb511dea4fe925bc41d",
+        "sha256_in_prefix": "c1ed06707afe1ab0e6af06dab761ac126d4b631071460cb511dea4fe925bc41d",
+        "size_in_bytes": 1203889
+      },
+      {
+        "_path": "site-packages/dash_html_components/metadata.json",
+        "path_type": "hardlink",
+        "sha256": "e26111717949f81843ad1798ebec843e263f89835c82f343761871bcd2743396",
+        "sha256_in_prefix": "e26111717949f81843ad1798ebec843e263f89835c82f343761871bcd2743396",
+        "size_in_bytes": 841345
+      },
+      {
+        "_path": "site-packages/dash_html_components/package-info.json",
+        "path_type": "hardlink",
+        "sha256": "1c72ae7126082ff79a0c43097693bcc0a1ea0c8143087bf452730973feb0d792",
+        "sha256_in_prefix": "1c72ae7126082ff79a0c43097693bcc0a1ea0c8143087bf452730973feb0d792",
+        "size_in_bytes": 2461
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/A.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Abbr.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Acronym.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Address.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Area.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Article.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Aside.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Audio.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/B.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Base.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Basefont.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Bdi.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Bdo.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Big.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Blink.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Blockquote.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Br.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Button.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Canvas.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Caption.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Center.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Cite.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Code.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Col.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Colgroup.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Command.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Content.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Data.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Datalist.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Dd.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Del.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Details.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Dfn.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Dialog.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Div.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Dl.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Dt.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Element.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Em.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Embed.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Fieldset.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Figcaption.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Figure.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Font.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Footer.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Form.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Frame.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Frameset.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/H1.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/H2.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/H3.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/H4.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/H5.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/H6.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Header.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Hgroup.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Hr.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/I.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Iframe.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Img.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Ins.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Isindex.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Kbd.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Keygen.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Label.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Legend.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Li.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Link.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Listing.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Main.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/MapEl.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Mark.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Marquee.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Meta.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Meter.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Multicol.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Nav.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Nextid.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Nobr.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Noscript.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/ObjectEl.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Ol.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Optgroup.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Option.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Output.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/P.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Param.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Picture.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Plaintext.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Pre.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Progress.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Q.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Rb.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Rp.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Rt.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Rtc.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Ruby.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/S.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Samp.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Script.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Section.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Select.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Shadow.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Slot.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Small.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Source.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Spacer.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Span.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Strike.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Strong.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Sub.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Summary.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Sup.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Table.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Tbody.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Td.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Template.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Textarea.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Tfoot.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Th.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Thead.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Time.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Title.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Tr.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Track.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/U.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Ul.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Var.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Video.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Wbr.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/Xmp.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dash_html_components/__pycache__/_imports_.cpython-37.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7f46e4e5b496ba0e334fe272fb5fda9818e3ebd95809be04d96186198b8565df",
+  "size": 165138,
+  "subdir": "noarch",
+  "timestamp": 1599715812310,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dash-html-components-1.1.1-pyh9f0ad1d_0.tar.bz2",
+  "version": "1.1.1"
+}

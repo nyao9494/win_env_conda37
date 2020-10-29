@@ -1,0 +1,18 @@
+{
+  "arch": null,
+  "build": "py_0",
+  "build_number": 0,
+  "depends": [
+    "numpy >=1.17",
+    "pandas >=0.25",
+    "python >=3.6",
+    "setuptools"
+  ],
+  "license": "Apache-2.0",
+  "name": "xarray",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1600638406252,
+  "version": "0.16.1"
+}

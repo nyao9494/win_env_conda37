@@ -1,0 +1,25 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "dash",
+    "python"
+  ],
+  "features": "",
+  "fn": "dash-html-components-1.1.1-pyh9f0ad1d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "8f0c0add7e37adbc3d454cd1bf0e27d1",
+  "name": "dash-html-components",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "7f46e4e5b496ba0e334fe272fb5fda9818e3ebd95809be04d96186198b8565df",
+  "size": 165138,
+  "subdir": "noarch",
+  "timestamp": 1599715812310,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dash-html-components-1.1.1-pyh9f0ad1d_0.tar.bz2",
+  "version": "1.1.1"
+}

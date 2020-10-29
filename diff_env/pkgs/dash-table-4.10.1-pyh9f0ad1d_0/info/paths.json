@@ -1,0 +1,143 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/dash_table-4.10.1.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/dash_table-4.10.1.dist-info/LICENSE",
+      "path_type": "hardlink",
+      "sha256": "f6d1140c080bc8b87cfe70f63a1626221d300130dfef509985b5ffb53c2f5512",
+      "size_in_bytes": 1086
+    },
+    {
+      "_path": "site-packages/dash_table-4.10.1.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "3cc55f23628058eabca90ffc07bfc5b679aaf1e9d6505bc2af6551b81e595f05",
+      "size_in_bytes": 198
+    },
+    {
+      "_path": "site-packages/dash_table-4.10.1.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "ef5da4822410525f5ccfc6d4ee5d6c150d7f379ba191d428e22dcf2afb325ce6",
+      "size_in_bytes": 2219
+    },
+    {
+      "_path": "site-packages/dash_table-4.10.1.dist-info/REQUESTED",
+      "path_type": "hardlink",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "size_in_bytes": 0
+    },
+    {
+      "_path": "site-packages/dash_table-4.10.1.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "site-packages/dash_table-4.10.1.dist-info/direct_url.json",
+      "path_type": "hardlink",
+      "sha256": "b3a6c04c45e6dc3cbe4f1cc1a56c26e76c8e855cb765b7c1bf09dccaf3446f78",
+      "size_in_bytes": 106
+    },
+    {
+      "_path": "site-packages/dash_table-4.10.1.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "862b0b09e8c61629d997289d5b89c324f2f301831d58315263d2ef6244eedd21",
+      "size_in_bytes": 11
+    },
+    {
+      "_path": "site-packages/dash_table/DataTable.py",
+      "path_type": "hardlink",
+      "sha256": "c00b3323190dfec5d12a4343014753a491d2f85cbba2d914f9b58c71df5e0266",
+      "size_in_bytes": 51851
+    },
+    {
+      "_path": "site-packages/dash_table/Format.py",
+      "path_type": "hardlink",
+      "sha256": "b757828776ac881e19cb054f7d1e9d49ddf8b168bb8ca99805c641a0e2ab0fad",
+      "size_in_bytes": 7581
+    },
+    {
+      "_path": "site-packages/dash_table/FormatTemplate.py",
+      "path_type": "hardlink",
+      "sha256": "8363fe94c8108f0adfe672158643e3560427a27db2ab2a38f45278fb52c11ef6",
+      "size_in_bytes": 521
+    },
+    {
+      "_path": "site-packages/dash_table/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "f6bda6534880d0f8cd120194a1e4c3bda1e897cdef3e74aa73274ddef903e917",
+      "size_in_bytes": 2397
+    },
+    {
+      "_path": "site-packages/dash_table/_imports_.py",
+      "path_type": "hardlink",
+      "sha256": "58eba8ea76f2905c366a6d8d89110305ea916703654c944a75fc4c5f54083d4a",
+      "size_in_bytes": 63
+    },
+    {
+      "_path": "site-packages/dash_table/async-export.js",
+      "path_type": "hardlink",
+      "sha256": "8f8f1358c985df8530bc771f1538a742d7ae4bbd1ac2d75c4c2760d239f36713",
+      "size_in_bytes": 934010
+    },
+    {
+      "_path": "site-packages/dash_table/async-export.js.map",
+      "path_type": "hardlink",
+      "sha256": "ec61ccf7cea788fa186134889e2c8f1bb8fe4941c5f33815bdc7da9aa7ec110a",
+      "size_in_bytes": 2455259
+    },
+    {
+      "_path": "site-packages/dash_table/async-highlight.js",
+      "path_type": "hardlink",
+      "sha256": "275b7e414616955fd8851895719740db5a4ed70ac6a1a214f8fe2029cb4cbff9",
+      "size_in_bytes": 54814
+    },
+    {
+      "_path": "site-packages/dash_table/async-highlight.js.map",
+      "path_type": "hardlink",
+      "sha256": "0fa00baedd23dc74c412624d4a09f22fbcd041d15e98675e8d5ace53bc35854d",
+      "size_in_bytes": 170278
+    },
+    {
+      "_path": "site-packages/dash_table/async-table.js",
+      "path_type": "hardlink",
+      "sha256": "da22e7605ab1f0011f2a64832d65281d176c480fbe451f486f826f970692049e",
+      "size_in_bytes": 379785
+    },
+    {
+      "_path": "site-packages/dash_table/async-table.js.map",
+      "path_type": "hardlink",
+      "sha256": "99c41175b7e2f0669f8f3a1a872526669beb49371cb7251aa17cc63c16e0a12f",
+      "size_in_bytes": 1965719
+    },
+    {
+      "_path": "site-packages/dash_table/bundle.js",
+      "path_type": "hardlink",
+      "sha256": "c655664ce71870ad23728b91006ef497af81ad129aa5e8e18020c9bbc408bf4d",
+      "size_in_bytes": 40677
+    },
+    {
+      "_path": "site-packages/dash_table/bundle.js.map",
+      "path_type": "hardlink",
+      "sha256": "c85a5acddb3da797945e61e14bd23c85d44fca4d1d815b4c3be965982df47d4b",
+      "size_in_bytes": 176813
+    },
+    {
+      "_path": "site-packages/dash_table/metadata.json",
+      "path_type": "hardlink",
+      "sha256": "fa17d1d67c50ab49606c583eb2feeaf97a196cb8c729e69955afc52d4459f3ab",
+      "size_in_bytes": 90713
+    },
+    {
+      "_path": "site-packages/dash_table/package-info.json",
+      "path_type": "hardlink",
+      "sha256": "0c8c854b56760dc325c969609151ca581855cc2a5074708f16644c66baafc521",
+      "size_in_bytes": 5577
+    }
+  ],
+  "paths_version": 1
+}

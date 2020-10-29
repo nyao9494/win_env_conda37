@@ -93,3 +93,11 @@ blender_notebook install --blender-exec="$prefix\blender\blender-2.90.1-windows6
 ```
 pip install img2pdf
 ```
+
+## STEP_4
+
+```
+conda install dtale -c conda-forge
+pip install streamlit
+
+```

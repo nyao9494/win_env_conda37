@@ -1,0 +1,25 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "dash",
+    "python"
+  ],
+  "features": "",
+  "fn": "dash-table-4.10.1-pyh9f0ad1d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "9bcaf93b3baa45b24aaf8687ffde6299",
+  "name": "dash-table",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "e73c438b173ef459049cc94e9149de2035b382f553e0d20cbede5f40bbc79d21",
+  "size": 1550474,
+  "subdir": "noarch",
+  "timestamp": 1599810648508,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dash-table-4.10.1-pyh9f0ad1d_0.tar.bz2",
+  "version": "4.10.1"
+}

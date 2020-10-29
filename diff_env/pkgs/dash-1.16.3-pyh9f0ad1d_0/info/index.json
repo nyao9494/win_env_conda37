@@ -1,0 +1,25 @@
+{
+  "arch": null,
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "depends": [
+    "dash-core-components 1.12.1",
+    "dash-html-components 1.1.1",
+    "dash-renderer 1.8.2",
+    "dash-table 4.10.1",
+    "flask >=1.0.2",
+    "flask-compress",
+    "future",
+    "plotly",
+    "python",
+    "pyyaml >=5.1.1"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "dash",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1602532051737,
+  "version": "1.16.3"
+}

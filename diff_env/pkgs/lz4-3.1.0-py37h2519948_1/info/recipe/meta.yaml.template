@@ -1,0 +1,50 @@
+{% set name = "lz4" %}
+{% set version = "3.1.0" %}
+{% set sha256 = "debe75513db3eb9e5cdcd82a329ff38374b6316ab65b848b571e0404746c1e05" %}
+
+package:
+  name: {{ name|lower }}
+  version: {{ version }}
+
+source:
+  fn: {{ name }}-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: {{ sha256 }}
+
+build:
+  number: 1
+  skip: true  # [(win and vc<14) or py2k]
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+
+requirements:
+  build:
+    - {{ compiler('c') }}
+  host:
+    - python
+    - pip
+    - pytest-runner
+    - setuptools_scm
+    - pkgconfig
+    - lz4-c
+  run:
+    - python
+    - lz4-c
+
+test:
+  imports:
+    - lz4
+
+about:
+  home: https://github.com/python-lz4/python-lz4
+  license: BSD-3-Clause
+  license_family: BSD
+  license_file: LICENSE
+  summary: LZ4 Bindings for Python
+
+  doc_url: http://python-lz4.readthedocs.io/en/stable/
+  dev_url: https://github.com/python-lz4/python-lz4
+
+extra:
+  recipe-maintainers:
+    - jakirkham
+    - xhochy

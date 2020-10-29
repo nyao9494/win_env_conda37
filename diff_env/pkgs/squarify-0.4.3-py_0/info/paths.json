@@ -1,0 +1,41 @@
+{
+  "paths": [
+    {
+      "_path": "site-packages/squarify-0.4.3.dist-info/INSTALLER",
+      "path_type": "hardlink",
+      "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+      "size_in_bytes": 5
+    },
+    {
+      "_path": "site-packages/squarify-0.4.3.dist-info/METADATA",
+      "path_type": "hardlink",
+      "sha256": "b90ec322d9685e8816ed5efcee3674126cd44d6ff302ddf8745bb5b87706e9a0",
+      "size_in_bytes": 540
+    },
+    {
+      "_path": "site-packages/squarify-0.4.3.dist-info/RECORD",
+      "path_type": "hardlink",
+      "sha256": "c8de7212ab661174352fb27f1fa8f6151545a856d4ce15933fb41b3c4cc617ec",
+      "size_in_bytes": 519
+    },
+    {
+      "_path": "site-packages/squarify-0.4.3.dist-info/WHEEL",
+      "path_type": "hardlink",
+      "sha256": "8389ccb3b77e5e5f7ec42f57a2f52bb031c65edf854f4135ed8aa8f760c47ef6",
+      "size_in_bytes": 92
+    },
+    {
+      "_path": "site-packages/squarify-0.4.3.dist-info/top_level.txt",
+      "path_type": "hardlink",
+      "sha256": "368a5a2b8056990998ded0be385dd565c4958d51fe20c56c110fffb26fec6700",
+      "size_in_bytes": 9
+    },
+    {
+      "_path": "site-packages/squarify/__init__.py",
+      "path_type": "hardlink",
+      "sha256": "400b4511dff1f077db7f6c95483bda0c26a306d0ff75e20f1b4d3cf71df0efec",
+      "size_in_bytes": 7414
+    }
+  ],
+  "paths_version": 1
+}

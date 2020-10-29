@@ -1,0 +1,26 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "brotli-python",
+    "flask",
+    "python"
+  ],
+  "features": "",
+  "fn": "flask-compress-1.7.0-pyh9f0ad1d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "29694ddf5ccf5783177c87d5231404dc",
+  "name": "flask-compress",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "7f3c8b2d07693ed17d27713202701a319ab759072fde4f93dd5cb6db761db367",
+  "size": 12673,
+  "subdir": "noarch",
+  "timestamp": 1602267231680,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/flask-compress-1.7.0-pyh9f0ad1d_0.tar.bz2",
+  "version": "1.7.0"
+}

@@ -1,0 +1,1289 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "dash",
+    "dash-bootstrap-components",
+    "dash-daq",
+    "dash_colorscales",
+    "flask",
+    "flask-compress",
+    "future",
+    "itsdangerous",
+    "lz4",
+    "pandas",
+    "python",
+    "requests",
+    "scikit-learn",
+    "scipy",
+    "six",
+    "squarify",
+    "statsmodels",
+    "strsimpy",
+    "xarray"
+  ],
+  "extracted_package_dir": "C:\\Users\\M151325\\Anaconda37\\pkgs\\dtale-1.19.2-pyh9f0ad1d_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/dtale-1.19.2.dist-info/INSTALLER",
+    "Lib/site-packages/dtale-1.19.2.dist-info/LICENSE",
+    "Lib/site-packages/dtale-1.19.2.dist-info/METADATA",
+    "Lib/site-packages/dtale-1.19.2.dist-info/RECORD",
+    "Lib/site-packages/dtale-1.19.2.dist-info/REQUESTED",
+    "Lib/site-packages/dtale-1.19.2.dist-info/WHEEL",
+    "Lib/site-packages/dtale-1.19.2.dist-info/direct_url.json",
+    "Lib/site-packages/dtale-1.19.2.dist-info/entry_points.txt",
+    "Lib/site-packages/dtale-1.19.2.dist-info/top_level.txt",
+    "Lib/site-packages/dtale/__init__.py",
+    "Lib/site-packages/dtale/app.py",
+    "Lib/site-packages/dtale/charts/__init__.py",
+    "Lib/site-packages/dtale/charts/utils.py",
+    "Lib/site-packages/dtale/cli/__init__.py",
+    "Lib/site-packages/dtale/cli/clickutils.py",
+    "Lib/site-packages/dtale/cli/loaders/__init__.py",
+    "Lib/site-packages/dtale/cli/loaders/arctic_loader.py",
+    "Lib/site-packages/dtale/cli/loaders/csv_loader.py",
+    "Lib/site-packages/dtale/cli/loaders/json_loader.py",
+    "Lib/site-packages/dtale/cli/loaders/parquet_loader.py",
+    "Lib/site-packages/dtale/cli/script.py",
+    "Lib/site-packages/dtale/column_builders.py",
+    "Lib/site-packages/dtale/column_filters.py",
+    "Lib/site-packages/dtale/column_replacements.py",
+    "Lib/site-packages/dtale/dash_application/__init__.py",
+    "Lib/site-packages/dtale/dash_application/charts.py",
+    "Lib/site-packages/dtale/dash_application/components/Wordcloud.py",
+    "Lib/site-packages/dtale/dash_application/components/__init__.py",
+    "Lib/site-packages/dtale/dash_application/components/_imports_.py",
+    "Lib/site-packages/dtale/dash_application/components/metadata.json",
+    "Lib/site-packages/dtale/dash_application/components/package-info.json",
+    "Lib/site-packages/dtale/dash_application/custom_geojson.py",
+    "Lib/site-packages/dtale/dash_application/drilldown_modal.py",
+    "Lib/site-packages/dtale/dash_application/layout/__init__.py",
+    "Lib/site-packages/dtale/dash_application/layout/layout.py",
+    "Lib/site-packages/dtale/dash_application/layout/utils.py",
+    "Lib/site-packages/dtale/dash_application/lock_zoom.py",
+    "Lib/site-packages/dtale/dash_application/topojson_injections.py",
+    "Lib/site-packages/dtale/dash_application/utils.py",
+    "Lib/site-packages/dtale/dash_application/views.py",
+    "Lib/site-packages/dtale/data_reshapers.py",
+    "Lib/site-packages/dtale/datasets.py",
+    "Lib/site-packages/dtale/duplicate_checks.py",
+    "Lib/site-packages/dtale/global_state.py",
+    "Lib/site-packages/dtale/static/css/dash.css",
+    "Lib/site-packages/dtale/static/css/github_fork.css",
+    "Lib/site-packages/dtale/static/css/main.css",
+    "Lib/site-packages/dtale/static/dash/components_bundle.js",
+    "Lib/site-packages/dtale/static/dash/components_bundle.js.map",
+    "Lib/site-packages/dtale/static/dash/custom_bundle.js",
+    "Lib/site-packages/dtale/static/dash/custom_bundle.js.map",
+    "Lib/site-packages/dtale/static/dist/0c6f12b9eaa2ad444a6be2f133aa1cec.eot",
+    "Lib/site-packages/dtale/static/dist/1776173e3b1af55eb4554403f3454ed8.ttf",
+    "Lib/site-packages/dtale/static/dist/1b536b782d09dd59dda8eaccc0ea5297.svg",
+    "Lib/site-packages/dtale/static/dist/22aa6d4357cf74671bc40dbb9bc36d79.woff",
+    "Lib/site-packages/dtale/static/dist/28d8b8fcc41c3b7134ff39117823cc89.woff",
+    "Lib/site-packages/dtale/static/dist/37913cdf7cb0571dfac04a74caad2087.woff2",
+    "Lib/site-packages/dtale/static/dist/3e2bc2ffd29f01066d23733ca81d2bac.svg",
+    "Lib/site-packages/dtale/static/dist/4055b0575d40bfb3c7e89c7d6b5e959d.woff2",
+    "Lib/site-packages/dtale/static/dist/63b566233f163d538ccefed7c4e87e44.svg",
+    "Lib/site-packages/dtale/static/dist/a480ec972cb6bce3053367cb26d11f42.ttf",
+    "Lib/site-packages/dtale/static/dist/base_styles_bundle.js",
+    "Lib/site-packages/dtale/static/dist/base_styles_bundle.js.map",
+    "Lib/site-packages/dtale/static/dist/bfcc3384b8a317dc5de33e70117173e2.eot",
+    "Lib/site-packages/dtale/static/dist/c3c2ab4f63b8d9973c78816fefa1408e.woff2",
+    "Lib/site-packages/dtale/static/dist/c9c57c0f1f4eb34dbf575201caf2061f.ttf",
+    "Lib/site-packages/dtale/static/dist/dfaa060a451d978c25655eb19bd949e9.eot",
+    "Lib/site-packages/dtale/static/dist/dtale_bundle.js",
+    "Lib/site-packages/dtale/static/dist/dtale_bundle.js.LICENSE.txt",
+    "Lib/site-packages/dtale/static/dist/dtale_bundle.js.map",
+    "Lib/site-packages/dtale/static/dist/fcaa6c135683a3fa1b505fa30b01c8e9.woff",
+    "Lib/site-packages/dtale/static/dist/polyfills_bundle.js",
+    "Lib/site-packages/dtale/static/dist/polyfills_bundle.js.LICENSE.txt",
+    "Lib/site-packages/dtale/static/dist/polyfills_bundle.js.map",
+    "Lib/site-packages/dtale/static/fonts/Road_Rage.svg",
+    "Lib/site-packages/dtale/static/fonts/Road_Rage.ttf",
+    "Lib/site-packages/dtale/static/fonts/Road_Rage.woff",
+    "Lib/site-packages/dtale/static/fonts/icograil.svg",
+    "Lib/site-packages/dtale/static/fonts/icograil.ttf",
+    "Lib/site-packages/dtale/static/fonts/icograil.woff",
+    "Lib/site-packages/dtale/static/fonts/istok-bold.svg",
+    "Lib/site-packages/dtale/static/fonts/istok-bold.ttf",
+    "Lib/site-packages/dtale/static/fonts/istok-bold.woff",
+    "Lib/site-packages/dtale/static/fonts/istok-bold.woff2",
+    "Lib/site-packages/dtale/static/fonts/istok.svg",
+    "Lib/site-packages/dtale/static/fonts/istok.ttf",
+    "Lib/site-packages/dtale/static/fonts/istok.woff",
+    "Lib/site-packages/dtale/static/fonts/istok.woff2",
+    "Lib/site-packages/dtale/static/images/favicon.ico",
+    "Lib/site-packages/dtale/static/images/favicon.png",
+    "Lib/site-packages/dtale/static/images/fire.jpg",
+    "Lib/site-packages/dtale/static/images/map_type/choropleth.png",
+    "Lib/site-packages/dtale/static/images/map_type/scattergeo.png",
+    "Lib/site-packages/dtale/static/images/projections/aitoff.png",
+    "Lib/site-packages/dtale/static/images/projections/albers_usa.png",
+    "Lib/site-packages/dtale/static/images/projections/azimuthal_equal_area.png",
+    "Lib/site-packages/dtale/static/images/projections/azimuthal_equidistant.png",
+    "Lib/site-packages/dtale/static/images/projections/conic_conformal.png",
+    "Lib/site-packages/dtale/static/images/projections/conic_equal_area.png",
+    "Lib/site-packages/dtale/static/images/projections/conic_equidistant.png",
+    "Lib/site-packages/dtale/static/images/projections/eckert4.png",
+    "Lib/site-packages/dtale/static/images/projections/equirectangular.png",
+    "Lib/site-packages/dtale/static/images/projections/gnomonic.png",
+    "Lib/site-packages/dtale/static/images/projections/hammer.png",
+    "Lib/site-packages/dtale/static/images/projections/kavrayskiy7.png",
+    "Lib/site-packages/dtale/static/images/projections/mercator.png",
+    "Lib/site-packages/dtale/static/images/projections/miller.png",
+    "Lib/site-packages/dtale/static/images/projections/mollweide.png",
+    "Lib/site-packages/dtale/static/images/projections/natural_earth.png",
+    "Lib/site-packages/dtale/static/images/projections/orthographic.png",
+    "Lib/site-packages/dtale/static/images/projections/robinson.png",
+    "Lib/site-packages/dtale/static/images/projections/sinusoidal.png",
+    "Lib/site-packages/dtale/static/images/projections/stereographic.png",
+    "Lib/site-packages/dtale/static/images/projections/transverse_mercator.png",
+    "Lib/site-packages/dtale/static/images/projections/winkel_tripel.png",
+    "Lib/site-packages/dtale/static/maps/africa_110m.json",
+    "Lib/site-packages/dtale/static/maps/asia_110m.json",
+    "Lib/site-packages/dtale/static/maps/europe_110m.json",
+    "Lib/site-packages/dtale/static/maps/north-america_110m.json",
+    "Lib/site-packages/dtale/static/maps/south-america_110m.json",
+    "Lib/site-packages/dtale/static/maps/usa_110m.json",
+    "Lib/site-packages/dtale/static/maps/world_110m.json",
+    "Lib/site-packages/dtale/templates/dtale/base.html",
+    "Lib/site-packages/dtale/templates/dtale/code_popup.html",
+    "Lib/site-packages/dtale/templates/dtale/errors/404.html",
+    "Lib/site-packages/dtale/templates/dtale/errors/500.html",
+    "Lib/site-packages/dtale/templates/dtale/errors/missing_js.html",
+    "Lib/site-packages/dtale/templates/dtale/main.html",
+    "Lib/site-packages/dtale/templates/dtale/popup.html",
+    "Lib/site-packages/dtale/utils.py",
+    "Lib/site-packages/dtale/views.py",
+    ".nonadmin",
+    "Lib/site-packages/dtale/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/dtale/__pycache__/app.cpython-37.pyc",
+    "Lib/site-packages/dtale/charts/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/dtale/charts/__pycache__/utils.cpython-37.pyc",
+    "Lib/site-packages/dtale/cli/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/dtale/cli/__pycache__/clickutils.cpython-37.pyc",
+    "Lib/site-packages/dtale/cli/loaders/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/dtale/cli/loaders/__pycache__/arctic_loader.cpython-37.pyc",
+    "Lib/site-packages/dtale/cli/loaders/__pycache__/csv_loader.cpython-37.pyc",
+    "Lib/site-packages/dtale/cli/loaders/__pycache__/json_loader.cpython-37.pyc",
+    "Lib/site-packages/dtale/cli/loaders/__pycache__/parquet_loader.cpython-37.pyc",
+    "Lib/site-packages/dtale/cli/__pycache__/script.cpython-37.pyc",
+    "Lib/site-packages/dtale/__pycache__/column_builders.cpython-37.pyc",
+    "Lib/site-packages/dtale/__pycache__/column_filters.cpython-37.pyc",
+    "Lib/site-packages/dtale/__pycache__/column_replacements.cpython-37.pyc",
+    "Lib/site-packages/dtale/dash_application/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/dtale/dash_application/__pycache__/charts.cpython-37.pyc",
+    "Lib/site-packages/dtale/dash_application/components/__pycache__/Wordcloud.cpython-37.pyc",
+    "Lib/site-packages/dtale/dash_application/components/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/dtale/dash_application/components/__pycache__/_imports_.cpython-37.pyc",
+    "Lib/site-packages/dtale/dash_application/__pycache__/custom_geojson.cpython-37.pyc",
+    "Lib/site-packages/dtale/dash_application/__pycache__/drilldown_modal.cpython-37.pyc",
+    "Lib/site-packages/dtale/dash_application/layout/__pycache__/__init__.cpython-37.pyc",
+    "Lib/site-packages/dtale/dash_application/layout/__pycache__/layout.cpython-37.pyc",
+    "Lib/site-packages/dtale/dash_application/layout/__pycache__/utils.cpython-37.pyc",
+    "Lib/site-packages/dtale/dash_application/__pycache__/lock_zoom.cpython-37.pyc",
+    "Lib/site-packages/dtale/dash_application/__pycache__/topojson_injections.cpython-37.pyc",
+    "Lib/site-packages/dtale/dash_application/__pycache__/utils.cpython-37.pyc",
+    "Lib/site-packages/dtale/dash_application/__pycache__/views.cpython-37.pyc",
+    "Lib/site-packages/dtale/__pycache__/data_reshapers.cpython-37.pyc",
+    "Lib/site-packages/dtale/__pycache__/datasets.cpython-37.pyc",
+    "Lib/site-packages/dtale/__pycache__/duplicate_checks.cpython-37.pyc",
+    "Lib/site-packages/dtale/__pycache__/global_state.cpython-37.pyc",
+    "Lib/site-packages/dtale/__pycache__/utils.cpython-37.pyc",
+    "Lib/site-packages/dtale/__pycache__/views.cpython-37.pyc",
+    "Scripts/dtale-script.py",
+    "Scripts/dtale.exe"
+  ],
+  "fn": "dtale-1.19.2-pyh9f0ad1d_0.tar.bz2",
+  "license": "LGPL",
+  "link": {
+    "source": "C:\\Users\\M151325\\Anaconda37\\pkgs\\dtale-1.19.2-pyh9f0ad1d_0",
+    "type": 1
+  },
+  "md5": "765e518b80829f739698a22e23d2a855",
+  "name": "dtale",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\Users\\M151325\\Anaconda37\\pkgs\\dtale-1.19.2-pyh9f0ad1d_0.tar.bz2",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "site-packages/dtale-1.19.2.dist-info/INSTALLER",
+        "path_type": "hardlink",
+        "sha256": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "sha256_in_prefix": "d0edee15f91b406f3f99726e44eb990be6e34fd0345b52b910c568e0eef6a2a8",
+        "size_in_bytes": 5
+      },
+      {
+        "_path": "site-packages/dtale-1.19.2.dist-info/LICENSE",
+        "path_type": "hardlink",
+        "sha256": "21d403b3e2862effbc6988988fa40cca1c2996f8dcf7aee95bfe9914f7a8dcb0",
+        "sha256_in_prefix": "21d403b3e2862effbc6988988fa40cca1c2996f8dcf7aee95bfe9914f7a8dcb0",
+        "size_in_bytes": 24485
+      },
+      {
+        "_path": "site-packages/dtale-1.19.2.dist-info/METADATA",
+        "path_type": "hardlink",
+        "sha256": "9231e1d753cdef5d3a4b112b4fc57249156d7b2556f2ecc1df3269764e8e4bf5",
+        "sha256_in_prefix": "9231e1d753cdef5d3a4b112b4fc57249156d7b2556f2ecc1df3269764e8e4bf5",
+        "size_in_bytes": 95206
+      },
+      {
+        "_path": "site-packages/dtale-1.19.2.dist-info/RECORD",
+        "path_type": "hardlink",
+        "sha256": "18df61988c19a983a074905f778cf19873f1c9c7a3c9275d295fa8a6d46ea635",
+        "sha256_in_prefix": "18df61988c19a983a074905f778cf19873f1c9c7a3c9275d295fa8a6d46ea635",
+        "size_in_bytes": 14654
+      },
+      {
+        "_path": "site-packages/dtale-1.19.2.dist-info/REQUESTED",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dtale-1.19.2.dist-info/WHEEL",
+        "path_type": "hardlink",
+        "sha256": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "sha256_in_prefix": "11546323af45e6a5639bf620a9c4d73e74c0bf705f494af4595007b923f75e8a",
+        "size_in_bytes": 92
+      },
+      {
+        "_path": "site-packages/dtale-1.19.2.dist-info/direct_url.json",
+        "path_type": "hardlink",
+        "sha256": "ca06b57b0a6e97f891cdbd0728e185964addba6bc6b52cfd2a73fbfd659aab10",
+        "sha256_in_prefix": "ca06b57b0a6e97f891cdbd0728e185964addba6bc6b52cfd2a73fbfd659aab10",
+        "size_in_bytes": 101
+      },
+      {
+        "_path": "site-packages/dtale-1.19.2.dist-info/entry_points.txt",
+        "path_type": "hardlink",
+        "sha256": "3a04ca99d165171d26a6d7255785c095d0df5a3e31fe436c2d3ac4049457b4ae",
+        "sha256_in_prefix": "3a04ca99d165171d26a6d7255785c095d0df5a3e31fe436c2d3ac4049457b4ae",
+        "size_in_bytes": 49
+      },
+      {
+        "_path": "site-packages/dtale-1.19.2.dist-info/top_level.txt",
+        "path_type": "hardlink",
+        "sha256": "4836719a2b9034eea38569d8cf6dbe740ad0647f91bf3f40a4dafaef2adc9634",
+        "sha256_in_prefix": "4836719a2b9034eea38569d8cf6dbe740ad0647f91bf3f40a4dafaef2adc9634",
+        "size_in_bytes": 6
+      },
+      {
+        "_path": "site-packages/dtale/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "6337b8c8e3d313dd72766497b6a94b82f28466deb8e162819597e77499864559",
+        "sha256_in_prefix": "6337b8c8e3d313dd72766497b6a94b82f28466deb8e162819597e77499864559",
+        "size_in_bytes": 457
+      },
+      {
+        "_path": "site-packages/dtale/app.py",
+        "path_type": "hardlink",
+        "sha256": "71bf0147213d95b449b93d5cd83d3fb4c63b686185eb0ef1c0b3c7f0d4fb0aa8",
+        "sha256_in_prefix": "71bf0147213d95b449b93d5cd83d3fb4c63b686185eb0ef1c0b3c7f0d4fb0aa8",
+        "size_in_bytes": 30825
+      },
+      {
+        "_path": "site-packages/dtale/charts/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dtale/charts/utils.py",
+        "path_type": "hardlink",
+        "sha256": "8a9ab5e6580e838a2cf5d6b684171c001d8c0507544f9a5da4b617d77bd83e2a",
+        "sha256_in_prefix": "8a9ab5e6580e838a2cf5d6b684171c001d8c0507544f9a5da4b617d77bd83e2a",
+        "size_in_bytes": 24464
+      },
+      {
+        "_path": "site-packages/dtale/cli/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dtale/cli/clickutils.py",
+        "path_type": "hardlink",
+        "sha256": "08a9a9e3c12e5b3f760f4d329e1a6b227f46cc708ec01bc0970edfb24061b8e8",
+        "sha256_in_prefix": "08a9a9e3c12e5b3f760f4d329e1a6b227f46cc708ec01bc0970edfb24061b8e8",
+        "size_in_bytes": 5741
+      },
+      {
+        "_path": "site-packages/dtale/cli/loaders/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "01d773289fdcd5cdd952809bd3d83c4f6c42356b3d553e43146ae627960fef08",
+        "sha256_in_prefix": "01d773289fdcd5cdd952809bd3d83c4f6c42356b3d553e43146ae627960fef08",
+        "size_in_bytes": 5405
+      },
+      {
+        "_path": "site-packages/dtale/cli/loaders/arctic_loader.py",
+        "path_type": "hardlink",
+        "sha256": "bef2e9d90ea654acae4ba178d2b19a9ce7fb957834788397a2ad07ee917b9a90",
+        "sha256_in_prefix": "bef2e9d90ea654acae4ba178d2b19a9ce7fb957834788397a2ad07ee917b9a90",
+        "size_in_bytes": 2429
+      },
+      {
+        "_path": "site-packages/dtale/cli/loaders/csv_loader.py",
+        "path_type": "hardlink",
+        "sha256": "e6596a7613196ef5bb6e80f13231a31370245c64905ae871836599ffed5e335e",
+        "sha256_in_prefix": "e6596a7613196ef5bb6e80f13231a31370245c64905ae871836599ffed5e335e",
+        "size_in_bytes": 2588
+      },
+      {
+        "_path": "site-packages/dtale/cli/loaders/json_loader.py",
+        "path_type": "hardlink",
+        "sha256": "f2888ca14aa9edcdff48ac6672d191b13c5487354ef7d351640864986a2d7a4c",
+        "sha256_in_prefix": "f2888ca14aa9edcdff48ac6672d191b13c5487354ef7d351640864986a2d7a4c",
+        "size_in_bytes": 2746
+      },
+      {
+        "_path": "site-packages/dtale/cli/loaders/parquet_loader.py",
+        "path_type": "hardlink",
+        "sha256": "4b3f74844d698a9e910ff3abce75a50fef3ed84b73c0b88a770d1fa264fb1f24",
+        "sha256_in_prefix": "4b3f74844d698a9e910ff3abce75a50fef3ed84b73c0b88a770d1fa264fb1f24",
+        "size_in_bytes": 2074
+      },
+      {
+        "_path": "site-packages/dtale/cli/script.py",
+        "path_type": "hardlink",
+        "sha256": "c7f57ac9a689c22ac4e56dd8071a9e6fff836e3532f0060a51e0c4c6a72c7964",
+        "sha256_in_prefix": "c7f57ac9a689c22ac4e56dd8071a9e6fff836e3532f0060a51e0c4c6a72c7964",
+        "size_in_bytes": 2649
+      },
+      {
+        "_path": "site-packages/dtale/column_builders.py",
+        "path_type": "hardlink",
+        "sha256": "6ed436b10a03e530c0a5030d346ab0a5495b9f561403e2b0a234e9cdf596ae94",
+        "sha256_in_prefix": "6ed436b10a03e530c0a5030d346ab0a5495b9f561403e2b0a234e9cdf596ae94",
+        "size_in_bytes": 36129
+      },
+      {
+        "_path": "site-packages/dtale/column_filters.py",
+        "path_type": "hardlink",
+        "sha256": "af6484d4d93939cfbd8cfaea9534b2864e4373fa5398cdde59524369b8b2eadc",
+        "sha256_in_prefix": "af6484d4d93939cfbd8cfaea9534b2864e4373fa5398cdde59524369b8b2eadc",
+        "size_in_bytes": 6827
+      },
+      {
+        "_path": "site-packages/dtale/column_replacements.py",
+        "path_type": "hardlink",
+        "sha256": "7d6a19ae8daf39fd56177b44a93b38c1b65bddb5782deebf6e236a2901d41bd9",
+        "sha256_in_prefix": "7d6a19ae8daf39fd56177b44a93b38c1b65bddb5782deebf6e236a2901d41bd9",
+        "size_in_bytes": 9817
+      },
+      {
+        "_path": "site-packages/dtale/dash_application/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dtale/dash_application/charts.py",
+        "path_type": "hardlink",
+        "sha256": "78f479baa5ead4d6a87849065e2ccb4b7eb45e1a929a3f5f42bcf4c5e219386a",
+        "sha256_in_prefix": "78f479baa5ead4d6a87849065e2ccb4b7eb45e1a929a3f5f42bcf4c5e219386a",
+        "size_in_bytes": 105984
+      },
+      {
+        "_path": "site-packages/dtale/dash_application/components/Wordcloud.py",
+        "path_type": "hardlink",
+        "sha256": "7107aca3e1667a20df261aef1655203af1d0796733f3c58387cfdd01beb3646f",
+        "sha256_in_prefix": "7107aca3e1667a20df261aef1655203af1d0796733f3c58387cfdd01beb3646f",
+        "size_in_bytes": 1823
+      },
+      {
+        "_path": "site-packages/dtale/dash_application/components/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "bc35121f64d81ff3db337fe3a358c1b7bef5733d11bcd6a7cb8ed4cee84e5fcf",
+        "sha256_in_prefix": "bc35121f64d81ff3db337fe3a358c1b7bef5733d11bcd6a7cb8ed4cee84e5fcf",
+        "size_in_bytes": 1151
+      },
+      {
+        "_path": "site-packages/dtale/dash_application/components/_imports_.py",
+        "path_type": "hardlink",
+        "sha256": "07e5fe9e0a80a2a5d333bda9f6f740cbd694c833426dfd0189ffb6e6624cf16c",
+        "sha256_in_prefix": "07e5fe9e0a80a2a5d333bda9f6f740cbd694c833426dfd0189ffb6e6624cf16c",
+        "size_in_bytes": 58
+      },
+      {
+        "_path": "site-packages/dtale/dash_application/components/metadata.json",
+        "path_type": "hardlink",
+        "sha256": "38a56aede8c4663f3c41ced97b446e7ad0018baec43c452b9493e9e0ada238f0",
+        "sha256_in_prefix": "38a56aede8c4663f3c41ced97b446e7ad0018baec43c452b9493e9e0ada238f0",
+        "size_in_bytes": 1580
+      },
+      {
+        "_path": "site-packages/dtale/dash_application/components/package-info.json",
+        "path_type": "hardlink",
+        "sha256": "7e4d2a6cec472c28af3225fc4018a4220bbabfb1b330182e066fefad18332eb9",
+        "sha256_in_prefix": "7e4d2a6cec472c28af3225fc4018a4220bbabfb1b330182e066fefad18332eb9",
+        "size_in_bytes": 5281
+      },
+      {
+        "_path": "site-packages/dtale/dash_application/custom_geojson.py",
+        "path_type": "hardlink",
+        "sha256": "072661989201b92938d2910341ff9df82a60e290601c26598f2471fcd15085c2",
+        "sha256_in_prefix": "072661989201b92938d2910341ff9df82a60e290601c26598f2471fcd15085c2",
+        "size_in_bytes": 7571
+      },
+      {
+        "_path": "site-packages/dtale/dash_application/drilldown_modal.py",
+        "path_type": "hardlink",
+        "sha256": "cf2b4c8597a2a29e6d59763ced8b1977d6e96276f599098a48b02abc93711cbe",
+        "sha256_in_prefix": "cf2b4c8597a2a29e6d59763ced8b1977d6e96276f599098a48b02abc93711cbe",
+        "size_in_bytes": 15944
+      },
+      {
+        "_path": "site-packages/dtale/dash_application/layout/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "site-packages/dtale/dash_application/layout/layout.py",
+        "path_type": "hardlink",
+        "sha256": "e7dec80b68f9d7410f58c0007bb028b7de8a6d2d34c4cf712125bc5903b7f2bc",
+        "sha256_in_prefix": "e7dec80b68f9d7410f58c0007bb028b7de8a6d2d34c4cf712125bc5903b7f2bc",
+        "size_in_bytes": 64642
+      },
+      {
+        "_path": "site-packages/dtale/dash_application/layout/utils.py",
+        "path_type": "hardlink",
+        "sha256": "5e1a8aaa801bd59b0b2f0273776c487a4d617fd002e5f00116846851bd7f74bb",
+        "sha256_in_prefix": "5e1a8aaa801bd59b0b2f0273776c487a4d617fd002e5f00116846851bd7f74bb",
+        "size_in_bytes": 7823
+      },
+      {
+        "_path": "site-packages/dtale/dash_application/lock_zoom.py",
+        "path_type": "hardlink",
+        "sha256": "a4ed095f48366cace211e0e68fe9e3c6cb7614cf4efdd5a1f61499ef700f2b11",
+        "sha256_in_prefix": "a4ed095f48366cace211e0e68fe9e3c6cb7614cf4efdd5a1f61499ef700f2b11",
+        "size_in_bytes": 799
+      },
+      {
+        "_path": "site-packages/dtale/dash_application/topojson_injections.py",
+        "path_type": "hardlink",
+        "sha256": "e8771991326de24f8c6f199f53b5a61c32ce65174f334868656d6247b83b1b17",
+        "sha256_in_prefix": "e8771991326de24f8c6f199f53b5a61c32ce65174f334868656d6247b83b1b17",
+        "size_in_bytes": 1065
+      },
+      {
+        "_path": "site-packages/dtale/dash_application/utils.py",
+        "path_type": "hardlink",
+        "sha256": "3c74ee2077b1b1bd2c3f373cebbfcbf454caffbd921d174add87473d719037bc",
+        "sha256_in_prefix": "3c74ee2077b1b1bd2c3f373cebbfcbf454caffbd921d174add87473d719037bc",
+        "size_in_bytes": 209
+      },
+      {
+        "_path": "site-packages/dtale/dash_application/views.py",
+        "path_type": "hardlink",
+        "sha256": "e364b599710e9628133b15b764140eb09f2f37e0d59149dc1596bbbdf24ea020",
+        "sha256_in_prefix": "e364b599710e9628133b15b764140eb09f2f37e0d59149dc1596bbbdf24ea020",
+        "size_in_bytes": 30556
+      },
+      {
+        "_path": "site-packages/dtale/data_reshapers.py",
+        "path_type": "hardlink",
+        "sha256": "8c764c6967275733399fba823e49311ac5e304baf9b7acaebb46579bdf8c1462",
+        "sha256_in_prefix": "8c764c6967275733399fba823e49311ac5e304baf9b7acaebb46579bdf8c1462",
+        "size_in_bytes": 6135
+      },
+      {
+        "_path": "site-packages/dtale/datasets.py",
+        "path_type": "hardlink",
+        "sha256": "6bbf6d9dbebefb3ffcdfe4fdb330288a8e802e3293850126eac71bec8b7090b1",
+        "sha256_in_prefix": "6bbf6d9dbebefb3ffcdfe4fdb330288a8e802e3293850126eac71bec8b7090b1",
+        "size_in_bytes": 2706
+      },
+      {
+        "_path": "site-packages/dtale/duplicate_checks.py",
+        "path_type": "hardlink",
+        "sha256": "b79ebe2d6003cdb0000be2c9b4ec89d6653e0d8b75fa1a7bb0500653198173c0",
+        "sha256_in_prefix": "b79ebe2d6003cdb0000be2c9b4ec89d6653e0d8b75fa1a7bb0500653198173c0",
+        "size_in_bytes": 8696
+      },
+      {
+        "_path": "site-packages/dtale/global_state.py",
+        "path_type": "hardlink",
+        "sha256": "27cede4dd1d587f4ceb6f7297dd8f7b7513addd5592cf19c6d8d24359d231b72",
+        "sha256_in_prefix": "27cede4dd1d587f4ceb6f7297dd8f7b7513addd5592cf19c6d8d24359d231b72",
+        "size_in_bytes": 10343
+      },
+      {
+        "_path": "site-packages/dtale/static/css/dash.css",
+        "path_type": "hardlink",
+        "sha256": "dfedd40ae7a40e8e7bf5fc28c65b6a76f0c4c411666154412953b707253b4164",
+        "sha256_in_prefix": "dfedd40ae7a40e8e7bf5fc28c65b6a76f0c4c411666154412953b707253b4164",
+        "size_in_bytes": 14554
+      },
+      {
+        "_path": "site-packages/dtale/static/css/github_fork.css",
+        "path_type": "hardlink",
+        "sha256": "7ea44cdd7d42d6c59dea0c75b0eeeada0d69fe7e9235e63d9661d029f33bd9d7",
+        "sha256_in_prefix": "7ea44cdd7d42d6c59dea0c75b0eeeada0d69fe7e9235e63d9661d029f33bd9d7",
+        "size_in_bytes": 965
+      },
+      {
+        "_path": "site-packages/dtale/static/css/main.css",
+        "path_type": "hardlink",
+        "sha256": "44cdf3a3be64095ce5218f253695bdf9babe9b41e0b0d4ca32654015b50cfecb",
+        "sha256_in_prefix": "44cdf3a3be64095ce5218f253695bdf9babe9b41e0b0d4ca32654015b50cfecb",
+        "size_in_bytes": 210811
+      },
+      {
+        "_path": "site-packages/dtale/static/dash/components_bundle.js",
+        "path_type": "hardlink",
+        "sha256": "85171a58b4190b9ffffa600c83726c3b58911b0465734d949c4b32a11c7b6638",
+        "sha256_in_prefix": "85171a58b4190b9ffffa600c83726c3b58911b0465734d949c4b32a11c7b6638",
+        "size_in_bytes": 221030
+      },
+      {
+        "_path": "site-packages/dtale/static/dash/components_bundle.js.map",
+        "path_type": "hardlink",
+        "sha256": "88c9082586baa0c92f87d8e77ac32cbf7b71c63b1c19ecffd4abbdca2d50d929",
+        "sha256_in_prefix": "88c9082586baa0c92f87d8e77ac32cbf7b71c63b1c19ecffd4abbdca2d50d929",
+        "size_in_bytes": 1394922
+      },
+      {
+        "_path": "site-packages/dtale/static/dash/custom_bundle.js",
+        "path_type": "hardlink",
+        "sha256": "1ec805f2be06bff6a5ff1cb5ef98f0583c823424d9ddd0ff7ee88be19d6cc86e",
+        "sha256_in_prefix": "1ec805f2be06bff6a5ff1cb5ef98f0583c823424d9ddd0ff7ee88be19d6cc86e",
+        "size_in_bytes": 92724
+      },
+      {
+        "_path": "site-packages/dtale/static/dash/custom_bundle.js.map",
+        "path_type": "hardlink",
+        "sha256": "69a9e9ac15a262bd0985410d0992fd2c6412ba6dd7ff58e1983241a9d14783be",
+        "sha256_in_prefix": "69a9e9ac15a262bd0985410d0992fd2c6412ba6dd7ff58e1983241a9d14783be",
+        "size_in_bytes": 472680
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/0c6f12b9eaa2ad444a6be2f133aa1cec.eot",
+        "path_type": "hardlink",
+        "sha256": "c4f72714221008f5bdfcc90821ccd835cce9524c7ec99ad5d947488930fe1623",
+        "sha256_in_prefix": "c4f72714221008f5bdfcc90821ccd835cce9524c7ec99ad5d947488930fe1623",
+        "size_in_bytes": 34350
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/1776173e3b1af55eb4554403f3454ed8.ttf",
+        "path_type": "hardlink",
+        "sha256": "07504680f886659b0f0d8539ae5c01324b88f30387609687c2f2a0050928bddf",
+        "sha256_in_prefix": "07504680f886659b0f0d8539ae5c01324b88f30387609687c2f2a0050928bddf",
+        "size_in_bytes": 134316
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/1b536b782d09dd59dda8eaccc0ea5297.svg",
+        "path_type": "hardlink",
+        "sha256": "40da3caf3048c4eff8a1a5780cbb89c5dec3e7972850ba9dc3df0beb0721ba05",
+        "sha256_in_prefix": "40da3caf3048c4eff8a1a5780cbb89c5dec3e7972850ba9dc3df0beb0721ba05",
+        "size_in_bytes": 144715
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/22aa6d4357cf74671bc40dbb9bc36d79.woff",
+        "path_type": "hardlink",
+        "sha256": "c704d9e677b72859d29ddd73a2a63e3b15b5a4db903cff64b3c29a059e180871",
+        "sha256_in_prefix": "c704d9e677b72859d29ddd73a2a63e3b15b5a4db903cff64b3c29a059e180871",
+        "size_in_bytes": 104004
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/28d8b8fcc41c3b7134ff39117823cc89.woff",
+        "path_type": "hardlink",
+        "sha256": "e01029f3278fc6270cd31a5fe753cbda694fbb777ee30e8f6a13909087178988",
+        "sha256_in_prefix": "e01029f3278fc6270cd31a5fe753cbda694fbb777ee30e8f6a13909087178988",
+        "size_in_bytes": 90672
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/37913cdf7cb0571dfac04a74caad2087.woff2",
+        "path_type": "hardlink",
+        "sha256": "1c87d2b26de7d55c66037916bbb4cba6c791da0e2adfa378332678ff13e12d9d",
+        "sha256_in_prefix": "1c87d2b26de7d55c66037916bbb4cba6c791da0e2adfa378332678ff13e12d9d",
+        "size_in_bytes": 77400
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/3e2bc2ffd29f01066d23733ca81d2bac.svg",
+        "path_type": "hardlink",
+        "sha256": "f6352459b430cbd356d1bf5e76fa3cb0e00348863dee7fefb38d1058caae9afb",
+        "sha256_in_prefix": "f6352459b430cbd356d1bf5e76fa3cb0e00348863dee7fefb38d1058caae9afb",
+        "size_in_bytes": 914125
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/4055b0575d40bfb3c7e89c7d6b5e959d.woff2",
+        "path_type": "hardlink",
+        "sha256": "cfe3b7382e477059da11be2099914b94f0e2a4f08240c60542c376957b8d9658",
+        "sha256_in_prefix": "cfe3b7382e477059da11be2099914b94f0e2a4f08240c60542c376957b8d9658",
+        "size_in_bytes": 80148
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/63b566233f163d538ccefed7c4e87e44.svg",
+        "path_type": "hardlink",
+        "sha256": "04f0731aad93ec9ec5bfa9a855fee15812207e4be30ab1c035cc2186478ad369",
+        "sha256_in_prefix": "04f0731aad93ec9ec5bfa9a855fee15812207e4be30ab1c035cc2186478ad369",
+        "size_in_bytes": 730302
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/a480ec972cb6bce3053367cb26d11f42.ttf",
+        "path_type": "hardlink",
+        "sha256": "af849952e881b92cf7206540a91c5feefe23ff5910af83097cbb2eaff614ba20",
+        "sha256_in_prefix": "af849952e881b92cf7206540a91c5feefe23ff5910af83097cbb2eaff614ba20",
+        "size_in_bytes": 203980
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/base_styles_bundle.js",
+        "path_type": "hardlink",
+        "sha256": "c092addff6ba7340534d7d9a2ecfbfbc522e8524bd86a42341762f4368e882c2",
+        "sha256_in_prefix": "c092addff6ba7340534d7d9a2ecfbfbc522e8524bd86a42341762f4368e882c2",
+        "size_in_bytes": 200875
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/base_styles_bundle.js.map",
+        "path_type": "hardlink",
+        "sha256": "3a9674c9969c0798a207f95cb8d3cca0127bf4b8e71ecc790003e79a8e0eae4b",
+        "sha256_in_prefix": "3a9674c9969c0798a207f95cb8d3cca0127bf4b8e71ecc790003e79a8e0eae4b",
+        "size_in_bytes": 258532
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/bfcc3384b8a317dc5de33e70117173e2.eot",
+        "path_type": "hardlink",
+        "sha256": "383b27615172c150f3cb85a97d4825d45eaa8b442b781e9e8351e7e834b8706d",
+        "sha256_in_prefix": "383b27615172c150f3cb85a97d4825d45eaa8b442b781e9e8351e7e834b8706d",
+        "size_in_bytes": 134622
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/c3c2ab4f63b8d9973c78816fefa1408e.woff2",
+        "path_type": "hardlink",
+        "sha256": "245818b22d1ec4892fcb722437e32888e97f63a0316bd22aaf9f44cde01f4c91",
+        "sha256_in_prefix": "245818b22d1ec4892fcb722437e32888e97f63a0316bd22aaf9f44cde01f4c91",
+        "size_in_bytes": 13600
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/c9c57c0f1f4eb34dbf575201caf2061f.ttf",
+        "path_type": "hardlink",
+        "sha256": "a5e1580acc1d3fbd2d2045b2a85bdb8291c475939e9cb48003afc502499b3f2e",
+        "sha256_in_prefix": "a5e1580acc1d3fbd2d2045b2a85bdb8291c475939e9cb48003afc502499b3f2e",
+        "size_in_bytes": 34052
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/dfaa060a451d978c25655eb19bd949e9.eot",
+        "path_type": "hardlink",
+        "sha256": "5c44f9d868c55913ca587e0399fc6df18f157c544a0b366ae544a83d32f057d5",
+        "sha256_in_prefix": "5c44f9d868c55913ca587e0399fc6df18f157c544a0b366ae544a83d32f057d5",
+        "size_in_bytes": 204266
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/dtale_bundle.js",
+        "path_type": "hardlink",
+        "sha256": "e3d89fa8ccaf3efb12929455fbc27d4083318d4f62708c2e93c25b2287bcfcdf",
+        "sha256_in_prefix": "e3d89fa8ccaf3efb12929455fbc27d4083318d4f62708c2e93c25b2287bcfcdf",
+        "size_in_bytes": 3842125
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/dtale_bundle.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "100d5fbffa1fe04f45a01d034700521598f3c09ecdea3a628b5dbc173977b4f9",
+        "sha256_in_prefix": "100d5fbffa1fe04f45a01d034700521598f3c09ecdea3a628b5dbc173977b4f9",
+        "size_in_bytes": 9368
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/dtale_bundle.js.map",
+        "path_type": "hardlink",
+        "sha256": "5f4767d77790c1795c3b45dc4ba56b73b4673a31ea8f3393188655f9351e1101",
+        "sha256_in_prefix": "5f4767d77790c1795c3b45dc4ba56b73b4673a31ea8f3393188655f9351e1101",
+        "size_in_bytes": 10102234
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/fcaa6c135683a3fa1b505fa30b01c8e9.woff",
+        "path_type": "hardlink",
+        "sha256": "2fa36d869db5e0d8a752bd4a3b1db35d25655e179a31de6ba33e4568017e66f9",
+        "sha256_in_prefix": "2fa36d869db5e0d8a752bd4a3b1db35d25655e179a31de6ba33e4568017e66f9",
+        "size_in_bytes": 16780
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/polyfills_bundle.js",
+        "path_type": "hardlink",
+        "sha256": "d243d09a3f92117794030759638e6014e95b9e0e3abd9e8df0acc959a86c538e",
+        "sha256_in_prefix": "d243d09a3f92117794030759638e6014e95b9e0e3abd9e8df0acc959a86c538e",
+        "size_in_bytes": 122294
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/polyfills_bundle.js.LICENSE.txt",
+        "path_type": "hardlink",
+        "sha256": "4655789d77962ad44d34a46aa35a47e4e22571b41384472038fcb8aaeb9b1a41",
+        "sha256_in_prefix": "4655789d77962ad44d34a46aa35a47e4e22571b41384472038fcb8aaeb9b1a41",
+        "size_in_bytes": 419
+      },
+      {
+        "_path": "site-packages/dtale/static/dist/polyfills_bundle.js.map",
+        "path_type": "hardlink",
+        "sha256": "70471ac06533c78f4b9f332eb51bfc5bff8806057e8c76b1b7cf148fe22c6d04",
+        "sha256_in_prefix": "70471ac06533c78f4b9f332eb51bfc5bff8806057e8c76b1b7cf148fe22c6d04",
+        "size_in_bytes": 551423
+      },
+      {
+        "_path": "site-packages/dtale/static/fonts/Road_Rage.svg",
+        "path_type": "hardlink",
+        "sha256": "173db28327e86e35a86c6dc3d9a8aaeb5b0e3139dfdec779b6b195e73b2dc94a",
+        "sha256_in_prefix": "173db28327e86e35a86c6dc3d9a8aaeb5b0e3139dfdec779b6b195e73b2dc94a",
+        "size_in_bytes": 1625875
+      },
+      {
+        "_path": "site-packages/dtale/static/fonts/Road_Rage.ttf",
+        "path_type": "hardlink",
+        "sha256": "12e47d45a6657bb5c2ab298eb5f4ceb3f5ef2c2e3a73e0d8906cfa32127bc6bd",
+        "sha256_in_prefix": "12e47d45a6657bb5c2ab298eb5f4ceb3f5ef2c2e3a73e0d8906cfa32127bc6bd",
+        "size_in_bytes": 622652
+      },
+      {
+        "_path": "site-packages/dtale/static/fonts/Road_Rage.woff",
+        "path_type": "hardlink",
+        "sha256": "e8e5928aff22d8567bcc6f42f23138c4848213282e6e90d8962b26ab67e27678",
+        "sha256_in_prefix": "e8e5928aff22d8567bcc6f42f23138c4848213282e6e90d8962b26ab67e27678",
+        "size_in_bytes": 266076
+      },
+      {
+        "_path": "site-packages/dtale/static/fonts/icograil.svg",
+        "path_type": "hardlink",
+        "sha256": "5065242e977d09c4c97022105d74c30f6858ebab25f52d4ac4fb1c857ad53012",
+        "sha256_in_prefix": "5065242e977d09c4c97022105d74c30f6858ebab25f52d4ac4fb1c857ad53012",
+        "size_in_bytes": 68329
+      },
+      {
+        "_path": "site-packages/dtale/static/fonts/icograil.ttf",
+        "path_type": "hardlink",
+        "sha256": "ca5b7f3b8d3acf9e230b75fead16c67ddd5546c9956b900bd6d6f19951052c3f",
+        "sha256_in_prefix": "ca5b7f3b8d3acf9e230b75fead16c67ddd5546c9956b900bd6d6f19951052c3f",
+        "size_in_bytes": 34168
+      },
+      {
+        "_path": "site-packages/dtale/static/fonts/icograil.woff",
+        "path_type": "hardlink",
+        "sha256": "bd102b52cd8234a826ce97e9e1c85864296a178c46b04251cf50ca952679b497",
+        "sha256_in_prefix": "bd102b52cd8234a826ce97e9e1c85864296a178c46b04251cf50ca952679b497",
+        "size_in_bytes": 34244
+      },
+      {
+        "_path": "site-packages/dtale/static/fonts/istok-bold.svg",
+        "path_type": "hardlink",
+        "sha256": "7d80f637cfae6e0246e9317496e7a5d15bfcaed8f1317a1d267b6963c06abff1",
+        "sha256_in_prefix": "7d80f637cfae6e0246e9317496e7a5d15bfcaed8f1317a1d267b6963c06abff1",
+        "size_in_bytes": 86961
+      },
+      {
+        "_path": "site-packages/dtale/static/fonts/istok-bold.ttf",
+        "path_type": "hardlink",
+        "sha256": "ea6bbeaf5437c8a8f19a8abfaaf596a03786ff2e33c0801c3b08390fa1e29f1f",
+        "sha256_in_prefix": "ea6bbeaf5437c8a8f19a8abfaaf596a03786ff2e33c0801c3b08390fa1e29f1f",
+        "size_in_bytes": 48828
+      },
+      {
+        "_path": "site-packages/dtale/static/fonts/istok-bold.woff",
+        "path_type": "hardlink",
+        "sha256": "5ba413050767c873c0e67ed4dc196c30be721c40284b7fbc59fcb908d0757ef1",
+        "sha256_in_prefix": "5ba413050767c873c0e67ed4dc196c30be721c40284b7fbc59fcb908d0757ef1",
+        "size_in_bytes": 26416
+      },
+      {
+        "_path": "site-packages/dtale/static/fonts/istok-bold.woff2",
+        "path_type": "hardlink",
+        "sha256": "d2092943cffbba8c78306acd5f32849127bda731762057a97e9b0b244b08cf14",
+        "sha256_in_prefix": "d2092943cffbba8c78306acd5f32849127bda731762057a97e9b0b244b08cf14",
+        "size_in_bytes": 20528
+      },
+      {
+        "_path": "site-packages/dtale/static/fonts/istok.svg",
+        "path_type": "hardlink",
+        "sha256": "c92dc4b285769333b82250007ad2c5b8028cb665bf6f7c66b06f7204b812eea9",
+        "sha256_in_prefix": "c92dc4b285769333b82250007ad2c5b8028cb665bf6f7c66b06f7204b812eea9",
+        "size_in_bytes": 88791
+      },
+      {
+        "_path": "site-packages/dtale/static/fonts/istok.ttf",
+        "path_type": "hardlink",
+        "sha256": "51564b0122529243096a8af3a0783dee3a441f682c1c5d1b58ed8729b74349a2",
+        "sha256_in_prefix": "51564b0122529243096a8af3a0783dee3a441f682c1c5d1b58ed8729b74349a2",
+        "size_in_bytes": 49408
+      },
+      {
+        "_path": "site-packages/dtale/static/fonts/istok.woff",
+        "path_type": "hardlink",
+        "sha256": "7ec17c45f23e7fc67f1d797d3a0138b0d56f1d2ee00b775cd3273ce26c8bb042",
+        "sha256_in_prefix": "7ec17c45f23e7fc67f1d797d3a0138b0d56f1d2ee00b775cd3273ce26c8bb042",
+        "size_in_bytes": 26504
+      },
+      {
+        "_path": "site-packages/dtale/static/fonts/istok.woff2",
+        "path_type": "hardlink",
+        "sha256": "82f6871e3942a201a74c30f9f9bd1836c572c9115329f267d3a536b36abd532c",
+        "sha256_in_prefix": "82f6871e3942a201a74c30f9f9bd1836c572c9115329f267d3a536b36abd532c",
+        "size_in_bytes": 20536
+      },
+      {
+        "_path": "site-packages/dtale/static/images/favicon.ico",
+        "path_type": "hardlink",
+        "sha256": "b653df8a9a612f71a273f5b9b2fb18653dd8e10bda80fafd60a42338c364e99d",
+        "sha256_in_prefix": "b653df8a9a612f71a273f5b9b2fb18653dd8e10bda80fafd60a42338c364e99d",
+        "size_in_bytes": 15086
+      },
+      {
+        "_path": "site-packages/dtale/static/images/favicon.png",
+        "path_type": "hardlink",
+        "sha256": "197d5c7372b655ace962edb50191bbb9adde84b5c09c4916ee34797f9d15c7e0",
+        "sha256_in_prefix": "197d5c7372b655ace962edb50191bbb9adde84b5c09c4916ee34797f9d15c7e0",
+        "size_in_bytes": 45742
+      },
+      {
+        "_path": "site-packages/dtale/static/images/fire.jpg",
+        "path_type": "hardlink",
+        "sha256": "8ae3e2ec674332abe5d28234be33eeefc880889c6bf151f9a3d23b87f514778d",
+        "sha256_in_prefix": "8ae3e2ec674332abe5d28234be33eeefc880889c6bf151f9a3d23b87f514778d",
+        "size_in_bytes": 80916
+      },
+      {
+        "_path": "site-packages/dtale/static/images/map_type/choropleth.png",
+        "path_type": "hardlink",
+        "sha256": "ad61d79474e54a494dcd81f900cb471bd0f7f3fddc6e41a7b91cc376914a9c34",
+        "sha256_in_prefix": "ad61d79474e54a494dcd81f900cb471bd0f7f3fddc6e41a7b91cc376914a9c34",
+        "size_in_bytes": 10261
+      },
+      {
+        "_path": "site-packages/dtale/static/images/map_type/scattergeo.png",
+        "path_type": "hardlink",
+        "sha256": "df2c329953c1f2388c82dcbe46980da20c95354c54f7741daf3af1eb662a4e82",
+        "sha256_in_prefix": "df2c329953c1f2388c82dcbe46980da20c95354c54f7741daf3af1eb662a4e82",
+        "size_in_bytes": 5941
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/aitoff.png",
+        "path_type": "hardlink",
+        "sha256": "875f4b7a8996f84861a2cd9e13a231b7044b3e1027cce04a18a7360b04f3c801",
+        "sha256_in_prefix": "875f4b7a8996f84861a2cd9e13a231b7044b3e1027cce04a18a7360b04f3c801",
+        "size_in_bytes": 7382
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/albers_usa.png",
+        "path_type": "hardlink",
+        "sha256": "56a64e8198d09dc276fdd0b9e27247f4acc36ebb5f8273316629643d2e69f37d",
+        "sha256_in_prefix": "56a64e8198d09dc276fdd0b9e27247f4acc36ebb5f8273316629643d2e69f37d",
+        "size_in_bytes": 5567
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/azimuthal_equal_area.png",
+        "path_type": "hardlink",
+        "sha256": "b065517462edf2b014012d5232deb2b586dc1b7d6c10b0e666fa258738b47bc0",
+        "sha256_in_prefix": "b065517462edf2b014012d5232deb2b586dc1b7d6c10b0e666fa258738b47bc0",
+        "size_in_bytes": 5498
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/azimuthal_equidistant.png",
+        "path_type": "hardlink",
+        "sha256": "18c0c37c4a2a79da8ec0273b7c6928911333d2d3b936422734fff99a7a29140a",
+        "sha256_in_prefix": "18c0c37c4a2a79da8ec0273b7c6928911333d2d3b936422734fff99a7a29140a",
+        "size_in_bytes": 4926
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/conic_conformal.png",
+        "path_type": "hardlink",
+        "sha256": "eeb8a0fa04e99ff90f858de35d6f871ac3e489c5a53df3a311f878cad1a420c9",
+        "sha256_in_prefix": "eeb8a0fa04e99ff90f858de35d6f871ac3e489c5a53df3a311f878cad1a420c9",
+        "size_in_bytes": 4226
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/conic_equal_area.png",
+        "path_type": "hardlink",
+        "sha256": "cb8c788dec7d20daa00bb092d44bbcd8fb4af7be07a7e6b67ac86c2d448bc791",
+        "sha256_in_prefix": "cb8c788dec7d20daa00bb092d44bbcd8fb4af7be07a7e6b67ac86c2d448bc791",
+        "size_in_bytes": 6299
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/conic_equidistant.png",
+        "path_type": "hardlink",
+        "sha256": "2ff52043fa4e456bc7fdd415fe93f47c79980d19879ffe2a239ff650f251a998",
+        "sha256_in_prefix": "2ff52043fa4e456bc7fdd415fe93f47c79980d19879ffe2a239ff650f251a998",
+        "size_in_bytes": 6989
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/eckert4.png",
+        "path_type": "hardlink",
+        "sha256": "811d7998d2bb4346aa7bbbf5b51851ed6f4e8d7a663724bf9393309a83479014",
+        "sha256_in_prefix": "811d7998d2bb4346aa7bbbf5b51851ed6f4e8d7a663724bf9393309a83479014",
+        "size_in_bytes": 7671
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/equirectangular.png",
+        "path_type": "hardlink",
+        "sha256": "7562375bda54d0e763edb088847e78f3cc977dc797ced5a68581ff58c136574f",
+        "sha256_in_prefix": "7562375bda54d0e763edb088847e78f3cc977dc797ced5a68581ff58c136574f",
+        "size_in_bytes": 7595
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/gnomonic.png",
+        "path_type": "hardlink",
+        "sha256": "eccf0d068632d87edf3617ec71514e851770c147372faf9d4d5c29389e834f45",
+        "sha256_in_prefix": "eccf0d068632d87edf3617ec71514e851770c147372faf9d4d5c29389e834f45",
+        "size_in_bytes": 5115
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/hammer.png",
+        "path_type": "hardlink",
+        "sha256": "efee194e43ac2f84872ee8bdb9f7b790113e9094df252f56213bcca1ef7266ea",
+        "sha256_in_prefix": "efee194e43ac2f84872ee8bdb9f7b790113e9094df252f56213bcca1ef7266ea",
+        "size_in_bytes": 7441
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/kavrayskiy7.png",
+        "path_type": "hardlink",
+        "sha256": "35ea02493f7f7ffd3f467a2320bccff1f7972b77361d7314f9b0af9fc22dfbfb",
+        "sha256_in_prefix": "35ea02493f7f7ffd3f467a2320bccff1f7972b77361d7314f9b0af9fc22dfbfb",
+        "size_in_bytes": 7128
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/mercator.png",
+        "path_type": "hardlink",
+        "sha256": "3871e3191a1bc8753b8ac33bf2b188a5e959f9eab6305d14657fff6dad112d1a",
+        "sha256_in_prefix": "3871e3191a1bc8753b8ac33bf2b188a5e959f9eab6305d14657fff6dad112d1a",
+        "size_in_bytes": 5377
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/miller.png",
+        "path_type": "hardlink",
+        "sha256": "3e43d1f6a62264d1d5dac09739b0fcf6dd2494a1da8834732535d78ec80d91b6",
+        "sha256_in_prefix": "3e43d1f6a62264d1d5dac09739b0fcf6dd2494a1da8834732535d78ec80d91b6",
+        "size_in_bytes": 6089
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/mollweide.png",
+        "path_type": "hardlink",
+        "sha256": "93e56517e227a9a867d1ba865212afa8bfea3915673fb391d2d0054f294243a2",
+        "sha256_in_prefix": "93e56517e227a9a867d1ba865212afa8bfea3915673fb391d2d0054f294243a2",
+        "size_in_bytes": 7441
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/natural_earth.png",
+        "path_type": "hardlink",
+        "sha256": "3a65fe655d27a7992b59050cd106c0aa67efd9e183242c5377ba416d180107b6",
+        "sha256_in_prefix": "3a65fe655d27a7992b59050cd106c0aa67efd9e183242c5377ba416d180107b6",
+        "size_in_bytes": 7610
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/orthographic.png",
+        "path_type": "hardlink",
+        "sha256": "546b7c768eb5918fb488dabfabf6600c98106083caf2829ca7265b61326da549",
+        "sha256_in_prefix": "546b7c768eb5918fb488dabfabf6600c98106083caf2829ca7265b61326da549",
+        "size_in_bytes": 4768
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/robinson.png",
+        "path_type": "hardlink",
+        "sha256": "2e1fd8c8419281924c974d8f7ea6ca4ceaf1a57e1bb0a17b362fc2ab61d449c9",
+        "sha256_in_prefix": "2e1fd8c8419281924c974d8f7ea6ca4ceaf1a57e1bb0a17b362fc2ab61d449c9",
+        "size_in_bytes": 7643
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/sinusoidal.png",
+        "path_type": "hardlink",
+        "sha256": "91ca813bb50d8709ddd4c7f20b92a9455627fb9da1faecc33db10ce8dfe9863b",
+        "sha256_in_prefix": "91ca813bb50d8709ddd4c7f20b92a9455627fb9da1faecc33db10ce8dfe9863b",
+        "size_in_bytes": 6853
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/stereographic.png",
+        "path_type": "hardlink",
+        "sha256": "3dd70e4a6d653b96cec6787a9c9b8f360448168f7a367b5e2be9af88bb4fdf40",
+        "sha256_in_prefix": "3dd70e4a6d653b96cec6787a9c9b8f360448168f7a367b5e2be9af88bb4fdf40",
+        "size_in_bytes": 5198
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/transverse_mercator.png",
+        "path_type": "hardlink",
+        "sha256": "61ddea839a17582116b6507bcb62c85d9bf57598b7c20d9397154aef82645dbd",
+        "sha256_in_prefix": "61ddea839a17582116b6507bcb62c85d9bf57598b7c20d9397154aef82645dbd",
+        "size_in_bytes": 5929
+      },
+      {
+        "_path": "site-packages/dtale/static/images/projections/winkel_tripel.png",
+        "path_type": "hardlink",
+        "sha256": "4d1198e08784880c8dc760940535ba0d9b76ae87f79ae9fe47a03080f78bf358",
+        "sha256_in_prefix": "4d1198e08784880c8dc760940535ba0d9b76ae87f79ae9fe47a03080f78bf358",
+        "size_in_bytes": 6858
+      },
+      {
+        "_path": "site-packages/dtale/static/maps/africa_110m.json",
+        "path_type": "hardlink",
+        "sha256": "94d82f2237cead5e58aedd4d9500e811403139049c2c144b711d38459f617339",
+        "sha256_in_prefix": "94d82f2237cead5e58aedd4d9500e811403139049c2c144b711d38459f617339",
+        "size_in_bytes": 37150
+      },
+      {
+        "_path": "site-packages/dtale/static/maps/asia_110m.json",
+        "path_type": "hardlink",
+        "sha256": "2f85c874908e80b7e53a88a8f779bc7718d12c914f8b97cde293e71daf372c7d",
+        "sha256_in_prefix": "2f85c874908e80b7e53a88a8f779bc7718d12c914f8b97cde293e71daf372c7d",
+        "size_in_bytes": 55709
+      },
+      {
+        "_path": "site-packages/dtale/static/maps/europe_110m.json",
+        "path_type": "hardlink",
+        "sha256": "99b69c684f9b684b261fa7c000844a22e98ce43ad730be39d364dcd40592f498",
+        "sha256_in_prefix": "99b69c684f9b684b261fa7c000844a22e98ce43ad730be39d364dcd40592f498",
+        "size_in_bytes": 33419
+      },
+      {
+        "_path": "site-packages/dtale/static/maps/north-america_110m.json",
+        "path_type": "hardlink",
+        "sha256": "d24a7945af36a504c21fbe0f69f7b741c7d6456eca563923a0834b8b63dc55f5",
+        "sha256_in_prefix": "d24a7945af36a504c21fbe0f69f7b741c7d6456eca563923a0834b8b63dc55f5",
+        "size_in_bytes": 67421
+      },
+      {
+        "_path": "site-packages/dtale/static/maps/south-america_110m.json",
+        "path_type": "hardlink",
+        "sha256": "354ec26654b4b09572947120eca0dd3ac53e3b857e2c0fb196b454f7292b5a03",
+        "sha256_in_prefix": "354ec26654b4b09572947120eca0dd3ac53e3b857e2c0fb196b454f7292b5a03",
+        "size_in_bytes": 22170
+      },
+      {
+        "_path": "site-packages/dtale/static/maps/usa_110m.json",
+        "path_type": "hardlink",
+        "sha256": "c97dc0675b4650b266545c96c0c91bd7d59d6528496efa5af7bb98be574cbd39",
+        "sha256_in_prefix": "c97dc0675b4650b266545c96c0c91bd7d59d6528496efa5af7bb98be574cbd39",
+        "size_in_bytes": 49104
+      },
+      {
+        "_path": "site-packages/dtale/static/maps/world_110m.json",
+        "path_type": "hardlink",
+        "sha256": "d75915eaa31c870df6b972c9e5bb86910197825f33dcfef740f3b2f68cffe843",
+        "sha256_in_prefix": "d75915eaa31c870df6b972c9e5bb86910197825f33dcfef740f3b2f68cffe843",
+        "size_in_bytes": 136642
+      },
+      {
+        "_path": "site-packages/dtale/templates/dtale/base.html",
+        "path_type": "hardlink",
+        "sha256": "a62ac3c329c57bbb895d564cd952cb37c81a89c130786cbef535845255ce4ed6",
+        "sha256_in_prefix": "a62ac3c329c57bbb895d564cd952cb37c81a89c130786cbef535845255ce4ed6",
+        "size_in_bytes": 2525
+      },
+      {
+        "_path": "site-packages/dtale/templates/dtale/code_popup.html",
+        "path_type": "hardlink",
+        "sha256": "502555c7129384f963a9feaa51c3e8ec0b54e8f46344e9fae9bf9412af520908",
+        "sha256_in_prefix": "502555c7129384f963a9feaa51c3e8ec0b54e8f46344e9fae9bf9412af520908",
+        "size_in_bytes": 2407
+      },
+      {
+        "_path": "site-packages/dtale/templates/dtale/errors/404.html",
+        "path_type": "hardlink",
+        "sha256": "be0d150ed31da23e5ef48f086c3259ada29e6ca20756c81ef200da1f15aad6fe",
+        "sha256_in_prefix": "be0d150ed31da23e5ef48f086c3259ada29e6ca20756c81ef200da1f15aad6fe",
+        "size_in_bytes": 356
+      },
+      {
+        "_path": "site-packages/dtale/templates/dtale/errors/500.html",
+        "path_type": "hardlink",
+        "sha256": "ea15851aee552c21ff06bdf1c9b5824337f5a8a234aa5116ee72d97295588b4c",
+        "sha256_in_prefix": "ea15851aee552c21ff06bdf1c9b5824337f5a8a234aa5116ee72d97295588b4c",
+        "size_in_bytes": 299
+      },
+      {
+        "_path": "site-packages/dtale/templates/dtale/errors/missing_js.html",
+        "path_type": "hardlink",
+        "sha256": "51777f11a7bf01c1ecf99fa218571cfeef5a3dc142fbebfc6da833eea6804253",
+        "sha256_in_prefix": "51777f11a7bf01c1ecf99fa218571cfeef5a3dc142fbebfc6da833eea6804253",
+        "size_in_bytes": 790
+      },
+      {
+        "_path": "site-packages/dtale/templates/dtale/main.html",
+        "path_type": "hardlink",
+        "sha256": "e138b8ab22ff06537ac40627f1fd925c1ba408ef0af29225b33ead8c271fc4d7",
+        "sha256_in_prefix": "e138b8ab22ff06537ac40627f1fd925c1ba408ef0af29225b33ead8c271fc4d7",
+        "size_in_bytes": 332
+      },
+      {
+        "_path": "site-packages/dtale/templates/dtale/popup.html",
+        "path_type": "hardlink",
+        "sha256": "9f03c6a22b915361317589fe386b6b5abb45b5543965487c1d813a9bd130cb79",
+        "sha256_in_prefix": "9f03c6a22b915361317589fe386b6b5abb45b5543965487c1d813a9bd130cb79",
+        "size_in_bytes": 1132
+      },
+      {
+        "_path": "site-packages/dtale/utils.py",
+        "path_type": "hardlink",
+        "sha256": "4430d697054e66774a5087dd245a2844ecfd872ee929cc43f2fe0d36bc10d3f6",
+        "sha256_in_prefix": "4430d697054e66774a5087dd245a2844ecfd872ee929cc43f2fe0d36bc10d3f6",
+        "size_in_bytes": 26857
+      },
+      {
+        "_path": "site-packages/dtale/views.py",
+        "path_type": "hardlink",
+        "sha256": "c31f9e873f7b92ee3bf251facc807c3de5615ff3c316a5e07a968ac2af5a2608",
+        "sha256_in_prefix": "c31f9e873f7b92ee3bf251facc807c3de5615ff3c316a5e07a968ac2af5a2608",
+        "size_in_bytes": 107936
+      },
+      {
+        "_path": "Lib/site-packages/dtale/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/__pycache__/app.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/charts/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/charts/__pycache__/utils.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/cli/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/cli/__pycache__/clickutils.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/cli/loaders/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/cli/loaders/__pycache__/arctic_loader.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/cli/loaders/__pycache__/csv_loader.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/cli/loaders/__pycache__/json_loader.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/cli/loaders/__pycache__/parquet_loader.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/cli/__pycache__/script.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/__pycache__/column_builders.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/__pycache__/column_filters.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/__pycache__/column_replacements.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/dash_application/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/dash_application/__pycache__/charts.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/dash_application/components/__pycache__/Wordcloud.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/dash_application/components/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/dash_application/components/__pycache__/_imports_.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/dash_application/__pycache__/custom_geojson.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/dash_application/__pycache__/drilldown_modal.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/dash_application/layout/__pycache__/__init__.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/dash_application/layout/__pycache__/layout.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/dash_application/layout/__pycache__/utils.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/dash_application/__pycache__/lock_zoom.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/dash_application/__pycache__/topojson_injections.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/dash_application/__pycache__/utils.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/dash_application/__pycache__/views.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/__pycache__/data_reshapers.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/__pycache__/datasets.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/__pycache__/duplicate_checks.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/__pycache__/global_state.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/__pycache__/utils.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/dtale/__pycache__/views.cpython-37.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/dtale-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/dtale.exe",
+        "path_type": "windows_python_entry_point_exe"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "dtale",
+  "sha256": "fd921c8f595fb178b2a9d30a778006f2d97edad503a1ee7ed4391eb338f8b8cb",
+  "size": 6752709,
+  "subdir": "noarch",
+  "timestamp": 1603795623645,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dtale-1.19.2-pyh9f0ad1d_0.tar.bz2",
+  "version": "1.19.2"
+}

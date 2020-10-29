@@ -1,0 +1,17 @@
+{
+  "arch": null,
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "depends": [
+    "dash",
+    "python"
+  ],
+  "license": "MIT",
+  "license_family": "MIT",
+  "name": "dash-core-components",
+  "noarch": "python",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1600319372429,
+  "version": "1.12.1"
+}

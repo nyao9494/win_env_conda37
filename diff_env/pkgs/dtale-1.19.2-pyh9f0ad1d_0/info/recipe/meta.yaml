@@ -1,0 +1,84 @@
+# This file created by conda-build 3.20.4
+# meta.yaml template originally from:
+# /home/conda/recipe_root, last modified Tue Oct 27 10:43:38 2020
+# ------------------------------------------------
+
+package:
+    name: dtale
+    version: 1.19.2
+source:
+    sha256: a1de50a00a2e6eb98b726f250ff59181f27f7ff8d3bf492bb20f61fb90ca94d8
+    url: https://pypi.io/packages/source/d/dtale/dtale-1.19.2.tar.gz
+build:
+    entry_points:
+        - dtale = dtale.cli.script:main
+    noarch: python
+    number: '0'
+    script: /home/conda/feedstock_root/build_artifacts/dtale_1603795473488/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place/bin/python
+        -m pip install . -vv
+    string: pyh9f0ad1d_0
+requirements:
+    host:
+        - _libgcc_mutex 0.1 conda_forge
+        - _openmp_mutex 4.5 1_gnu
+        - ca-certificates 2020.6.20 hecda079_0
+        - certifi 2020.6.20 py36h9880bd3_2
+        - ld_impl_linux-64 2.35 h769bd43_9
+        - libffi 3.2.1 he1b5a44_1007
+        - libgcc-ng 9.3.0 h5dbcf3e_17
+        - libgomp 9.3.0 h5dbcf3e_17
+        - libstdcxx-ng 9.3.0 h2ae2ef3_17
+        - ncurses 6.2 he1b5a44_2
+        - openssl 1.1.1h h516909a_0
+        - pip 20.2.4 py_0
+        - python 3.6.11 h4d41432_2_cpython
+        - python_abi 3.6 1_cp36m
+        - readline 8.0 he28a2e2_2
+        - setuptools 49.6.0 py36h9880bd3_2
+        - six 1.15.0 pyh9f0ad1d_0
+        - sqlite 3.33.0 h4cf870e_1
+        - tk 8.6.10 hed695b0_1
+        - wheel 0.35.1 pyh9f0ad1d_0
+        - xz 5.2.5 h516909a_1
+        - zlib 1.2.11 h516909a_1010
+    run:
+        - Flask
+        - Flask-Compress
+        - dash
+        - dash-bootstrap-components
+        - dash-daq
+        - dash_colorscales
+        - future
+        - itsdangerous
+        - lz4
+        - pandas
+        - python
+        - requests
+        - scikit-learn
+        - scipy
+        - six
+        - squarify
+        - statsmodels
+        - strsimpy
+        - xarray
+test:
+    commands:
+        - dtale --help
+    imports:
+        - dtale
+        - dtale.cli
+about:
+    dev_url: https://github.com/man-group/dtale/
+    doc_url: https://dtale.readthedocs.io
+    home: https://github.com/man-group/dtale/
+    license: LGPL
+    license_file: LICENSE
+    summary: D-Tale is the combination of a Flask back-end and a React front-end to
+        bring you an easy way to view & analyze Pandas data structures
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - AlexS12
+        - aschonfeld
+        - astrojuanlu

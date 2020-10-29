@@ -1,0 +1,33 @@
+{
+  "build": "pyh9f0ad1d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/noarch",
+  "constrains": [],
+  "depends": [
+    "dash-core-components 1.12.1",
+    "dash-html-components 1.1.1",
+    "dash-renderer 1.8.2",
+    "dash-table 4.10.1",
+    "flask >=1.0.2",
+    "flask-compress",
+    "future",
+    "plotly",
+    "python",
+    "pyyaml >=5.1.1"
+  ],
+  "features": "",
+  "fn": "dash-1.16.3-pyh9f0ad1d_0.tar.bz2",
+  "license": "MIT",
+  "license_family": "MIT",
+  "md5": "e1ec5dd6409c617d532fae335d5bb18d",
+  "name": "dash",
+  "noarch": "python",
+  "package_type": "noarch_python",
+  "sha256": "5d38cc8c29b0ebc2eac34626cac360dce8514769f6dde4261a1185f78d912efa",
+  "size": 67965,
+  "subdir": "noarch",
+  "timestamp": 1602532051737,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/noarch/dash-1.16.3-pyh9f0ad1d_0.tar.bz2",
+  "version": "1.16.3"
+}
