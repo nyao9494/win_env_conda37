@@ -1,9 +1,0 @@
-{
-  "noarch": {
-    "entry_points": [
-      "dtale = dtale.cli.script:main"
-    ],
-    "type": "python"
-  },
-  "package_metadata_version": 1
-}

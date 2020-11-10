@@ -101,3 +101,20 @@ conda install dtale -c conda-forge
 pip install streamlit
 
 ```
+
+## STEP_5
+
+MeshPyはエラーが出たため
+
+```
+pip install gym
+pip install stable-baselines[mpi]
+pip install tensorflow==1.14.0
+pip install pyqt5
+pip install imageio
+
+pip install frosch
+
+pip install MeshPy
+
+```

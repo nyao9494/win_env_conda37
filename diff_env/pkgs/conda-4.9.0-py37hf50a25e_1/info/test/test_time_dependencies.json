@@ -1,1 +1,0 @@
-["pexpect", "m2-filesystem", "m2-base", "pytest", "responses", "m2-bash", "mock"]
