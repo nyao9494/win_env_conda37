@@ -118,3 +118,17 @@ pip install frosch
 pip install MeshPy
 
 ```
+
+## STEP_6
+
+```
+pip install pandasgui
+pip install descartes
+pip install -U pandas
+pip install -U matplotlib
+pip install pykakasi
+pip install pdf2image
+pip install pptx2md
+pip insatll mammoth
+
+```

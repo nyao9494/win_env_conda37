@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py37haa95532_2",
+  "build_number": 2,
+  "constrains": [
+    "pytest-faulthandler >=2"
+  ],
+  "depends": [
+    "atomicwrites >=1.0",
+    "attrs >=19.2.0",
+    "colorama",
+    "importlib-metadata >=0.12",
+    "iniconfig",
+    "more-itertools >=4.0.0",
+    "packaging",
+    "pluggy >=0.12,<1.0.0a1",
+    "py >=1.8.2",
+    "python >=3.7,<3.8.0a0",
+    "toml"
+  ],
+  "license": "MIT",
+  "name": "pytest",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1611855553156,
+  "version": "6.2.2"
+}

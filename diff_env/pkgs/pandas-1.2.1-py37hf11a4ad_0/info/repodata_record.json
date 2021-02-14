@@ -1,0 +1,29 @@
+{
+  "arch": "x86_64",
+  "build": "py37hf11a4ad_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "numpy >=1.16.6,<2.0a0",
+    "python >=3.7,<3.8.0a0",
+    "python-dateutil >=2.7.3",
+    "pytz >=2017.2",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "features": "",
+  "fn": "pandas-1.2.1-py37hf11a4ad_0.conda",
+  "legacy_bz2_md5": "470773958f3f498cc4b955e5886c0715",
+  "license": "BSD-3-Clause",
+  "md5": "fe1dfb1c892319b63591a0b3ac38ae2e",
+  "name": "pandas",
+  "platform": "win32",
+  "sha256": "2158aab948b283b34373765781b16fbc2f4062c84180fe02fdeafbbb14150265",
+  "size": 8006796,
+  "subdir": "win-64",
+  "timestamp": 1611179179847,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pandas-1.2.1-py37hf11a4ad_0.conda",
+  "version": "1.2.1"
+}

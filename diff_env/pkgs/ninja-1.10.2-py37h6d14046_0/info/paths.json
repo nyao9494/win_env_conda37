@@ -1,0 +1,11 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/ninja.exe",
+      "path_type": "hardlink",
+      "sha256": "6961dab4ca42621db26e8a054c29d919914bb84dfb555e91709670aaf88c8bfd",
+      "size_in_bytes": 549888
+    }
+  ],
+  "paths_version": 1
+}

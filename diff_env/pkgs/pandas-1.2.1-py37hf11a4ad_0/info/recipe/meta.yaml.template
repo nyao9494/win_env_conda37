@@ -1,0 +1,55 @@
+{% set version = "1.2.1" %}
+
+package:
+  name: pandas
+  version: {{ version }}
+
+source:
+  url: https://github.com/pandas-dev/pandas/releases/download/v{{ version }}/pandas-{{ version }}.tar.gz
+  sha256: 5527c5475d955c0bc9689c56865aaa2a7b13c504d6c44f0aadbf57b565af5ebd
+
+build:
+  number: 0
+  script:
+    - export PYTHONUNBUFFERED=1  # [ppc64le]
+    - {{ PYTHON }} -m pip install -vv --no-deps --ignore-installed .  # [not unix]
+    - {{ PYTHON }} -m pip install -vv --no-deps --ignore-installed . --global-option="build_ext" --global-option="-j${CPU_COUNT}" --no-use-pep517  # [unix]
+  skip: true  # [py<37]
+
+requirements:
+  build:
+    # - python                                 # [build_platform != target_platform]
+    # - cython                                 # [build_platform != target_platform]
+    # - numpy                                  # [build_platform != target_platform]
+    - {{ compiler('c') }}
+    - {{ compiler('cxx') }}
+  host:
+    - python
+    - pip
+    - cython >=0.29.16
+    - numpy
+  run:
+    - python
+    - {{ pin_compatible('numpy') }}
+    - python-dateutil >=2.7.3
+    - pytz >=2017.2
+
+test:
+  imports:
+    - pandas
+
+about:
+  home: http://pandas.pydata.org
+  license: BSD-3-Clause
+  license_file: LICENSE
+  summary: High-performance, easy-to-use data structures and data analysis tools.
+
+extra:
+  recipe-maintainers:
+    - jreback
+    - jorisvandenbossche
+    - msarahan
+    - ocefpaf
+    - TomAugspurger
+    - WillAyd
+    - simonjayhawkins
