@@ -1,0 +1,13 @@
+{
+  "arch": null,
+  "build": "0",
+  "build_number": 0,
+  "depends": [],
+  "name": "cpuonly",
+  "noarch": "generic",
+  "platform": null,
+  "subdir": "noarch",
+  "timestamp": 1565108041692,
+  "track_features": "cpuonly",
+  "version": "1.0"
+}

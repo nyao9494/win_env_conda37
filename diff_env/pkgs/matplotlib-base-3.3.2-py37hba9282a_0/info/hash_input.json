@@ -1,0 +1,5 @@
+{
+  "freetype": "2.10",
+  "c_compiler": "vs2017",
+  "cxx_compiler": "vs2017"
+}

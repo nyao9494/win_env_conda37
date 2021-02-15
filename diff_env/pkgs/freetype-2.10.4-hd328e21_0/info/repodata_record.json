@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "hd328e21_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "libpng >=1.6.37,<1.7.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "freetype-2.10.4-hd328e21_0.conda",
+  "legacy_bz2_md5": "32e571900f576a9b6776413b4107f2f7",
+  "license": "GPL-2.0-only and LicenseRef-FreeType",
+  "md5": "5b266f9687bcae8948180cccfba20cc9",
+  "name": "freetype",
+  "platform": "win32",
+  "sha256": "2dcc156588224507a93e3caf7b30484283c68923ef5411447a0d607bf7576f2b",
+  "size": 477519,
+  "subdir": "win-64",
+  "timestamp": 1603206089613,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/freetype-2.10.4-hd328e21_0.conda",
+  "version": "2.10.4"
+}
