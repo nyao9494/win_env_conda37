@@ -1,0 +1,5 @@
+{
+  "blas_impl_lib": "mkl_rt.dll",
+  "blas_default_impl": "mkl",
+  "blas_impl": "mkl"
+}

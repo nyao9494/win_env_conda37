@@ -1,0 +1,43 @@
+{% set version = "2020.11.13" %}
+
+package:
+  name: regex
+  version: {{ version }}
+
+source:
+  url: https://pypi.io/packages/source/r/regex/regex-{{ version }}.tar.gz
+  sha256: 83d6b356e116ca119db8e7c6fc2983289d87b27b3fac238cfe5dca529d884562
+
+build:
+  number: 1
+  skip: true  # [win and py27]
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
+
+requirements:
+  build:
+    - python                                 # [build_platform != target_platform]
+    - cross-python_{{ target_platform }}     # [build_platform != target_platform]
+    - {{ compiler('c') }}
+  host:
+    - python
+    - pip
+  run:
+    - python
+
+test:
+  imports:
+    - regex
+
+about:
+  home: https://bitbucket.org/mrabarnett/mrab-regex
+  # https://bitbucket.org/mrabarnett/mrab-regex/issues/124/please-add-a-license-file-to-the-package
+  license: Python-2.0
+  license_file: LICENSE.txt
+  license_family: PSF
+  summary: Alternative regular expression module, to replace re
+
+extra:
+  recipe-maintainers:
+    - kwilcox
+    - ocefpaf
+    - xhochy

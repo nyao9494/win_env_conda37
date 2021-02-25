@@ -1,0 +1,29 @@
+{
+  "arch": "x86_64",
+  "build": "py37h7435507_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "occt >=7.4.0,<7.5.0a0",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "features": "",
+  "fn": "netgen-6.2.2006-py37h7435507_2.tar.bz2",
+  "license": "LGPL2.1",
+  "license_family": "LGPL",
+  "md5": "7f94a284b2f502fd58fb2efe03bec2f5",
+  "name": "netgen",
+  "platform": "win32",
+  "sha256": "4ce8fd4246068f17b53eaa0571ec7956354925b9f5467220294eca187782f0c0",
+  "size": 2870439,
+  "subdir": "win-64",
+  "timestamp": 1603346249878,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/netgen-6.2.2006-py37h7435507_2.tar.bz2",
+  "version": "6.2.2006"
+}

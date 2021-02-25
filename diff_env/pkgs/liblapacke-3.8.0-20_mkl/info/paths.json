@@ -1,0 +1,11 @@
+{
+  "paths": [
+    {
+      "_path": "Library/bin/liblapacke.dll",
+      "path_type": "hardlink",
+      "sha256": "63c669c223d02398a545907aea471cb21413b9e622c72370f4e5818e158b9738",
+      "size_in_bytes": 17081728
+    }
+  ],
+  "paths_version": 1
+}

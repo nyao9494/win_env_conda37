@@ -1,0 +1,19 @@
+{
+  "arch": "x86_64",
+  "build": "20_mkl",
+  "build_number": 20,
+  "constrains": [
+    "blas * mkl"
+  ],
+  "depends": [
+    "libblas 3.8.0 20_mkl",
+    "libcblas 3.8.0 20_mkl",
+    "liblapack 3.8.0 20_mkl"
+  ],
+  "license": "BSD-3-Clause",
+  "name": "liblapacke",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1603603877747,
+  "version": "3.8.0"
+}

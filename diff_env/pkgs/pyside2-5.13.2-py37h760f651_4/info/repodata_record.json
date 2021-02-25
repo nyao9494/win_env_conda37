@@ -1,0 +1,30 @@
+{
+  "arch": "x86_64",
+  "build": "py37h760f651_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "libxml2 >=2.9.10,<2.10.0a0",
+    "libxslt >=1.1.33,<2.0a0",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "qt >=5.12.9,<5.13.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "features": "",
+  "fn": "pyside2-5.13.2-py37h760f651_4.tar.bz2",
+  "license": "LGPL-3.0-only",
+  "license_family": "LGPL",
+  "md5": "17b222f70d1ebeb9e39926f9836fab61",
+  "name": "pyside2",
+  "platform": "win32",
+  "sha256": "4c82124d78bd90c338020430921418ed9cf9536e1b27567bc7627986bef2dbb7",
+  "size": 9704278,
+  "subdir": "win-64",
+  "timestamp": 1609446220969,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/pyside2-5.13.2-py37h760f651_4.tar.bz2",
+  "version": "5.13.2"
+}

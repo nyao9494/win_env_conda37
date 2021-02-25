@@ -1,0 +1,54 @@
+# This file created by conda-build 3.20.5
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Fri Jan  8 22:59:36 2021
+# ------------------------------------------------
+
+package:
+    name: regex
+    version: 2020.11.13
+source:
+    sha256: 83d6b356e116ca119db8e7c6fc2983289d87b27b3fac238cfe5dca529d884562
+    url: https://pypi.io/packages/source/r/regex/regex-2020.11.13.tar.gz
+build:
+    number: '1'
+    script: D:\\bld\\regex_1610147071264\\_h_env\\python.exe -m pip install . --no-deps
+        -vv
+    string: py37hcc03f2d_1
+requirements:
+    build:
+        - vs2017_win-64 19.16.27038 h2e3bad8_2
+        - vswhere 2.8.4 h57928b3_0
+    host:
+        - ca-certificates 2020.12.5 h5b45459_0
+        - certifi 2020.12.5 py37h03978a9_1
+        - openssl 1.1.1i h8ffe710_0
+        - pip 20.3.3 pyhd8ed1ab_0
+        - python 3.7.9 h7840368_0_cpython
+        - python_abi 3.7 1_cp37m
+        - setuptools 49.6.0 py37h03978a9_3
+        - sqlite 3.34.0 h8ffe710_0
+        - vc 14.2 hb210afc_2
+        - vs2015_runtime 14.28.29325 h5e1d092_0
+        - wheel 0.36.2 pyhd3deb0d_0
+        - wincertstore 0.2 py37h03978a9_1006
+    run:
+        - python >=3.7,<3.8.0a0
+        - python_abi 3.7.* *_cp37m
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012
+test:
+    imports:
+        - regex
+about:
+    home: https://bitbucket.org/mrabarnett/mrab-regex
+    license: Python-2.0
+    license_family: PSF
+    license_file: LICENSE.txt
+    summary: Alternative regular expression module, to replace re
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - kwilcox
+        - ocefpaf
+        - xhochy

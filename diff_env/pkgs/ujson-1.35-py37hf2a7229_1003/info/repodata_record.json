@@ -1,0 +1,27 @@
+{
+  "arch": "x86_64",
+  "build": "py37hf2a7229_1003",
+  "build_number": 1003,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "features": "",
+  "fn": "ujson-1.35-py37hf2a7229_1003.tar.bz2",
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "md5": "3a09ea2d6f85b409e72b3c94c1775e4a",
+  "name": "ujson",
+  "platform": "win32",
+  "sha256": "1cf7e24b4e62818f2a5f6ff4e3d4c69c8b3119d85fe95914e4b8c3040ade7b3c",
+  "size": 28084,
+  "subdir": "win-64",
+  "timestamp": 1605190175639,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/ujson-1.35-py37hf2a7229_1003.tar.bz2",
+  "version": "1.35"
+}

@@ -1,0 +1,61 @@
+# This file created by conda-build 3.20.5
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Wed Jan  6 23:22:48 2021
+# ------------------------------------------------
+
+package:
+    name: certifi
+    version: 2020.12.5
+source:
+    -   folder: certifi
+        sha256: 1a4995114262bffbc2413b159f2a1a480c969de6e6eb13ee966d470af86af59c
+        url: https://pypi.io/packages/source/c/certifi/certifi-2020.12.5.tar.gz
+    -   folder: pip_wheel
+        sha256: 0f35d63b7245205f4060efe1982f5ea2196aa6e5b26c07669adcf800e2542026
+        url: https://pypi.io/packages/py2.py3/p/pip/pip-20.2.3-py2.py3-none-any.whl
+    -   folder: setuptools_wheel
+        sha256: 4dd5bb0a0a0cff77b46ca5dd3a84857ee48c83e8223886b556613c724994073f
+        url: https://pypi.io/packages/py3/s/setuptools/setuptools-49.6.0-py3-none-any.whl
+build:
+    number: '1'
+    string: py37h03978a9_1
+requirements:
+    build: []
+    host:
+        - ca-certificates 2020.12.5 h5b45459_0
+        - openssl 1.1.1i h8ffe710_0
+        - python 3.7.9 h7840368_0_cpython
+        - sqlite 3.34.0 h8ffe710_0
+        - vc 14.2 hb210afc_2
+        - vs2015_runtime 14.28.29325 h5e1d092_0
+    run:
+        - python >=3.7,<3.8.0a0
+        - python_abi 3.7.* *_cp37m
+test:
+    imports:
+        - certifi
+about:
+    description: 'Certifi is a curated collection of Root Certificates for validating
+        the
+
+        trustworthiness of SSL certificates while verifying the identity of TLS
+
+        hosts.
+
+        '
+    dev_url: https://github.com/certifi/python-certifi
+    doc_source_url: https://github.com/certifi/certifi.io/blob/master/README.rst
+    doc_url: https://pypi.python.org/pypi/certifi
+    home: http://certifi.io/
+    license: ISC
+    license_file: certifi/LICENSE
+    summary: Python package for providing Mozilla's CA Bundle.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - jakirkham
+        - mingwandroid
+        - ocefpaf
+        - pelson
+        - sigmavirus24

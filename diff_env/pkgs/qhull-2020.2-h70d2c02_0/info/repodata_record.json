@@ -1,0 +1,24 @@
+{
+  "arch": "x86_64",
+  "build": "h70d2c02_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/win-64",
+  "constrains": [],
+  "depends": [
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "features": "",
+  "fn": "qhull-2020.2-h70d2c02_0.tar.bz2",
+  "license": "Qhull",
+  "md5": "f81d9c7581ed80b93791d976a6ca2113",
+  "name": "qhull",
+  "platform": "win32",
+  "sha256": "79eda6bb63af263e84d8130ba14b5de604b4270321330698a32e6c72260d5125",
+  "size": 2357100,
+  "subdir": "win-64",
+  "timestamp": 1610608642529,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/win-64/qhull-2020.2-h70d2c02_0.tar.bz2",
+  "version": "2020.2"
+}

@@ -1,0 +1,12 @@
+set(vtkPython_LOADED 1)
+set(vtkPython_DEPENDS "vtkCommonCore")
+set(vtkPython_LIBRARIES "C:/Users/M151325/Anaconda37/libs/python37.lib")
+set(vtkPython_INCLUDE_DIRS "${VTK_INSTALL_PREFIX}/include/vtk-8.2;C:/Users/M151325/Anaconda37/include")
+set(vtkPython_LIBRARY_DIRS "")
+set(vtkPython_RUNTIME_LIBRARY_DIRS "${VTK_INSTALL_PREFIX}/bin")
+set(vtkPython_WRAP_HIERARCHY_FILE "${CMAKE_CURRENT_LIST_DIR}/vtkPythonHierarchy.txt")
+set(vtkPython_KIT "")
+set(vtkPython_TARGETS_FILE "")
+set(vtkPython_EXCLUDE_FROM_WRAPPING 1)
+set(VTK_PYTHONPATH "C:/Users/M151325/Anaconda37/Lib/site-packages")
+

@@ -1,0 +1,68 @@
+# This file created by conda-build 3.20.5
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Thu Dec  3 14:33:47 2020
+# ------------------------------------------------
+
+package:
+    name: pcl
+    version: 1.11.1
+source:
+    fn: pcl-1.11.1.tar.gz
+    sha256: a61558e53abafbc909e0996f91cfd2d7a400fcadf6b8cfb0ea3172b78422c74e
+    url: https://github.com/pointcloudlibrary/pcl/archive/pcl-1.11.1.tar.gz
+build:
+    number: '1'
+    string: hc775808_1
+requirements:
+    build:
+        - cmake 3.19.1 h39d44d4_0
+        - ninja 1.10.2 h5362a0b_0
+        - vs2015_runtime 14.16.27012 h30e32a0_2
+        - vs2017_win-64 19.16.27038 h2e3bad8_2
+        - vswhere 2.7.1 h21ff451_0
+    host:
+        - boost-cpp 1.72.0 h54f0996_4
+        - bzip2 1.0.8 h8ffe710_4
+        - ca-certificates 2020.11.8 h5b45459_0
+        - eigen 3.3.8 h2d74725_0
+        - flann 1.9.1 h3a160d9_1008
+        - hdf5 1.10.6 nompi_h5268f04_1112
+        - krb5 1.17.2 hbae68bd_0
+        - libcurl 7.71.1 h4b64cdc_8
+        - libssh2 1.9.0 hb06d900_5
+        - lz4-c 1.9.2 h62dcd97_2
+        - openssl 1.1.1h he774522_0
+        - qhull 2019.1 h7266db4_0
+        - tk 8.6.10 he774522_1
+        - vc 14.1 h869be7e_1
+        - vs2015_runtime 14.16.27012 h30e32a0_2
+        - xz 5.2.5 h62dcd97_1
+        - zlib 1.2.11 h62dcd97_1010
+        - zstd 1.4.5 h1f3a1b7_2
+    run:
+        - boost-cpp >=1.72.0,<1.72.1.0a0
+        - flann >=1.9.1,<1.9.2.0a0
+        - qhull
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012
+test:
+    commands:
+        - if not exist %LIBRARY_INC%\\pcl-1.11\\pcl exit 1
+about:
+    description: 'The Point Cloud Library (PCL) is a standalone, large scale, open
+        project for 2D/3D image and point cloud processing.
+
+        '
+    dev_url: https://github.com/pointcloudlibrary/pcl
+    doc_url: http://www.pointclouds.org
+    home: http://www.pointclouds.org
+    license: BSD-3-Clause
+    license_file: LICENSE.txt
+    summary: Point Cloud Library (PCL)
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - Tobias-Fischer
+        - chambbj
+        - hobu

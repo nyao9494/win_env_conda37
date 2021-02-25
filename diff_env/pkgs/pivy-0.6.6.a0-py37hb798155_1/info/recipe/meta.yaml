@@ -1,0 +1,74 @@
+# This file created by conda-build 3.20.4
+# meta.yaml template originally from:
+# D:\a\1\s\recipe, last modified Wed Oct 14 14:29:39 2020
+# ------------------------------------------------
+
+package:
+    name: pivy
+    version: 0.6.6.a0
+source:
+    fn: pivy.tar.gz
+    patches:
+        - install.patch
+    sha256: f9ea3cf9549d71c68cbc0f2df6c23616c2f1a9132151545db5506c0bd7348c9a
+    url: https://github.com/FreeCAD/pivy/archive/0.6.6.a0.tar.gz
+build:
+    number: '1'
+    string: py37hb798155_1
+requirements:
+    build:
+        - cmake 3.18.2 h33f27b4_0
+        - msinttypes r26 2
+        - ninja 1.10.1 h7ef1ec2_1
+        - swig 4.0.2 0
+        - vs2015_runtime 14.16.27012 h30e32a0_2
+        - vs2017_win-64 19.16.27038 h2e3bad8_2
+        - vswhere 2.7.1 h21ff451_0
+    host:
+        - boost-cpp 1.74.0 hd4e6614_0
+        - bzip2 1.0.8 he774522_3
+        - ca-certificates 2020.6.20 hecda079_0
+        - coin3d 4.0.0 h370ace1_1010
+        - expat 2.2.9 h33f27b4_2
+        - icu 67.1 h33f27b4_0
+        - jpeg 9d he774522_0
+        - libclang 10.0.1 default_hf44288c_1
+        - libpng 1.6.37 ha81a0f5_2
+        - lz4-c 1.9.2 h62dcd97_2
+        - openssl 1.1.1h he774522_0
+        - python 3.7.8 h60c2a47_1_cpython
+        - python_abi 3.7 1_cp37m
+        - qt 5.12.9 hb2cf2c5_0
+        - soqt 1.6.0 h95c7cbc_2
+        - sqlite 3.33.0 he774522_1
+        - vc 14.1 h869be7e_1
+        - vs2015_runtime 14.16.27012 h30e32a0_2
+        - xz 5.2.5 h62dcd97_1
+        - zlib 1.2.11 h62dcd97_1010
+        - zstd 1.4.5 h1f3a1b7_2
+    run:
+        - coin3d
+        - pyside2
+        - python >=3.7,<3.8.0a0
+        - python_abi 3.7.* *_cp37m
+        - qt >=5.12.9,<5.13.0a0
+        - qt >=5.12.9,<5.13.0a0
+        - soqt
+        - vc >=14.1,<15.0a0
+        - vs2015_runtime >=14.16.27012
+test:
+    imports:
+        - pivy.coin
+        - pivy.gui.soqt
+about:
+    dev_url: https://github.com/FreeCAD/pivy
+    doc_url: https://github.com/FreeCAD/pivy
+    home: https://github.com/FreeCAD/pivy
+    license: ISC
+    license_file: LICENSE
+    summary: python bindings to coin3d.
+extra:
+    copy_test_source_files: true
+    final: true
+    recipe-maintainers:
+        - looooo

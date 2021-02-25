@@ -1,0 +1,21 @@
+{
+  "arch": "x86_64",
+  "build": "py37hb798155_1",
+  "build_number": 1,
+  "depends": [
+    "coin3d",
+    "pyside2",
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "qt >=5.12.9,<5.13.0a0",
+    "soqt",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "license": "ISC",
+  "name": "pivy",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1602687038079,
+  "version": "0.6.6.a0"
+}

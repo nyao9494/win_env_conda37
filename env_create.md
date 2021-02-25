@@ -132,3 +132,22 @@ pip install pptx2md
 pip insatll mammoth
 
 ```
+
+
+## STEP_7
+
+```
+conda install pytorch torchvision torchaudio cpuonly -c pytorch
+pip install solidpython
+pip install viewscad
+
+```
+
+## STEP_8
+https://forum.freecadweb.org/viewtopic.php?f=42&t=46144&start=10
+```
+conda config --add channels conda-forge
+conda install freecad python=3.7.6
+
+```
+

@@ -1,0 +1,18 @@
+{
+  "arch": "x86_64",
+  "build": "py37hcc03f2d_1",
+  "build_number": 1,
+  "depends": [
+    "python >=3.7,<3.8.0a0",
+    "python_abi 3.7.* *_cp37m",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012"
+  ],
+  "license": "Python-2.0",
+  "license_family": "PSF",
+  "name": "regex",
+  "platform": "win",
+  "subdir": "win-64",
+  "timestamp": 1610147382550,
+  "version": "2020.11.13"
+}
