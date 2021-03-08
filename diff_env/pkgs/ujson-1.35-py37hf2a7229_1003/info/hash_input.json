@@ -1,7 +1,0 @@
-{
-  "python": "3.7.* *_cpython",
-  "channel_targets": "conda-forge main",
-  "target_platform": "win-64",
-  "cxx_compiler": "vs2017",
-  "c_compiler": "vs2017"
-}
